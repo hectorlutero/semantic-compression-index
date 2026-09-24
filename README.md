@@ -12,46 +12,49 @@ O objetivo é comprimir a **alma** (ideias geradoras) de um texto, e não apenas
 
 ## Como funciona
 
-1. Identificamos padrões de significado **agnósticos** (reutilizáveis em qualquer narrativa, diálogo ou texto).
+1. Identificamos padrões de significado **agnósticos** (reutilizáveis em qualquer tipo de texto).
 2. Cada padrão vira um **símbolo** (como uma função ou helper).
 3. O texto é reescrito como composição desses símbolos.
 4. A expansão (descompressão) recupera as ideias originais.
 
-## Índice de Símbolos (versão atual)
+## Índice de Símbolos (v2 — Agnóstico Multidominio)
 
-| Símbolo     | Nome curto              | Definição agnóstica |
-|-------------|-------------------------|---------------------|
-| `Γ`         | Origem / Princípio      | Existe desde o início, antes de tudo |
-| `Σ`         | Identidade profunda     | A é B (essência ou natureza) |
-| `Ρ`         | Relação de presença     | X está com Y / junto de Y |
-| `Κ`         | Agência criadora        | Tudo (ou o essencial) foi feito por meio de X |
-| `Neg`       | Negação universal       | Sem X, nada do que existe teria existido |
-| `Λ`         | Luz / Revelação         | Aquilo que ilumina, torna visível ou revela |
-| `Δ`         | Trevas / Oposição       | Aquilo que resiste, oculta ou não compreende |
-| `Μ`         | Manifestação            | O que era eterno ou oculto se torna presente |
-| `Π`         | Recepção                | Alguém acolhe / aceita / crê |
-| `Ρej`       | Rejeição                | Os “seus” não acolhem |
-| `Τ`         | Transformação de status | Quem acolhe recebe novo estatuto |
-| `Ω`         | Testemunho              | Alguém ou algo aponta / dá testemunho |
-| `Ι`         | Autodeclaração          | “Eu sou” + predicado |
-| `Η`         | Hora / Momento decisivo | O tempo marcado chega |
-| `Α`         | Permanência             | Ficar / permanecer / habitar em relação |
-| `Β`         | Novo nascimento         | Nascer de novo / transformação radical |
-| `Φ`         | Dom / Oferta            | Algo é dado gratuitamente |
-| `Ψ`         | Conflito de compreensão | Mal-entendido que revela verdade mais profunda |
-| `Ξ`         | Exaltação               | Ser elevado (literal ou figurado) |
-| `Θ`         | Amor como mandamento    | Amar da mesma forma que se foi amado |
+O índice foi expandido para cobrir de forma equilibrada:
+
+- Narrativa (qualquer gênero)
+- Diálogo
+- Retórica
+- Textos jurídicos
+- Textos científicos
+
+### Categorias principais
+
+1. **Existência e Origem** → Γ, ∃, ∄, Μ  
+2. **Identidade e Definição** → Σ, Def, ≈, ≠  
+3. **Relação e Estrutura** → Ρ, ∈, ⊂, Hier, Part  
+4. **Agência e Causação** → Κ, Caus, Neg, Obj  
+5. **Modalidade** → Obl, Perm, Proib, Nec, Poss  
+6. **Condição e Consequência** → Cond, Sanc, Exc, →  
+7. **Oposição e Dualidade** → Λ, Δ, vs, ¬  
+8. **Transformação** → Τ, Β, Δt  
+9. **Comunicação e Atos de Fala** → Ω, Ι, Quest, Resp, Arg, Pers, Iron  
+10. **Evidência e Justificação** → Evid, Hip, Conc, Interp, Met  
+11. **Escopo e Temporalidade** → ∀, ∃, Temp, Esc  
+12. **Avaliação e Valor** → Val+, Val−, Θ  
+
+O arquivo completo e detalhado está em [`SYMBOLS.md`](SYMBOLS.md).
 
 ## Gramática básica de combinação
 
-- `A ∧ B` → justaposição / sequência
+- `A ∧ B` → justaposição / coordenação
 - `A(B)` → aplicação (A age sobre B)
-- `¬A` ou `Neg` → negação
+- `A → B` ou `Cond(A → B)` → condição / implicação
 - `A vs B` → oposição
-- `A → B` → transformação
+- `¬A` ou `Neg(A)` → negação
+- `A ∘ B` → composição / sequência
 - Aninhamento permitido: `Τ(Π(Μ(Σ)))`
 
-## Exemplo: João 1:1-5
+## Exemplo clássico: João 1:1-5
 
 ```
 (1) Γ(Σ) ∧ Ρ(Σ, Deus) ∧ Σ(Σ, Deus)
@@ -76,7 +79,6 @@ O arquivo `semantic_compressor.py` contém uma implementação experimental em P
 ### Como usar
 
 ```bash
-# Executar o exemplo embutido (João 1:1-5)
 python semantic_compressor.py
 ```
 
@@ -88,25 +90,23 @@ from semantic_compressor import compress, expand, SYMBOLS
 texto = "No princípio era o Verbo..."
 comprimido = compress(texto)
 print(comprimido)
-
-expandido = expand(comprimido)
-print(expandido)
 ```
 
-> **Nota**: A compressão atual é baseada em regras e padrões conhecidos (especialmente João 1). É um protótipo educacional, não um compressor genérico de alta precisão.
+> **Nota**: A compressão atual ainda é baseada em regras. É um protótipo educacional.
 
 ## Status do projeto
 
 - [x] Hipótese formulada
-- [x] Índice inicial de símbolos agnósticos
-- [x] Gramática mínima de combinação
+- [x] Índice inicial de símbolos
+- [x] Índice expandido agnóstico (v2) — narrativa, diálogo, retórica, jurídico, científico
+- [x] Gramática de combinação
 - [x] Teste com João 1:1-5
 - [x] Teste com texto secular
-- [x] Ferramenta de compressão/descompressão (Python)
-- [ ] Ampliação do índice com mais padrões de João
-- [ ] Mais exemplos em textos literários e noticiosos
-- [ ] Melhoria do motor de compressão (NLP / embeddings)
+- [x] Ferramenta Python básica
+- [ ] Atualização do compressor Python para o índice v2
+- [ ] Mais exemplos em textos jurídicos e científicos
+- [ ] Melhoria do motor de compressão
 
 ## Como contribuir
 
-Este repositório é o ponto de partida. Sugestões de novos símbolos, melhorias na gramática, testes em outros textos ou melhorias no código Python são bem-vindas.
+Sugestões de novos símbolos, testes em outros domínios ou melhorias no código são bem-vindas.
