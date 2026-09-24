@@ -10,103 +10,95 @@ O objetivo é comprimir a **alma** (ideias geradoras) de um texto, e não apenas
 
 > É possível expressar qualquer ideia em expressões matemáticas / símbolos de modo a comprimir textos, preservando o significado.
 
-## Como funciona
+## Arquitetura em 3 Níveis (v3)
 
-1. Identificamos padrões de significado **agnósticos** (reutilizáveis em qualquer tipo de texto).
-2. Cada padrão vira um **símbolo** (como uma função ou helper).
-3. O texto é reescrito como composição desses símbolos.
-4. A expansão (descompressão) recupera as ideias originais.
+```
+Nível 1  →  Macro-funções (alta abstração)
+Nível 2  →  12 Categorias
+Nível 3  →  Símbolos base
+```
 
-## Índice de Símbolos (v2 — Agnóstico Multidominio)
+### Macro-funções (Nível 1)
 
-O índice foi expandido para cobrir de forma equilibrada:
+| Macro | Nome | Dimensão ontológica | Categorias |
+|-------|------|---------------------|----------|
+| **BE** | Existir / Ser | O que há e o que algo é | Existência + Identidade |
+| **RELATE** | Relacionar | Como as coisas se conectam e agem | Relação + Agência |
+| **MODAL** | Modular | Necessidade, dever, permissão | Modalidade + Condição |
+| **DYN** | Dinamizar | Tensão e mudança | Oposição + Transformação |
+| **COMM** | Comunicar | Atos de fala e persuasão | Comunicação |
+| **EPIST** | Justificar | Como se conhece e se prova | Evidência + Justificação |
+| **SCOPE** | Delimitar | Limites e tempo | Escopo + Temporalidade |
+| **VAL** | Avaliar | Julgamento de valor | Avaliação + Valor |
 
-- Narrativa (qualquer gênero)
-- Diálogo
-- Retórica
-- Textos jurídicos
-- Textos científicos
+### Lógica Modal integrada
 
-### Categorias principais
+- **Alética**: □ (Nec), ◇ (Poss)
+- **Deôntica**: Obl, Perm, Proib
+- **Epistêmica**: pode ser usada dentro de EPIST
+- Condicionais, sanções e exceções
 
-1. **Existência e Origem** → Γ, ∃, ∄, Μ  
-2. **Identidade e Definição** → Σ, Def, ≈, ≠  
-3. **Relação e Estrutura** → Ρ, ∈, ⊂, Hier, Part  
-4. **Agência e Causação** → Κ, Caus, Neg, Obj  
-5. **Modalidade** → Obl, Perm, Proib, Nec, Poss  
-6. **Condição e Consequência** → Cond, Sanc, Exc, →  
-7. **Oposição e Dualidade** → Λ, Δ, vs, ¬  
-8. **Transformação** → Τ, Β, Δt  
-9. **Comunicação e Atos de Fala** → Ω, Ι, Quest, Resp, Arg, Pers, Iron  
-10. **Evidência e Justificação** → Evid, Hip, Conc, Interp, Met  
-11. **Escopo e Temporalidade** → ∀, ∃, Temp, Esc  
-12. **Avaliação e Valor** → Val+, Val−, Θ  
+### Fundamentos filosóficos
 
-O arquivo completo e detalhado está em [`SYMBOLS.md`](SYMBOLS.md).
+- Aristóteles (categorias, potência/ato, causas)
+- Lógica modal contemporânea (Kripke, von Wright)
+- Ontologias formais (BFO, DOLCE)
+- Atos de fala (Austin / Searle)
+- Dialética e filosofia do processo
 
-## Gramática básica de combinação
+O arquivo completo está em [`SYMBOLS.md`](SYMBOLS.md).
 
-- `A ∧ B` → justaposição / coordenação
-- `A(B)` → aplicação (A age sobre B)
-- `A → B` ou `Cond(A → B)` → condição / implicação
+## Gramática de combinação
+
+- `A ∧ B` → coordenação
+- `A(B)` → aplicação
+- `A → B` → implicação
 - `A vs B` → oposição
-- `¬A` ou `Neg(A)` → negação
-- `A ∘ B` → composição / sequência
-- Aninhamento permitido: `Τ(Π(Μ(Σ)))`
+- `¬A` → negação
+- `MACRO(A, B)` → agrupamento de nível 1
+- Aninhamento permitido em qualquer nível
 
 ## Exemplo clássico: João 1:1-5
 
+**Nível 3 (símbolos base):**
 ```
-(1) Γ(Σ) ∧ Ρ(Σ, Deus) ∧ Σ(Σ, Deus)
-(2) Ρ(Σ, Deus) ∘ Γ
-(3) Κ(Σ) ∧ Neg(Σ)
-(4) Σ(vida) ∧ Σ(vida, Λ_homens)
-(5) Λ vs Δ   (Δ não prevalece)
+Γ(Σ) ∧ Ρ(Σ, Deus) ∧ Σ(Σ, Deus)
+Ρ(Σ, Deus) ∘ Γ
+Κ(Σ) ∧ Neg(Σ)
+Σ(vida) ∧ Σ(vida, Λ)
+Λ vs Δ
 ```
 
-## Ferramenta Python (Compressor / Expander)
+**Nível 1 (macro-funções):**
+```
+BE(Γ, Σ) ∧ RELATE(Ρ, Κ) ∧ DYN(Λ vs Δ)
+```
 
-O arquivo `semantic_compressor.py` contém uma implementação experimental em Python **atualizada para o índice v2**.
+## Ferramenta Python
 
-### Funcionalidades
-
-- `compress(text)` → tenta comprimir texto para a forma simbólica
-- `expand(symbolic)` → expande símbolos de volta para texto aproximado
-- `list_symbols(category=None)` → mostra o índice (pode filtrar por categoria)
-- `export_symbols_json()` → exporta o índice para JSON
-- Importação e exportação de arquivos de texto
-- `get_symbols_by_category(category)` → retorna símbolos de uma categoria
-
-### Como usar
+O arquivo `semantic_compressor.py` implementa a versão experimental do sistema.
 
 ```bash
 python semantic_compressor.py
 ```
 
-Ou como módulo:
-
 ```python
 from semantic_compressor import compress, expand, SYMBOLS, list_symbols
-
 list_symbols('modalidade')
-texto = "No princípio era o Verbo..."
-comprimido = compress(texto)
-print(comprimido)
 ```
-
-> **Nota**: A compressão atual ainda é baseada em regras. É um protótipo educacional.
 
 ## Status do projeto
 
 - [x] Hipótese formulada
 - [x] Índice inicial de símbolos
-- [x] Índice expandido agnóstico (v2) — narrativa, diálogo, retórica, jurídico, científico
-- [x] Gramática de combinação
-- [x] Teste com João 1:1-5
-- [x] Teste com texto secular
-- [x] Ferramenta Python atualizada para o índice v2
+- [x] Índice expandido agnóstico (v2)
+- [x] Hierarquia de 3 níveis + Macro-funções (v3)
+- [x] Integração com lógica modal
+- [x] Ancoragem em ontologias filosóficas
+- [x] Ferramenta Python básica
+- [ ] Atualização do compressor Python para reconhecer macro-funções
 - [ ] Mais exemplos em textos jurídicos e científicos
-- [ ] Melhoria do motor de compressão (NLP / embeddings)
+- [ ] Melhoria do motor de compressão
 
 ## Como contribuir
 
