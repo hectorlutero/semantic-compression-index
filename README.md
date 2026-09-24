@@ -61,6 +61,40 @@ O objetivo é comprimir a **alma** (ideias geradoras) de um texto, e não apenas
 (5) Λ vs Δ   (Δ não prevalece)
 ```
 
+## Ferramenta Python (Compressor / Expander)
+
+O arquivo `semantic_compressor.py` contém uma implementação experimental em Python.
+
+### Funcionalidades
+
+- `compress(text)` → tenta comprimir texto para a forma simbólica
+- `expand(symbolic)` → expande símbolos de volta para texto aproximado
+- `list_symbols()` → mostra o índice completo
+- `export_symbols_json()` → exporta o índice para JSON
+- Importação e exportação de arquivos de texto
+
+### Como usar
+
+```bash
+# Executar o exemplo embutido (João 1:1-5)
+python semantic_compressor.py
+```
+
+Ou como módulo:
+
+```python
+from semantic_compressor import compress, expand, SYMBOLS
+
+texto = "No princípio era o Verbo..."
+comprimido = compress(texto)
+print(comprimido)
+
+expandido = expand(comprimido)
+print(expandido)
+```
+
+> **Nota**: A compressão atual é baseada em regras e padrões conhecidos (especialmente João 1). É um protótipo educacional, não um compressor genérico de alta precisão.
+
 ## Status do projeto
 
 - [x] Hipótese formulada
@@ -68,10 +102,11 @@ O objetivo é comprimir a **alma** (ideias geradoras) de um texto, e não apenas
 - [x] Gramática mínima de combinação
 - [x] Teste com João 1:1-5
 - [x] Teste com texto secular
+- [x] Ferramenta de compressão/descompressão (Python)
 - [ ] Ampliação do índice com mais padrões de João
-- [ ] Ferramenta de compressão/descompressão
 - [ ] Mais exemplos em textos literários e noticiosos
+- [ ] Melhoria do motor de compressão (NLP / embeddings)
 
 ## Como contribuir
 
-Este repositório é o ponto de partida. Sugestões de novos símbolos, melhorias na gramática ou testes em outros textos são bem-vindas.
+Este repositório é o ponto de partida. Sugestões de novos símbolos, melhorias na gramática, testes em outros textos ou melhorias no código Python são bem-vindas.
