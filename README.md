@@ -66,15 +66,16 @@ O arquivo completo e detalhado está em [`SYMBOLS.md`](SYMBOLS.md).
 
 ## Ferramenta Python (Compressor / Expander)
 
-O arquivo `semantic_compressor.py` contém uma implementação experimental em Python.
+O arquivo `semantic_compressor.py` contém uma implementação experimental em Python **atualizada para o índice v2**.
 
 ### Funcionalidades
 
 - `compress(text)` → tenta comprimir texto para a forma simbólica
 - `expand(symbolic)` → expande símbolos de volta para texto aproximado
-- `list_symbols()` → mostra o índice completo
+- `list_symbols(category=None)` → mostra o índice (pode filtrar por categoria)
 - `export_symbols_json()` → exporta o índice para JSON
 - Importação e exportação de arquivos de texto
+- `get_symbols_by_category(category)` → retorna símbolos de uma categoria
 
 ### Como usar
 
@@ -85,8 +86,9 @@ python semantic_compressor.py
 Ou como módulo:
 
 ```python
-from semantic_compressor import compress, expand, SYMBOLS
+from semantic_compressor import compress, expand, SYMBOLS, list_symbols
 
+list_symbols('modalidade')
 texto = "No princípio era o Verbo..."
 comprimido = compress(texto)
 print(comprimido)
@@ -102,10 +104,9 @@ print(comprimido)
 - [x] Gramática de combinação
 - [x] Teste com João 1:1-5
 - [x] Teste com texto secular
-- [x] Ferramenta Python básica
-- [ ] Atualização do compressor Python para o índice v2
+- [x] Ferramenta Python atualizada para o índice v2
 - [ ] Mais exemplos em textos jurídicos e científicos
-- [ ] Melhoria do motor de compressão
+- [ ] Melhoria do motor de compressão (NLP / embeddings)
 
 ## Como contribuir
 
