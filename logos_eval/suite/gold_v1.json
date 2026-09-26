@@ -46,5 +46,15 @@
       "macros": ["EPIST"],
       "symbols": ["Hip", "Met", "Evid", "Conc", "K"]
     }
+  },
+  {
+    "id": "alethic-necessity",
+    "domain": "modal",
+    "input": "É necessário que o sistema funcione. É possível que a falha ocorra sob carga.",
+    "match_mode": "structural",
+    "expect": {
+      "macros": ["MODAL"],
+      "symbols": ["Nec", "Poss"]
+    }
   }
 ]

@@ -4,8 +4,14 @@ from __future__ import annotations
 
 import pytest
 
-from logos_core import CanonicalRepresentation, describe_symbol, expand, extract, render
-from logos_core.engine import CoreError
+from logos_core import (
+    CanonicalRepresentation,
+    CoreError,
+    describe_symbol,
+    expand,
+    extract,
+    render,
+)
 
 
 def test_extract_rejects_empty():

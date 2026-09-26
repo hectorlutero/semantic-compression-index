@@ -40,7 +40,8 @@ def test_modal_operators_tagged():
     modal_nodes = [n for n in c.nodes if n.modal]
     assert modal_nodes
     systems = {n.modal.system for n in modal_nodes if n.modal}
-    assert "deontic" in systems or "conditional" in systems
+    assert "deontic" in systems
+    assert "conditional" in systems
 
 
 def test_render_levels_1_2_3():
