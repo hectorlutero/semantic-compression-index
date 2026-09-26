@@ -24,10 +24,11 @@ logos = "logos_core.cli:main"
 logos-eval = "logos_eval.runner:main"
 logos-bench = "logos_bench.runner:main"
 logos-http = "logos_http.app:main"
+logos-compress = "logos_compress.cli:main"
 
 [tool.setuptools.packages.find]
 where = ["."]
-include = ["logos_core*", "logos_eval*", "logos_bench*", "logos_http*"]
+include = ["logos_core*", "logos_eval*", "logos_bench*", "logos_http*", "logos_compress*"]
 
 [tool.setuptools.package-data]
 logos_core = ["index/data/*.json"]
