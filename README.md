@@ -47,6 +47,19 @@ logos-bench --repeats 5    # p50/p95, ratio, coverage
 pytest -q
 ```
 
+## Acervo em txt
+
+Textos fonte (`.txt`) em `acervo/` alimentam gold/coverage via o seam Core (`extract` / `render` / `expand`):
+
+```bash
+logos-acervo list
+logos-acervo preview --include-stubs   # extract → render → expand
+logos-acervo draft --write             # só casos com sidecar curated/
+logos-acervo eval                      # gold_acervo.json (vazio até curar)
+```
+
+Ver `acervo/README.md`. Não inventar acervo sintético grande — dropar os `.txt` reais e curar expects.
+
 ## HTTP adapter
 
 ```bash

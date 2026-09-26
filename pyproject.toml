@@ -22,6 +22,7 @@ dev = ["pytest>=7.4", "httpx>=0.27"]
 [project.scripts]
 logos = "logos_core.cli:main"
 logos-eval = "logos_eval.runner:main"
+logos-acervo = "logos_eval.acervo_bridge:main"
 logos-bench = "logos_bench.runner:main"
 logos-http = "logos_http.app:main"
 logos-compress = "logos_compress.cli:main"
