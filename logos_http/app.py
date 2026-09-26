@@ -10,6 +10,7 @@ from pydantic import BaseModel, Field
 
 from logos_core.api import describe_symbol, expand, extract, render
 from logos_core.engine import CoreError
+from logos_compress import compress, prompt_pack
 
 Level = Literal[1, 2, 3]
 
@@ -135,20 +136,16 @@ def create_app() -> FastAPI:
 
     @app.post("/v1/compress")
     def api_compress(body: ExtractRequest) -> dict[str, Any]:
-        """Convenience: extract + all render levels + expand in one call."""
+        """Thin adapter over LogosCompress (consumes Core; adds metrics)."""
         try:
-            canonical = extract(body.text, body.options)
+            result = compress(body.text, body.options)
         except CoreError as exc:
             raise HTTPException(status_code=400, detail=str(exc)) from exc
-        return {
-            "canonical": canonical.to_dict(),
-            "renders": {
-                "1": render(canonical, 1),
-                "2": render(canonical, 2),
-                "3": render(canonical, 3),
-            },
-            "expand": expand(canonical),
-        }
+        payload = result.to_dict()
+        # Ensure L2 present for web clients that expect three levels
+        payload["renders"]["2"] = render(result.canonical, 2)
+        payload["prompt_pack"] = prompt_pack(result)
+        return payload
 
     return app
 
