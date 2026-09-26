@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "logos-os"
+version = "0.1.0"
+description = "Logos OS v1 — semantic compression core (SYMBOLS v3)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [{ name = "Hector Lutero" }]
+dependencies = [
+  "fastapi>=0.110",
+  "uvicorn[standard]>=0.27",
+  "pydantic>=2.0",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.4", "httpx>=0.27"]
+
+[project.scripts]
+logos = "logos_core.cli:main"
+logos-eval = "logos_eval.runner:main"
+logos-bench = "logos_bench.runner:main"
+logos-http = "logos_http.app:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["logos_core*", "logos_eval*", "logos_bench*", "logos_http*"]
+
+[tool.setuptools.package-data]
+logos_core = ["index/data/*.json"]
+logos_eval = ["suite/*.json"]
+logos_bench = ["corpus/*.json", "baselines/*.json"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

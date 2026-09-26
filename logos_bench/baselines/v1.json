@@ -1,0 +1,9 @@
+{
+  "version": "v1",
+  "latency_p95_ms_max": 250.0,
+  "compression_ratio_min": 0.01,
+  "symbol_coverage_min": 0.5,
+  "fail_on_regression": false,
+  "warn_on_regression": true,
+  "notes": "Baseline thresholds for v1 PoC. fail_on_regression=false (warn only) until Core stabilizes."
+}

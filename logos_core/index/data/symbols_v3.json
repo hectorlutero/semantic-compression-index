@@ -1,0 +1,435 @@
+{
+  "version": "v3",
+  "macros": {
+    "BE": {
+      "name": "Existir / Ser",
+      "categories": ["existência", "identidade"]
+    },
+    "RELATE": {
+      "name": "Relacionar",
+      "categories": ["relação", "agência"]
+    },
+    "MODAL": {
+      "name": "Modular",
+      "categories": ["modalidade", "condição"]
+    },
+    "DYN": {
+      "name": "Dinamizar",
+      "categories": ["oposição", "transformação"]
+    },
+    "COMM": {
+      "name": "Comunicar",
+      "categories": ["comunicação"]
+    },
+    "EPIST": {
+      "name": "Justificar",
+      "categories": ["evidência"]
+    },
+    "SCOPE": {
+      "name": "Delimitar",
+      "categories": ["escopo"]
+    },
+    "VAL": {
+      "name": "Avaliar",
+      "categories": ["valor"]
+    }
+  },
+  "categories": {
+    "existência": { "macro": "BE", "label": "Existência e Origem" },
+    "identidade": { "macro": "BE", "label": "Identidade e Definição" },
+    "relação": { "macro": "RELATE", "label": "Relação e Estrutura" },
+    "agência": { "macro": "RELATE", "label": "Agência e Causação" },
+    "modalidade": { "macro": "MODAL", "label": "Modalidade" },
+    "condição": { "macro": "MODAL", "label": "Condição e Consequência" },
+    "oposição": { "macro": "DYN", "label": "Oposição e Dualidade" },
+    "transformação": { "macro": "DYN", "label": "Transformação" },
+    "comunicação": { "macro": "COMM", "label": "Comunicação e Atos de Fala" },
+    "evidência": { "macro": "EPIST", "label": "Evidência e Justificação" },
+    "escopo": { "macro": "SCOPE", "label": "Escopo e Temporalidade" },
+    "valor": { "macro": "VAL", "label": "Avaliação e Valor" }
+  },
+  "symbols": {
+    "Γ": {
+      "name": "Origem / Princípio",
+      "definition": "Algo existe desde o início ou é o ponto de partida",
+      "expand": "no princípio / desde a origem",
+      "category": "existência",
+      "aliases": []
+    },
+    "∃": {
+      "name": "Existência",
+      "definition": "Algo existe / há",
+      "expand": "existe / há",
+      "category": "existência",
+      "aliases": []
+    },
+    "∄": {
+      "name": "Inexistência",
+      "definition": "Algo não existe / não há",
+      "expand": "não existe / não há",
+      "category": "existência",
+      "aliases": []
+    },
+    "Μ": {
+      "name": "Manifestação",
+      "definition": "O que estava oculto ou potencial se torna presente",
+      "expand": "se manifesta / torna-se presente",
+      "category": "existência",
+      "aliases": []
+    },
+    "Σ": {
+      "name": "Identidade",
+      "definition": "A é B",
+      "expand": "é / trata-se de",
+      "category": "identidade",
+      "aliases": []
+    },
+    "Def": {
+      "name": "Definição",
+      "definition": "Para os fins deste contexto, X significa…",
+      "expand": "define-se como / significa",
+      "category": "identidade",
+      "aliases": []
+    },
+    "≈": {
+      "name": "Semelhança",
+      "definition": "A é semelhante / análogo a B",
+      "expand": "é semelhante a / análogo a",
+      "category": "identidade",
+      "aliases": []
+    },
+    "≠": {
+      "name": "Diferença",
+      "definition": "A não é B",
+      "expand": "não é / distingue-se de",
+      "category": "identidade",
+      "aliases": []
+    },
+    "Ρ": {
+      "name": "Presença / Relação",
+      "definition": "X está com / em relação a Y",
+      "expand": "está com / em relação a",
+      "category": "relação",
+      "aliases": []
+    },
+    "∈": {
+      "name": "Pertencimento",
+      "definition": "X pertence a Y",
+      "expand": "pertence a / faz parte de",
+      "category": "relação",
+      "aliases": []
+    },
+    "⊂": {
+      "name": "Inclusão",
+      "definition": "X está contido em Y",
+      "expand": "está contido em",
+      "category": "relação",
+      "aliases": []
+    },
+    "Hier": {
+      "name": "Hierarquia",
+      "definition": "X está acima ou subordinado a Y",
+      "expand": "está hierarquicamente relacionado a",
+      "category": "relação",
+      "aliases": []
+    },
+    "Part": {
+      "name": "Parte / Sujeito",
+      "definition": "Agente, paciente ou participante",
+      "expand": "a parte / o sujeito",
+      "category": "relação",
+      "aliases": []
+    },
+    "Κ": {
+      "name": "Agência",
+      "definition": "X age ou é o meio pelo qual algo ocorre",
+      "expand": "age / é por meio de",
+      "category": "agência",
+      "aliases": []
+    },
+    "Caus": {
+      "name": "Nexo causal",
+      "definition": "A produz / provoca B",
+      "expand": "causa / provoca",
+      "category": "agência",
+      "aliases": []
+    },
+    "Neg": {
+      "name": "Negação de agência",
+      "definition": "Sem X, B não ocorreria",
+      "expand": "sem isso não ocorreria",
+      "category": "agência",
+      "aliases": []
+    },
+    "Obj": {
+      "name": "Objeto",
+      "definition": "Aquilo sobre o qual a ação incide",
+      "expand": "o objeto / aquilo sobre o que incide",
+      "category": "agência",
+      "aliases": []
+    },
+    "Obl": {
+      "name": "Obrigação",
+      "definition": "X deve fazer Y",
+      "expand": "deve / é obrigado a",
+      "category": "modalidade",
+      "modal": { "system": "deontic", "operator": "Obl" },
+      "aliases": ["O"]
+    },
+    "Perm": {
+      "name": "Permissão",
+      "definition": "X pode fazer Y",
+      "expand": "pode / tem permissão para",
+      "category": "modalidade",
+      "modal": { "system": "deontic", "operator": "Perm" },
+      "aliases": ["P"]
+    },
+    "Proib": {
+      "name": "Proibição",
+      "definition": "X não pode fazer Y",
+      "expand": "é proibido / não pode",
+      "category": "modalidade",
+      "modal": { "system": "deontic", "operator": "Proib" },
+      "aliases": ["F"]
+    },
+    "Nec": {
+      "name": "Necessidade",
+      "definition": "É necessário que…",
+      "expand": "é necessário que",
+      "category": "modalidade",
+      "modal": { "system": "alethic", "operator": "Nec" },
+      "aliases": ["□"]
+    },
+    "Poss": {
+      "name": "Possibilidade",
+      "definition": "É possível que…",
+      "expand": "é possível que",
+      "category": "modalidade",
+      "modal": { "system": "alethic", "operator": "Poss" },
+      "aliases": ["◇"]
+    },
+    "Cond": {
+      "name": "Condição",
+      "definition": "Se A, então B",
+      "expand": "se … então",
+      "category": "condição",
+      "modal": { "system": "conditional", "operator": "Cond" },
+      "aliases": []
+    },
+    "Sanc": {
+      "name": "Consequência / Sanção",
+      "definition": "Se A → segue-se B",
+      "expand": "tem como consequência",
+      "category": "condição",
+      "modal": { "system": "conditional", "operator": "Sanc" },
+      "aliases": []
+    },
+    "Exc": {
+      "name": "Exceção",
+      "definition": "Salvo se / a menos que",
+      "expand": "salvo se / a menos que",
+      "category": "condição",
+      "modal": { "system": "conditional", "operator": "Exc" },
+      "aliases": []
+    },
+    "→": {
+      "name": "Implicação",
+      "definition": "A implica B",
+      "expand": "implica",
+      "category": "condição",
+      "modal": { "system": "conditional", "operator": "→" },
+      "aliases": []
+    },
+    "Λ": {
+      "name": "Polo positivo",
+      "definition": "O lado que revela ou afirma",
+      "expand": "o polo positivo / a revelação",
+      "category": "oposição",
+      "aliases": []
+    },
+    "Δ": {
+      "name": "Polo negativo",
+      "definition": "O lado que oculta ou resiste",
+      "expand": "o polo negativo / o ocultamento",
+      "category": "oposição",
+      "aliases": []
+    },
+    "vs": {
+      "name": "Oposição",
+      "definition": "A em tensão com B",
+      "expand": "em oposição a",
+      "category": "oposição",
+      "aliases": []
+    },
+    "¬": {
+      "name": "Negação",
+      "definition": "Não-A",
+      "expand": "não",
+      "category": "oposição",
+      "aliases": []
+    },
+    "Τ": {
+      "name": "Transformação de status",
+      "definition": "X muda de estado",
+      "expand": "transforma-se / recebe novo estatuto",
+      "category": "transformação",
+      "aliases": []
+    },
+    "Β": {
+      "name": "Transformação radical",
+      "definition": "Mudança profunda",
+      "expand": "transformação radical / renascimento",
+      "category": "transformação",
+      "aliases": []
+    },
+    "Δt": {
+      "name": "Mudança no tempo",
+      "definition": "Antes → Depois",
+      "expand": "muda com o tempo",
+      "category": "transformação",
+      "aliases": []
+    },
+    "Ω": {
+      "name": "Afirmação / Testemunho",
+      "definition": "Declara ou testemunha",
+      "expand": "afirma / testemunha",
+      "category": "comunicação",
+      "aliases": []
+    },
+    "Ι": {
+      "name": "Autodeclaração",
+      "definition": "“Eu sou / eu afirmo”",
+      "expand": "eu sou / eu afirmo",
+      "category": "comunicação",
+      "aliases": []
+    },
+    "Quest": {
+      "name": "Pergunta",
+      "definition": "Interrogação",
+      "expand": "pergunta",
+      "category": "comunicação",
+      "aliases": []
+    },
+    "Resp": {
+      "name": "Resposta",
+      "definition": "Réplica",
+      "expand": "responde",
+      "category": "comunicação",
+      "aliases": []
+    },
+    "Arg": {
+      "name": "Argumento",
+      "definition": "Razão apresentada",
+      "expand": "argumenta / apresenta como razão",
+      "category": "comunicação",
+      "aliases": []
+    },
+    "Pers": {
+      "name": "Persuasão",
+      "definition": "Tentativa de convencer",
+      "expand": "tenta persuadir",
+      "category": "comunicação",
+      "aliases": []
+    },
+    "Iron": {
+      "name": "Ironia",
+      "definition": "Tensão retórica",
+      "expand": "diz ironicamente",
+      "category": "comunicação",
+      "aliases": []
+    },
+    "Evid": {
+      "name": "Evidência",
+      "definition": "Dado apresentado como suporte",
+      "expand": "evidência / dado que suporta",
+      "category": "evidência",
+      "aliases": []
+    },
+    "Hip": {
+      "name": "Hipótese",
+      "definition": "Suposição a ser testada",
+      "expand": "hipótese",
+      "category": "evidência",
+      "aliases": []
+    },
+    "Conc": {
+      "name": "Conclusão",
+      "definition": "Resultado das premissas",
+      "expand": "conclui-se que",
+      "category": "evidência",
+      "aliases": []
+    },
+    "Interp": {
+      "name": "Interpretação",
+      "definition": "Modo de entender",
+      "expand": "interpreta-se como",
+      "category": "evidência",
+      "aliases": []
+    },
+    "Met": {
+      "name": "Método",
+      "definition": "Procedimento usado",
+      "expand": "pelo método / mediante",
+      "category": "evidência",
+      "aliases": []
+    },
+    "K": {
+      "name": "Sabe que",
+      "definition": "Conhecimento epistêmico",
+      "expand": "sabe que",
+      "category": "evidência",
+      "modal": { "system": "epistemic", "operator": "K" },
+      "aliases": []
+    },
+    "B": {
+      "name": "Acredita que",
+      "definition": "Crença epistêmica",
+      "expand": "acredita que",
+      "category": "evidência",
+      "modal": { "system": "epistemic", "operator": "B" },
+      "aliases": []
+    },
+    "∀": {
+      "name": "Universal",
+      "definition": "Para todo",
+      "expand": "para todo / todos",
+      "category": "escopo",
+      "aliases": []
+    },
+    "Temp": {
+      "name": "Temporalidade",
+      "definition": "Quando / durante / até",
+      "expand": "no tempo / a partir de",
+      "category": "escopo",
+      "aliases": []
+    },
+    "Esc": {
+      "name": "Escopo",
+      "definition": "Limite de aplicação",
+      "expand": "no âmbito de / com escopo em",
+      "category": "escopo",
+      "aliases": []
+    },
+    "Val+": {
+      "name": "Valoração positiva",
+      "definition": "É bom / desejável",
+      "expand": "é positivo / desejável",
+      "category": "valor",
+      "aliases": []
+    },
+    "Val−": {
+      "name": "Valoração negativa",
+      "definition": "É mau / indesejável",
+      "expand": "é negativo / indesejável",
+      "category": "valor",
+      "aliases": ["Val-"]
+    },
+    "Θ": {
+      "name": "Princípio orientador",
+      "definition": "Norma ou valor guia",
+      "expand": "segundo o princípio",
+      "category": "valor",
+      "aliases": []
+    }
+  }
+}

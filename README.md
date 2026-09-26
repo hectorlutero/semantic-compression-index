@@ -4,116 +4,82 @@
 
 Logos OS extrai a *alma* (estrutura de significado) de qualquer texto e a representa numa interlíngua simbólica hierárquica.
 
----
+## Status v1
 
-## Hipótese central
+- [x] Logos Core (`extract` / `render` / `expand` / `describe_symbol`) — SYMBOLS v3
+- [x] Eval Suite (gold corpus + CI gate)
+- [x] Benchmark Suite (latency / ratio / coverage)
+- [x] HTTP adapter (FastAPI)
+- [x] Web Workspace (DeepFlowRun look)
+- [ ] LogosCompress / Analyzer / Lang (fora de escopo v1)
 
-> É possível expressar qualquer ideia em expressões matemáticas / símbolos de modo a comprimir textos, preservando o significado.
-
----
-
-## Arquitetura
-
-```text
-┌─────────────────────────────────────────────────────┐
-│                      LOGOS OS                       │
-├─────────────────────────────────────────────────────┤
-│                   Logos Core                        │
-│         (Índice Ontológico + Motor Simbólico)       │
-├─────────────────┬─────────────────┬─────────────────┤
-│  LogosCompress  │  LogosAnalyzer  │    LogosLang    │
-│  Compressão &   │  Coesão lógica  │  Tradução &     │
-│  Tokens / LLM   │  & Argumentação │  Cross-domain   │
-└─────────────────┴─────────────────┴─────────────────┘
-```
-
-Documentação completa da plataforma: [`PLATFORM.md`](PLATFORM.md)
-
----
-
-## Núcleo Simbólico (3 Níveis)
-
-```
-Nível 1  →  Macro-funções (BE, RELATE, MODAL, DYN, COMM, EPIST, SCOPE, VAL)
-Nível 2  →  12 Categorias
-Nível 3  →  Símbolos base
-```
-
-### Macro-funções
-
-| Macro | Nome | Dimensão |
-|-------|------|----------|
-| **BE** | Existir / Ser | O que há e o que algo é |
-| **RELATE** | Relacionar | Conexões e agência |
-| **MODAL** | Modular | Necessidade, dever, permissão |
-| **DYN** | Dinamizar | Tensão e mudança |
-| **COMM** | Comunicar | Atos de fala e persuasão |
-| **EPIST** | Justificar | Evidência e argumentação |
-| **SCOPE** | Delimitar | Escopo e tempo |
-| **VAL** | Avaliar | Julgamento de valor |
-
-Índice completo: [`SYMBOLS.md`](SYMBOLS.md)
-
----
-
-## Módulos
-
-| Módulo | Foco | Principais capacidades |
-|--------|------|------------------------|
-| **LogosCompress** | Eficiência | Economia de tokens, acelerador de LLM, condensador de conhecimento |
-| **LogosAnalyzer** | Rigor | Coesão lógica, mapa argumentativo, Idea Diff |
-| **LogosLang** | Ponte | Tradução semântica, transferência cross-domain |
-
----
-
-## Exemplo rápido (João 1:1-5)
-
-**Nível 3:**
-```text
-Γ(Σ) ∧ Ρ(Σ, Deus) ∧ Σ(Σ, Deus) ∧ Κ(Σ) ∧ Neg(Σ) ∧ Λ vs Δ
-```
-
-**Nível 1:**
-```text
-BE(Γ, Σ) ∧ RELATE(Ρ, Κ) ∧ DYN(Λ vs Δ)
-```
-
----
-
-## Status
-
-- [x] Hipótese e índice ontológico
-- [x] Hierarquia de 3 níveis + lógica modal
-- [x] Visão de plataforma Logos OS
-- [x] Protótipo Python básico
-- [ ] Motor de extração simbólica robusto (Fase 1)
-- [ ] LogosCompress MVP
-- [ ] LogosAnalyzer MVP
-- [ ] LogosLang MVP
-
----
-
-## Código experimental
+## Install
 
 ```bash
-python semantic_compressor.py
+python -m venv .venv && source .venv/bin/activate
+pip install -e ".[dev]"
+```
+
+## Logos Core (in-process)
+
+```bash
+logos                          # demo João 1:1-5 → render L1
+logos --level 3 --expand
+logos --json "é obrigado a cumprir o prazo"
 ```
 
 ```python
-from semantic_compressor import compress, expand, SYMBOLS, list_symbols
+from logos_core import extract, render, expand, describe_symbol
+
+c = extract("No princípio era o Verbo…")
+print(render(c, 1))   # BE(Γ, Σ) ∧ RELATE(Ρ, Κ, Neg) ∧ DYN(Λ vs Δ)
+print(expand(c))
+print(describe_symbol("Obl"))
 ```
 
----
+Primary seam only — no public Parser/Index API. The legacy `semantic_compressor.py` is a deprecated shim over Core.
 
-## Roadmap resumido
+## Evals & benchmarks
 
-1. **Fase 1** — Núcleo mínimo viável  
-2. **Fase 2** — LogosCompress  
-3. **Fase 3** — LogosAnalyzer  
-4. **Fase 4** — LogosLang  
-5. **Fase 5** — Integração e polimento  
+```bash
+logos-eval                 # exit 1 on regression
+logos-bench --repeats 5    # p50/p95, ratio, coverage
+pytest -q
+```
 
-Detalhes em [`PLATFORM.md`](PLATFORM.md)
+## HTTP adapter
+
+```bash
+logos-http                 # http://127.0.0.1:8000
+# POST /v1/extract | /v1/render | /v1/expand | /v1/describe_symbol | /v1/compress
+```
+
+## Web Workspace
+
+```bash
+# terminal 1
+logos-http
+
+# terminal 2
+cd web
+cp .env.local.example .env.local   # NEXT_PUBLIC_LOGOS_API=http://127.0.0.1:8000
+npm install
+npm run dev                        # http://127.0.0.1:3000
+```
+
+## Architecture (v1)
+
+```text
+SYMBOLS v3 (internal to Core)
+        ↓
+   Logos Core  ←── Eval + Benchmark (same interface)
+        ↓
+  HTTP adapter
+        ↓
+  Web Workspace
+```
+
+Índice completo: [`SYMBOLS.md`](SYMBOLS.md) · Plataforma: [`PLATFORM.md`](PLATFORM.md)
 
 ---
 
