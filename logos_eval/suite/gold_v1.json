@@ -56,5 +56,25 @@
       "macros": ["MODAL"],
       "symbols": ["Nec", "Poss"]
     }
+  },
+  {
+    "id": "dialogic-comm-scope-val",
+    "domain": "comunicação",
+    "input": "O professor disse aos alunos que a verdade importa. Eles perguntaram por quê. Ele respondeu com um argumento sólido. Afirmou que o princípio é justo. Em todas as épocas, para sempre, esse valor permanece.",
+    "match_mode": "structural",
+    "expect": {
+      "macros": ["COMM", "SCOPE", "VAL"],
+      "symbols": ["Ω", "Quest", "Resp", "Arg", "∀", "Temp", "Θ"]
+    }
+  },
+  {
+    "id": "open-prose-be-relate-dyn",
+    "domain": "narrativa",
+    "input": "Maria transformou-se após a crise. Ela estava com João no começo. A luz da esperança enfrentou as trevas do medo.",
+    "match_mode": "structural",
+    "expect": {
+      "macros": ["BE", "RELATE", "DYN"],
+      "symbols": ["Τ", "Ρ", "Γ", "Λ", "Δ"]
+    }
   }
 ]

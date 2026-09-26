@@ -173,10 +173,22 @@ _ATOMIC_RULES: list[_Rule] = [
     ),
     _Rule(r"\bluz\b", "Λ", priority=24),
     _Rule(r"\btrevas\b", "Δ", priority=24),
-    # SCOPE / VAL (partial — deepened in #13)
-    _Rule(r"para\s+todo|tod(?:o|os|a|as)\s+(?:os\s+|as\s+)?|universalmente", "∀", priority=20),
-    _Rule(r"[eé]\s+(bom|desejável|correto)\b|\bo\s+bem\b", "Val+", priority=20),
-    _Rule(r"[eé]\s+(mau|indesejável|incorreto)\b", "Val−", priority=20),
+    # COMM — speech acts / dialogue
+    _Rule(r"\b(?:disse|disseram|afirmou|afirmaram|declarou)\b", "Ω", priority=34),
+    _Rule(r"\bpergunt(?:ou|aram|a|am)\b|\bpor\s+qu[eê]\b", "Quest", priority=34),
+    _Rule(r"\brespo(?:ndeu|nderam|nde)\b", "Resp", priority=34),
+    _Rule(r"\bargumento\b|\bargument(?:ou|a)\b", "Arg", priority=34),
+    # SCOPE — universal / temporal
+    _Rule(r"para\s+todo|tod(?:o|os|a|as)\s+(?:os\s+|as\s+)?|universalmente|em\s+todas\s+as\s+[eé]pocas", "∀", priority=22),
+    _Rule(
+        r"\bpara\s+sempre\b|\bsempre\b|\bdurante\b|\bap[oó]s\b|\bat[eé]\b",
+        "Temp",
+        priority=22,
+    ),
+    # VAL — evaluation / guiding principle
+    _Rule(r"[eé]\s+(bom|desejável|correto|justo)\b|\bo\s+bem\b", "Val+", priority=22),
+    _Rule(r"[eé]\s+(mau|indesejável|incorreto|injusto)\b", "Val−", priority=22),
+    _Rule(r"\bprinc[ií]pio\b|\bvalor\b(?:\s+permanece)?", "Θ", priority=21),
 ]
 
 
