@@ -56,6 +56,8 @@ def run_evals(core: CoreInterface, suite_path: str | Path) -> EvalReport:
                 ok, detail = _match_render_l1(rendered, expect)
             elif mode == "symbols_subset":
                 ok, detail = _match_symbols_subset(canonical, expect)
+            elif mode == "density":
+                ok, detail = _match_density(canonical, expect)
             else:
                 ok, detail = False, f"unknown match_mode: {mode}"
         except Exception as exc:  # noqa: BLE001 — report as failed case
@@ -114,6 +116,24 @@ def _match_symbols_subset(canonical: Any, expect: dict) -> tuple[bool, str]:
     missing = want - have
     if missing:
         return False, f"missing symbols={sorted(missing)}; have={sorted(have)}"
+    return True, "ok"
+
+
+def _match_density(canonical: Any, expect: dict) -> tuple[bool, str]:
+    """Open-prose density floor — min nodes / coverage / optional macro any-of."""
+    min_nodes = int(expect.get("min_nodes", 1))
+    min_ratio = float(expect.get("min_matched_ratio", 0.0))
+    macros_any = set(expect.get("macros_any", []))
+    n = len(canonical.nodes)
+    ratio = float(canonical.coverage.matched_ratio)
+    if n < min_nodes:
+        return False, f"nodes={n} < min_nodes={min_nodes}"
+    if ratio < min_ratio:
+        return False, f"matched_ratio={ratio:.3f} < min={min_ratio}"
+    if macros_any:
+        have = _macros(canonical)
+        if not (have & macros_any):
+            return False, f"none of macros_any={sorted(macros_any)}; have={sorted(have)}"
     return True, "ok"
 
 

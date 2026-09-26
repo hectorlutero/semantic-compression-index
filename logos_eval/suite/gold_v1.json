@@ -76,5 +76,27 @@
       "macros": ["BE", "RELATE", "DYN"],
       "symbols": ["Τ", "Ρ", "Γ", "Λ", "Δ"]
     }
+  },
+  {
+    "id": "density-open-prose-floor",
+    "domain": "narrativa",
+    "input": "Maria transformou-se após a crise. Ela estava com João no começo. A luz da esperança enfrentou as trevas do medo. Todos os cidadãos, para sempre, devem buscar o bem.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 4,
+      "min_matched_ratio": 0.12,
+      "macros_any": ["BE", "RELATE", "DYN", "SCOPE", "VAL", "MODAL"]
+    }
+  },
+  {
+    "id": "density-mixed-domain",
+    "domain": "misto",
+    "input": "A empresa afirma que deve cumprir a lei. É proibido fraudar. A hipótese de auditoria foi proposta; a evidência sustenta a conclusão. O conselho perguntou e a diretoria respondeu com um argumento.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 5,
+      "min_matched_ratio": 0.15,
+      "macros_any": ["MODAL", "EPIST", "COMM"]
+    }
   }
 ]
