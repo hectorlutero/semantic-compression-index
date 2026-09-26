@@ -124,10 +124,14 @@ _SEED_FIXTURES: list[_SeedMatch] = [
 ]
 
 
-# Atomic pattern rules (multi-domain)
+# Atomic pattern rules (multi-domain) — densified for open prose (Fase 1)
 _ATOMIC_RULES: list[_Rule] = [
     # Deontic / legal
-    _Rule(r"[eé]\s+obrigad[oa]\s+a|deve\s+(fazer|cumprir)|tem\s+o\s+dever\s+de", "Obl", priority=50),
+    _Rule(
+        r"[eé]\s+obrigad[oa]\s+a|deve(?:m)?\s+(?:fazer|cumprir|buscar)|tem\s+o\s+dever\s+de|\bdevem\b",
+        "Obl",
+        priority=50,
+    ),
     _Rule(r"[eé]\s+permitid[oa]|pode\s+(fazer|exercer)|tem\s+o\s+direito\s+de", "Perm", priority=50),
     _Rule(r"[eé]\s+proibid[oa]|n[aã]o\s+pode|vedado", "Proib", priority=50),
     _Rule(r"salvo\s+se|a\s+menos\s+que|exceto\s+se", "Exc", priority=45),
@@ -147,14 +151,31 @@ _ATOMIC_RULES: list[_Rule] = [
     _Rule(r"\bm[eé]todo\b|procedim[e]nto", "Met", priority=40),
     _Rule(r"\bsabe(?:-se)?\s+que\b", "K", priority=40),
     _Rule(r"\bacredit[oa]\s+que\b", "B", priority=40),
-    # Generic ontology
-    _Rule(r"no\s+princ[ií]pio|desde\s+o\s+(come[cç]o|in[ií]cio)|na\s+origem", "Γ", priority=20),
+    # BE — existence / origin (open prose)
+    _Rule(
+        r"no\s+princ[ií]pio|no\s+(?:come[cç]o|in[ií]cio)|desde\s+o\s+(?:come[cç]o|in[ií]cio)|na\s+origem",
+        "Γ",
+        priority=28,
+    ),
+    _Rule(r"\b(?:existe|existem|existia|h[aá]|havia|houve)\b", "∃", priority=26),
     _Rule(r"define-se\s+como|significa\s+que|entende-se\s+por", "Def", priority=30),
     _Rule(r"[eé]\s+(igual|id[eê]ntico|equivalente)\s+a", "Σ", priority=25),
-    _Rule(r"em\s+oposição\s+a|contra\s+as?\s+trevas|luz\s+vs", "vs", priority=30),
-    _Rule(r"\btransforma(?:-se|ção)\b|muda\s+de\s+estado", "Τ", priority=25),
-    _Rule(r"para\s+todo|todas?\s+as\s+coisas|universalmente", "∀", priority=20),
-    _Rule(r"[eé]\s+(bom|desejável|correto)\b", "Val+", priority=20),
+    # RELATE — co-presence / agency / cause
+    _Rule(r"est(?:ava|á|ão|iveram)\s+com\b|junto\s+(?:a|de)\b", "Ρ", priority=36),
+    _Rule(r"por\s+meio\s+de|\bage\b(?:\s+por)?", "Κ", priority=30),
+    _Rule(r"\bcausa(?:dou)?\b|\bprovocou\b|\bprovoca(?:ram)?\b", "Caus", priority=30),
+    # DYN — opposition / transform / light-dark lexicon
+    _Rule(r"em\s+oposição\s+a|enfrentou|contra\s+as?\s+trevas|luz\s+vs", "vs", priority=30),
+    _Rule(
+        r"\btransform(?:ou|a|aram|ação|ações)(?:-se)?\b|muda\s+de\s+estado",
+        "Τ",
+        priority=32,
+    ),
+    _Rule(r"\bluz\b", "Λ", priority=24),
+    _Rule(r"\btrevas\b", "Δ", priority=24),
+    # SCOPE / VAL (partial — deepened in #13)
+    _Rule(r"para\s+todo|tod(?:o|os|a|as)\s+(?:os\s+|as\s+)?|universalmente", "∀", priority=20),
+    _Rule(r"[eé]\s+(bom|desejável|correto)\b|\bo\s+bem\b", "Val+", priority=20),
     _Rule(r"[eé]\s+(mau|indesejável|incorreto)\b", "Val−", priority=20),
 ]
 
