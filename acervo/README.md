@@ -9,9 +9,14 @@ Não renomear esta pasta para slogans tipo “dataset”. O termo do projeto é 
 ```text
 acervo/
   README.md                 # este ficheiro
-  stubs/                    # exemplos mínimos (não são o acervo real)
+  INVENTARIO.md             # contagem do que já foi puxado
+  stubs/                    # exemplos mínimos
   curated/                  # sidecars .expect.json após curadoria humana
-  *.txt                     # textos do acervo (raiz ou subpastas por domínio)
+  narrativa/                # prosa literária PD (+ SOURCES.md)
+  dialogo/                  # actos de fala
+  juridico/                 # atos oficiais BR
+  cientifico/               # abstracts CC BY
+  etica/                    # VAL / fundamentos
 ```
 
 ## Naming

@@ -24,7 +24,9 @@ def test_stub_txt_exists_and_is_tiny():
 
 
 def test_iter_txt_skips_stubs_by_default():
-    assert iter_txt(DEFAULT_ACERVO, include_stubs=False) == []
+    files = iter_txt(DEFAULT_ACERVO, include_stubs=False)
+    assert len(files) >= 15, "esperado acervo real puxado sob acervo/<domínio>/"
+    assert all("stubs" not in p.parts for p in files)
     with_stubs = iter_txt(DEFAULT_ACERVO, include_stubs=True)
     assert any(p.name == "principio-minimo.txt" for p in with_stubs)
 
