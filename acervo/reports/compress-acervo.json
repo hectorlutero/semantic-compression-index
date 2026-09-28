@@ -1,0 +1,1214 @@
+{
+  "summary": {
+    "total": {
+      "count": 72,
+      "empty_extract": 8,
+      "avg_nodes": 2.486111111111111,
+      "avg_reduction_ratio": 0.015640585914048582,
+      "tokens_est_src": 12938,
+      "tokens_est_l1": 198,
+      "corpus_reduction_ratio": 0.015303756376565157
+    },
+    "by_domain": {
+      "cientifico": {
+        "count": 5,
+        "empty_extract": 2,
+        "avg_nodes": 0.8,
+        "avg_reduction_ratio": 0.005588487333089262,
+        "tokens_est_src": 760,
+        "tokens_est_l1": 4,
+        "corpus_reduction_ratio": 0.005263157894736842
+      },
+      "dialogo": {
+        "count": 17,
+        "empty_extract": 1,
+        "avg_nodes": 3.176470588235294,
+        "avg_reduction_ratio": 0.02085547926024252,
+        "tokens_est_src": 3099,
+        "tokens_est_l1": 62,
+        "corpus_reduction_ratio": 0.020006453694740238
+      },
+      "etica": {
+        "count": 6,
+        "empty_extract": 0,
+        "avg_nodes": 3.0,
+        "avg_reduction_ratio": 0.020616381987611163,
+        "tokens_est_src": 1093,
+        "tokens_est_l1": 21,
+        "corpus_reduction_ratio": 0.0192131747483989
+      },
+      "juridico": {
+        "count": 18,
+        "empty_extract": 3,
+        "avg_nodes": 1.8333333333333333,
+        "avg_reduction_ratio": 0.01264536432954264,
+        "tokens_est_src": 2818,
+        "tokens_est_l1": 35,
+        "corpus_reduction_ratio": 0.01242015613910575
+      },
+      "narrativa": {
+        "count": 26,
+        "empty_extract": 2,
+        "avg_nodes": 2.6923076923076925,
+        "avg_reduction_ratio": 0.015089298148634385,
+        "tokens_est_src": 5168,
+        "tokens_est_l1": 76,
+        "corpus_reduction_ratio": 0.014705882352941176
+      }
+    }
+  },
+  "items": [
+    {
+      "path": "cientifico/oa-ccby-01-propriedades-psicometricas.txt",
+      "domain": "cientifico",
+      "id": "oa-ccby-01-propriedades-psicometricas",
+      "level1": "",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "metrics": {
+        "source_chars": 1047,
+        "compressed_chars": 0,
+        "source_tokens_est": 148,
+        "compressed_tokens_est": 0,
+        "reduction_ratio": 0.0
+      },
+      "expand_preview": "Resumo Instrumentos de medida desempenham um importante papel na pesquisa, na prática clínica e na avaliação de saúde. Estudos sobre a qualidade desses instrumentos fornecem evidências de como as propriedades de medida foram avaliadas, auxi"
+    },
+    {
+      "path": "cientifico/oa-ccby-02-leishmaniose-visceral.txt",
+      "domain": "cientifico",
+      "id": "oa-ccby-02-leishmaniose-visceral",
+      "level1": "SCOPE(∀, Temp)",
+      "nodes": 2,
+      "matched_ratio": 0.006968641114982578,
+      "metrics": {
+        "source_chars": 1350,
+        "compressed_chars": 14,
+        "source_tokens_est": 202,
+        "compressed_tokens_est": 2,
+        "reduction_ratio": 0.009900990099009901
+      },
+      "expand_preview": "para todo / todos e no tempo / a partir de"
+    },
+    {
+      "path": "cientifico/oa-ccby-03-series-temporais-epidemiologia.txt",
+      "domain": "cientifico",
+      "id": "oa-ccby-03-series-temporais-epidemiologia",
+      "level1": "SCOPE(∀)",
+      "nodes": 1,
+      "matched_ratio": 0.0072254335260115606,
+      "metrics": {
+        "source_chars": 799,
+        "compressed_chars": 8,
+        "source_tokens_est": 107,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.009345794392523364
+      },
+      "expand_preview": "para todo / todos"
+    },
+    {
+      "path": "cientifico/oa-ccby-04-pesquisa-qualitativa.txt",
+      "domain": "cientifico",
+      "id": "oa-ccby-04-pesquisa-qualitativa",
+      "level1": "",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "metrics": {
+        "source_chars": 1327,
+        "compressed_chars": 0,
+        "source_tokens_est": 188,
+        "compressed_tokens_est": 0,
+        "reduction_ratio": 0.0
+      },
+      "expand_preview": "Robert Edward Stake é um dos pesquisadores americanos mais renomados por suas contribuições teóricas acerca de temas relacionados com a investigação científica, em particular as pesquisas qualitativas.Por sua produção acadêmica em torno do "
+    },
+    {
+      "path": "cientifico/oa-ccby-05-professores-imagens-do-futuro-presente.txt",
+      "domain": "cientifico",
+      "id": "oa-ccby-05-professores-imagens-do-futuro-presente",
+      "level1": "SCOPE(Temp)",
+      "nodes": 1,
+      "matched_ratio": 0.00641025641025641,
+      "metrics": {
+        "source_chars": 739,
+        "compressed_chars": 11,
+        "source_tokens_est": 115,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.008695652173913044
+      },
+      "expand_preview": "no tempo / a partir de"
+    },
+    {
+      "path": "dialogo/carteira-dialogo-01.txt",
+      "domain": "dialogo",
+      "id": "carteira-dialogo-01",
+      "level1": "RELATE(Caus) ∧ EPIST(Conc) ∧ SCOPE(Temp) ∧ VAL(Θ)",
+      "nodes": 5,
+      "matched_ratio": 0.025236593059936908,
+      "metrics": {
+        "source_chars": 1155,
+        "compressed_chars": 49,
+        "source_tokens_est": 204,
+        "compressed_tokens_est": 7,
+        "reduction_ratio": 0.03431372549019608
+      },
+      "expand_preview": "no tempo / a partir de e no tempo / a partir de e conclui-se que e segundo o princípio e causa / provoca"
+    },
+    {
+      "path": "dialogo/cartomante-dialogo-01.txt",
+      "domain": "dialogo",
+      "id": "cartomante-dialogo-01",
+      "level1": "BE(∃) ∧ DYN(Λ) ∧ COMM(Ω)",
+      "nodes": 4,
+      "matched_ratio": 0.028346456692913385,
+      "metrics": {
+        "source_chars": 768,
+        "compressed_chars": 24,
+        "source_tokens_est": 133,
+        "compressed_tokens_est": 5,
+        "reduction_ratio": 0.03759398496240601
+      },
+      "expand_preview": "afirma / testemunha e o polo positivo / a revelação e afirma / testemunha e existe / há"
+    },
+    {
+      "path": "dialogo/caso-da-vara-dialogo-01.txt",
+      "domain": "dialogo",
+      "id": "caso-da-vara-dialogo-01",
+      "level1": "COMM(Quest)",
+      "nodes": 1,
+      "matched_ratio": 0.013333333333333334,
+      "metrics": {
+        "source_chars": 821,
+        "compressed_chars": 11,
+        "source_tokens_est": 146,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.00684931506849315
+      },
+      "expand_preview": "pergunta"
+    },
+    {
+      "path": "dialogo/caso-da-vara-dialogo-02.txt",
+      "domain": "dialogo",
+      "id": "caso-da-vara-dialogo-02",
+      "level1": "COMM(Ω) ∧ SCOPE(Temp)",
+      "nodes": 3,
+      "matched_ratio": 0.04212860310421286,
+      "metrics": {
+        "source_chars": 543,
+        "compressed_chars": 21,
+        "source_tokens_est": 92,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.03260869565217391
+      },
+      "expand_preview": "afirma / testemunha e no tempo / a partir de e afirma / testemunha"
+    },
+    {
+      "path": "dialogo/causa-secreta-dialogo-01.txt",
+      "domain": "dialogo",
+      "id": "causa-secreta-dialogo-01",
+      "level1": "BE(∃) ∧ COMM(Quest)",
+      "nodes": 2,
+      "matched_ratio": 0.018518518518518517,
+      "metrics": {
+        "source_chars": 911,
+        "compressed_chars": 19,
+        "source_tokens_est": 155,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.01935483870967742
+      },
+      "expand_preview": "existe / há e pergunta"
+    },
+    {
+      "path": "dialogo/chinela-turca-dialogo-01.txt",
+      "domain": "dialogo",
+      "id": "chinela-turca-dialogo-01",
+      "level1": "BE(∃) ∧ COMM(Resp)",
+      "nodes": 2,
+      "matched_ratio": 0.02157164869029276,
+      "metrics": {
+        "source_chars": 780,
+        "compressed_chars": 18,
+        "source_tokens_est": 131,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.022900763358778626
+      },
+      "expand_preview": "responde e existe / há"
+    },
+    {
+      "path": "dialogo/dom-casmurro-dialogo-01.txt",
+      "domain": "dialogo",
+      "id": "dom-casmurro-dialogo-01",
+      "level1": "BE(∃) ∧ MODAL(Exc)",
+      "nodes": 3,
+      "matched_ratio": 0.011578947368421053,
+      "metrics": {
+        "source_chars": 1159,
+        "compressed_chars": 18,
+        "source_tokens_est": 209,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.014354066985645933
+      },
+      "expand_preview": "existe / há e existe / há e salvo se / a menos que"
+    },
+    {
+      "path": "dialogo/dom-casmurro-dialogo-02.txt",
+      "domain": "dialogo",
+      "id": "dom-casmurro-dialogo-02",
+      "level1": "BE(∃) ∧ COMM(Ω) ∧ EPIST(Conc) ∧ SCOPE(∀, Temp)",
+      "nodes": 7,
+      "matched_ratio": 0.02404207362885049,
+      "metrics": {
+        "source_chars": 1586,
+        "compressed_chars": 46,
+        "source_tokens_est": 255,
+        "compressed_tokens_est": 8,
+        "reduction_ratio": 0.03137254901960784
+      },
+      "expand_preview": "afirma / testemunha e conclui-se que e para todo / todos e para todo / todos e existe / há e para todo / todos e no tempo / a partir de"
+    },
+    {
+      "path": "dialogo/dom-casmurro-dialogo-03.txt",
+      "domain": "dialogo",
+      "id": "dom-casmurro-dialogo-03",
+      "level1": "COMM(Ω)",
+      "nodes": 1,
+      "matched_ratio": 0.004784688995215311,
+      "metrics": {
+        "source_chars": 1269,
+        "compressed_chars": 7,
+        "source_tokens_est": 224,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.004464285714285714
+      },
+      "expand_preview": "afirma / testemunha"
+    },
+    {
+      "path": "dialogo/eca-dialogo-01.txt",
+      "domain": "dialogo",
+      "id": "eca-dialogo-01",
+      "level1": "COMM(Ω) ∧ SCOPE(∀)",
+      "nodes": 2,
+      "matched_ratio": 0.00738255033557047,
+      "metrics": {
+        "source_chars": 1789,
+        "compressed_chars": 18,
+        "source_tokens_est": 299,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.010033444816053512
+      },
+      "expand_preview": "afirma / testemunha e para todo / todos"
+    },
+    {
+      "path": "dialogo/eca-dialogo-02.txt",
+      "domain": "dialogo",
+      "id": "eca-dialogo-02",
+      "level1": "COMM(Ω) ∧ EPIST(Conc) ∧ SCOPE(∀)",
+      "nodes": 3,
+      "matched_ratio": 0.017615176151761516,
+      "metrics": {
+        "source_chars": 888,
+        "compressed_chars": 32,
+        "source_tokens_est": 150,
+        "compressed_tokens_est": 5,
+        "reduction_ratio": 0.03333333333333333
+      },
+      "expand_preview": "afirma / testemunha e conclui-se que e para todo / todos"
+    },
+    {
+      "path": "dialogo/eca-dialogo-03.txt",
+      "domain": "dialogo",
+      "id": "eca-dialogo-03",
+      "level1": "DYN(Λ) ∧ COMM(Ω) ∧ SCOPE(∀, Temp)",
+      "nodes": 5,
+      "matched_ratio": 0.03308270676691729,
+      "metrics": {
+        "source_chars": 806,
+        "compressed_chars": 33,
+        "source_tokens_est": 141,
+        "compressed_tokens_est": 6,
+        "reduction_ratio": 0.0425531914893617
+      },
+      "expand_preview": "para todo / todos e para todo / todos e o polo positivo / a revelação e afirma / testemunha e no tempo / a partir de"
+    },
+    {
+      "path": "dialogo/eca-dialogo-04.txt",
+      "domain": "dialogo",
+      "id": "eca-dialogo-04",
+      "level1": "COMM(Ω)",
+      "nodes": 1,
+      "matched_ratio": 0.007374631268436578,
+      "metrics": {
+        "source_chars": 816,
+        "compressed_chars": 7,
+        "source_tokens_est": 138,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.007246376811594203
+      },
+      "expand_preview": "afirma / testemunha"
+    },
+    {
+      "path": "dialogo/jose-matias-dialogo-01.txt",
+      "domain": "dialogo",
+      "id": "jose-matias-dialogo-01",
+      "level1": "SCOPE(∀, Temp)",
+      "nodes": 3,
+      "matched_ratio": 0.020151133501259445,
+      "metrics": {
+        "source_chars": 959,
+        "compressed_chars": 14,
+        "source_tokens_est": 165,
+        "compressed_tokens_est": 2,
+        "reduction_ratio": 0.012121212121212121
+      },
+      "expand_preview": "para todo / todos e no tempo / a partir de e no tempo / a partir de"
+    },
+    {
+      "path": "dialogo/jose-matias-dialogo-02.txt",
+      "domain": "dialogo",
+      "id": "jose-matias-dialogo-02",
+      "level1": "RELATE(Caus) ∧ EPIST(Conc) ∧ SCOPE(Temp, ∀)",
+      "nodes": 7,
+      "matched_ratio": 0.0365296803652968,
+      "metrics": {
+        "source_chars": 1312,
+        "compressed_chars": 43,
+        "source_tokens_est": 217,
+        "compressed_tokens_est": 6,
+        "reduction_ratio": 0.027649769585253458
+      },
+      "expand_preview": "no tempo / a partir de e no tempo / a partir de e conclui-se que e para todo / todos e no tempo / a partir de e causa / provoca e conclui-se que"
+    },
+    {
+      "path": "dialogo/teoria-medalhao-01.txt",
+      "domain": "dialogo",
+      "id": "teoria-medalhao-01",
+      "level1": "",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "metrics": {
+        "source_chars": 969,
+        "compressed_chars": 0,
+        "source_tokens_est": 159,
+        "compressed_tokens_est": 0,
+        "reduction_ratio": 0.0
+      },
+      "expand_preview": "— Tu, meu filho, se me não engano, pareces dotado da perfeita inopia mental, conveniente ao uso deste nobre officio. Não me refiro tanto á fidelidade com que repetes n’uma sala as opiniões ouvidas n’uma esquina, e vice-versa, porque esse fa"
+    },
+    {
+      "path": "dialogo/teoria-medalhao-02.txt",
+      "domain": "dialogo",
+      "id": "teoria-medalhao-02",
+      "level1": "BE(∃) ∧ MODAL(Cond) ∧ SCOPE(∀)",
+      "nodes": 5,
+      "matched_ratio": 0.017557251908396947,
+      "metrics": {
+        "source_chars": 1591,
+        "compressed_chars": 30,
+        "source_tokens_est": 281,
+        "compressed_tokens_est": 5,
+        "reduction_ratio": 0.017793594306049824
+      },
+      "expand_preview": "para todo / todos e existe / há e se … então e para todo / todos e se … então"
+    },
+    {
+      "path": "etica/cf-art1-fundamentos.txt",
+      "domain": "etica",
+      "id": "cf-art1-fundamentos",
+      "level1": "RELATE(Κ) ∧ SCOPE(∀)",
+      "nodes": 2,
+      "matched_ratio": 0.030162412993039442,
+      "metrics": {
+        "source_chars": 519,
+        "compressed_chars": 20,
+        "source_tokens_est": 88,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.03409090909090909
+      },
+      "expand_preview": "para todo / todos e age / é por meio de"
+    },
+    {
+      "path": "etica/cf-art3-objetivos.txt",
+      "domain": "etica",
+      "id": "cf-art3-objetivos",
+      "level1": "VAL(Val+)",
+      "nodes": 1,
+      "matched_ratio": 0.006389776357827476,
+      "metrics": {
+        "source_chars": 742,
+        "compressed_chars": 9,
+        "source_tokens_est": 116,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.008620689655172414
+      },
+      "expand_preview": "é positivo / desejável"
+    },
+    {
+      "path": "etica/jose-matias-valor-01.txt",
+      "domain": "etica",
+      "id": "jose-matias-valor-01",
+      "level1": "DYN(Λ) ∧ EPIST(Conc) ∧ SCOPE(Temp, ∀)",
+      "nodes": 7,
+      "matched_ratio": 0.02090843547224225,
+      "metrics": {
+        "source_chars": 1668,
+        "compressed_chars": 37,
+        "source_tokens_est": 281,
+        "compressed_tokens_est": 6,
+        "reduction_ratio": 0.021352313167259787
+      },
+      "expand_preview": "o polo positivo / a revelação e no tempo / a partir de e no tempo / a partir de e para todo / todos e conclui-se que e o polo positivo / a revelação e conclui-se que"
+    },
+    {
+      "path": "etica/jose-matias-valor-02.txt",
+      "domain": "etica",
+      "id": "jose-matias-valor-02",
+      "level1": "SCOPE(Temp)",
+      "nodes": 1,
+      "matched_ratio": 0.005439005439005439,
+      "metrics": {
+        "source_chars": 1528,
+        "compressed_chars": 11,
+        "source_tokens_est": 241,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.004149377593360996
+      },
+      "expand_preview": "no tempo / a partir de"
+    },
+    {
+      "path": "etica/jose-matias-valor-03.txt",
+      "domain": "etica",
+      "id": "jose-matias-valor-03",
+      "level1": "COMM(Quest) ∧ EPIST(Conc) ∧ SCOPE(Temp)",
+      "nodes": 4,
+      "matched_ratio": 0.024074074074074074,
+      "metrics": {
+        "source_chars": 1288,
+        "compressed_chars": 39,
+        "source_tokens_est": 208,
+        "compressed_tokens_est": 5,
+        "reduction_ratio": 0.02403846153846154
+      },
+      "expand_preview": "pergunta e pergunta e no tempo / a partir de e conclui-se que"
+    },
+    {
+      "path": "etica/teoria-medalhao-valor-01.txt",
+      "domain": "etica",
+      "id": "teoria-medalhao-valor-01",
+      "level1": "MODAL(Cond) ∧ SCOPE(∀) ∧ VAL(Val+)",
+      "nodes": 3,
+      "matched_ratio": 0.015853658536585366,
+      "metrics": {
+        "source_chars": 979,
+        "compressed_chars": 34,
+        "source_tokens_est": 159,
+        "compressed_tokens_est": 5,
+        "reduction_ratio": 0.031446540880503145
+      },
+      "expand_preview": "é positivo / desejável e para todo / todos e se … então"
+    },
+    {
+      "path": "juridico/cc-br-artigo-01.txt",
+      "domain": "juridico",
+      "id": "cc-br-artigo-01",
+      "level1": "VAL(Θ)",
+      "nodes": 1,
+      "matched_ratio": 0.0057273768613974796,
+      "metrics": {
+        "source_chars": 1032,
+        "compressed_chars": 6,
+        "source_tokens_est": 159,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.006289308176100629
+      },
+      "expand_preview": "segundo o princípio"
+    },
+    {
+      "path": "juridico/cc-br-artigo-02.txt",
+      "domain": "juridico",
+      "id": "cc-br-artigo-02",
+      "level1": "MODAL(Obl, Cond) ∧ SCOPE(∀)",
+      "nodes": 4,
+      "matched_ratio": 0.05228031145717464,
+      "metrics": {
+        "source_chars": 1063,
+        "compressed_chars": 27,
+        "source_tokens_est": 164,
+        "compressed_tokens_est": 4,
+        "reduction_ratio": 0.024390243902439025
+      },
+      "expand_preview": "deve / é obrigado a e para todo / todos e se … então e se … então"
+    },
+    {
+      "path": "juridico/cc-br-artigo-03.txt",
+      "domain": "juridico",
+      "id": "cc-br-artigo-03",
+      "level1": "MODAL(Proib)",
+      "nodes": 1,
+      "matched_ratio": 0.006726457399103139,
+      "metrics": {
+        "source_chars": 1059,
+        "compressed_chars": 12,
+        "source_tokens_est": 167,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.005988023952095809
+      },
+      "expand_preview": "é proibido / não pode"
+    },
+    {
+      "path": "juridico/cc-br-artigo-04.txt",
+      "domain": "juridico",
+      "id": "cc-br-artigo-04",
+      "level1": "MODAL(Proib) ∧ SCOPE(Temp)",
+      "nodes": 2,
+      "matched_ratio": 0.01325301204819277,
+      "metrics": {
+        "source_chars": 990,
+        "compressed_chars": 26,
+        "source_tokens_est": 160,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.01875
+      },
+      "expand_preview": "é proibido / não pode e no tempo / a partir de"
+    },
+    {
+      "path": "juridico/cc-br-artigo-05.txt",
+      "domain": "juridico",
+      "id": "cc-br-artigo-05",
+      "level1": "MODAL(Proib) ∧ SCOPE(∀)",
+      "nodes": 3,
+      "matched_ratio": 0.026281208935611037,
+      "metrics": {
+        "source_chars": 918,
+        "compressed_chars": 23,
+        "source_tokens_est": 157,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.01910828025477707
+      },
+      "expand_preview": "para todo / todos e para todo / todos e é proibido / não pode"
+    },
+    {
+      "path": "juridico/cc-pt-artigo-01.txt",
+      "domain": "juridico",
+      "id": "cc-pt-artigo-01",
+      "level1": "MODAL(Cond)",
+      "nodes": 1,
+      "matched_ratio": 0.006544502617801047,
+      "metrics": {
+        "source_chars": 912,
+        "compressed_chars": 11,
+        "source_tokens_est": 148,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.006756756756756757
+      },
+      "expand_preview": "se … então"
+    },
+    {
+      "path": "juridico/cc-pt-artigo-02.txt",
+      "domain": "juridico",
+      "id": "cc-pt-artigo-02",
+      "level1": "EPIST(Met) ∧ SCOPE(∀)",
+      "nodes": 2,
+      "matched_ratio": 0.02526595744680851,
+      "metrics": {
+        "source_chars": 885,
+        "compressed_chars": 21,
+        "source_tokens_est": 133,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.022556390977443608
+      },
+      "expand_preview": "pelo método / mediante e para todo / todos"
+    },
+    {
+      "path": "juridico/cc-pt-artigo-03.txt",
+      "domain": "juridico",
+      "id": "cc-pt-artigo-03",
+      "level1": "MODAL(Proib)",
+      "nodes": 2,
+      "matched_ratio": 0.020588235294117647,
+      "metrics": {
+        "source_chars": 810,
+        "compressed_chars": 12,
+        "source_tokens_est": 130,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.007692307692307693
+      },
+      "expand_preview": "é proibido / não pode e é proibido / não pode"
+    },
+    {
+      "path": "juridico/cdc-artigo-01.txt",
+      "domain": "juridico",
+      "id": "cdc-artigo-01",
+      "level1": "MODAL(Cond) ∧ EPIST(Hip)",
+      "nodes": 2,
+      "matched_ratio": 0.018387553041018388,
+      "metrics": {
+        "source_chars": 841,
+        "compressed_chars": 24,
+        "source_tokens_est": 134,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.022388059701492536
+      },
+      "expand_preview": "hipótese e se … então"
+    },
+    {
+      "path": "juridico/cdc-artigo-02.txt",
+      "domain": "juridico",
+      "id": "cdc-artigo-02",
+      "level1": "MODAL(Proib) ∧ SCOPE(Temp)",
+      "nodes": 2,
+      "matched_ratio": 0.018544935805991442,
+      "metrics": {
+        "source_chars": 827,
+        "compressed_chars": 26,
+        "source_tokens_est": 126,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.023809523809523808
+      },
+      "expand_preview": "é proibido / não pode e no tempo / a partir de"
+    },
+    {
+      "path": "juridico/cdc-artigo-03.txt",
+      "domain": "juridico",
+      "id": "cdc-artigo-03",
+      "level1": "MODAL(Proib) ∧ SCOPE(∀)",
+      "nodes": 2,
+      "matched_ratio": 0.016666666666666666,
+      "metrics": {
+        "source_chars": 924,
+        "compressed_chars": 23,
+        "source_tokens_est": 144,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.020833333333333332
+      },
+      "expand_preview": "é proibido / não pode e para todo / todos"
+    },
+    {
+      "path": "juridico/cdc-artigo-04.txt",
+      "domain": "juridico",
+      "id": "cdc-artigo-04",
+      "level1": "MODAL(Proib) ∧ VAL(Θ)",
+      "nodes": 2,
+      "matched_ratio": 0.01729106628242075,
+      "metrics": {
+        "source_chars": 831,
+        "compressed_chars": 21,
+        "source_tokens_est": 137,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.021897810218978103
+      },
+      "expand_preview": "é proibido / não pode e segundo o princípio"
+    },
+    {
+      "path": "juridico/cdc-artigo-05.txt",
+      "domain": "juridico",
+      "id": "cdc-artigo-05",
+      "level1": "",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "metrics": {
+        "source_chars": 1044,
+        "compressed_chars": 0,
+        "source_tokens_est": 163,
+        "compressed_tokens_est": 0,
+        "reduction_ratio": 0.0
+      },
+      "expand_preview": "Art. 54. Contrato de adesão é aquele cujas cláusulas tenham sido aprovadas pela autoridade competente ou estabelecidas unilateralmente pelo fornecedor de produtos ou serviços, sem que o consumidor possa discutir ou modificar substancialment"
+    },
+    {
+      "path": "juridico/cf-art170-economia.txt",
+      "domain": "juridico",
+      "id": "cf-art170-economia",
+      "level1": "SCOPE(∀)",
+      "nodes": 1,
+      "matched_ratio": 0.007429420505200594,
+      "metrics": {
+        "source_chars": 798,
+        "compressed_chars": 8,
+        "source_tokens_est": 125,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.008
+      },
+      "expand_preview": "para todo / todos"
+    },
+    {
+      "path": "juridico/cf-art225-ambiente.txt",
+      "domain": "juridico",
+      "id": "cf-art225-ambiente",
+      "level1": "SCOPE(∀)",
+      "nodes": 4,
+      "matched_ratio": 0.019639934533551555,
+      "metrics": {
+        "source_chars": 1444,
+        "compressed_chars": 8,
+        "source_tokens_est": 222,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.0045045045045045045
+      },
+      "expand_preview": "para todo / todos e para todo / todos e para todo / todos e para todo / todos"
+    },
+    {
+      "path": "juridico/cf-art37-admin.txt",
+      "domain": "juridico",
+      "id": "cf-art37-admin",
+      "level1": "",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "metrics": {
+        "source_chars": 1066,
+        "compressed_chars": 0,
+        "source_tokens_est": 160,
+        "compressed_tokens_est": 0,
+        "reduction_ratio": 0.0
+      },
+      "expand_preview": "Art. 37. A administração pública direta, indireta ou fundacional, de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e, também,"
+    },
+    {
+      "path": "juridico/cf-art5-direitos.txt",
+      "domain": "juridico",
+      "id": "cf-art5-direitos",
+      "level1": "MODAL(Proib, Exc) ∧ SCOPE(∀)",
+      "nodes": 4,
+      "matched_ratio": 0.01683748169838946,
+      "metrics": {
+        "source_chars": 1639,
+        "compressed_chars": 28,
+        "source_tokens_est": 273,
+        "compressed_tokens_est": 4,
+        "reduction_ratio": 0.014652014652014652
+      },
+      "expand_preview": "para todo / todos e é proibido / não pode e salvo se / a menos que e para todo / todos"
+    },
+    {
+      "path": "juridico/cf-art6-sociais.txt",
+      "domain": "juridico",
+      "id": "cf-art6-sociais",
+      "level1": "",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "metrics": {
+        "source_chars": 722,
+        "compressed_chars": 0,
+        "source_tokens_est": 116,
+        "compressed_tokens_est": 0,
+        "reduction_ratio": 0.0
+      },
+      "expand_preview": "Art. 6º São direitos sociais a educação, a saúde, o trabalho, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados, na forma desta Constituição. Art. 6 o São direitos sociais a ed"
+    },
+    {
+      "path": "narrativa/braz-cubas-01.txt",
+      "domain": "narrativa",
+      "id": "braz-cubas-01",
+      "level1": "COMM(Ω)",
+      "nodes": 1,
+      "matched_ratio": 0.006016847172081829,
+      "metrics": {
+        "source_chars": 1006,
+        "compressed_chars": 7,
+        "source_tokens_est": 175,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.005714285714285714
+      },
+      "expand_preview": "afirma / testemunha"
+    },
+    {
+      "path": "narrativa/braz-cubas-02.txt",
+      "domain": "narrativa",
+      "id": "braz-cubas-02",
+      "level1": "BE(∃) ∧ SCOPE(Temp) ∧ VAL(Θ)",
+      "nodes": 4,
+      "matched_ratio": 0.01997780244173141,
+      "metrics": {
+        "source_chars": 1081,
+        "compressed_chars": 28,
+        "source_tokens_est": 180,
+        "compressed_tokens_est": 5,
+        "reduction_ratio": 0.027777777777777776
+      },
+      "expand_preview": "segundo o princípio e existe / há e no tempo / a partir de e no tempo / a partir de"
+    },
+    {
+      "path": "narrativa/braz-cubas-03.txt",
+      "domain": "narrativa",
+      "id": "braz-cubas-03",
+      "level1": "MODAL(Cond) ∧ COMM(Ω) ∧ SCOPE(∀)",
+      "nodes": 4,
+      "matched_ratio": 0.026442307692307692,
+      "metrics": {
+        "source_chars": 987,
+        "compressed_chars": 32,
+        "source_tokens_est": 155,
+        "compressed_tokens_est": 5,
+        "reduction_ratio": 0.03225806451612903
+      },
+      "expand_preview": "afirma / testemunha e para todo / todos e para todo / todos e se … então"
+    },
+    {
+      "path": "narrativa/carteira-01.txt",
+      "domain": "narrativa",
+      "id": "carteira-01",
+      "level1": "RELATE(Caus) ∧ EPIST(Conc) ∧ SCOPE(Temp) ∧ VAL(Θ)",
+      "nodes": 5,
+      "matched_ratio": 0.025236593059936908,
+      "metrics": {
+        "source_chars": 1155,
+        "compressed_chars": 49,
+        "source_tokens_est": 204,
+        "compressed_tokens_est": 7,
+        "reduction_ratio": 0.03431372549019608
+      },
+      "expand_preview": "no tempo / a partir de e no tempo / a partir de e conclui-se que e segundo o princípio e causa / provoca"
+    },
+    {
+      "path": "narrativa/cartomante-01.txt",
+      "domain": "narrativa",
+      "id": "cartomante-01",
+      "level1": "BE(∃) ∧ SCOPE(Temp)",
+      "nodes": 2,
+      "matched_ratio": 0.005393743257820928,
+      "metrics": {
+        "source_chars": 1134,
+        "compressed_chars": 19,
+        "source_tokens_est": 207,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.014492753623188406
+      },
+      "expand_preview": "no tempo / a partir de e existe / há"
+    },
+    {
+      "path": "narrativa/caso-da-vara-01.txt",
+      "domain": "narrativa",
+      "id": "caso-da-vara-01",
+      "level1": "RELATE(Ρ) ∧ COMM(Quest) ∧ EPIST(Conc)",
+      "nodes": 4,
+      "matched_ratio": 0.02962085308056872,
+      "metrics": {
+        "source_chars": 1024,
+        "compressed_chars": 37,
+        "source_tokens_est": 180,
+        "compressed_tokens_est": 5,
+        "reduction_ratio": 0.027777777777777776
+      },
+      "expand_preview": "está com / em relação a e pergunta e pergunta e conclui-se que"
+    },
+    {
+      "path": "narrativa/caso-da-vara-02.txt",
+      "domain": "narrativa",
+      "id": "caso-da-vara-02",
+      "level1": "COMM(Quest)",
+      "nodes": 1,
+      "matched_ratio": 0.013333333333333334,
+      "metrics": {
+        "source_chars": 821,
+        "compressed_chars": 11,
+        "source_tokens_est": 146,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.00684931506849315
+      },
+      "expand_preview": "pergunta"
+    },
+    {
+      "path": "narrativa/causa-secreta-01.txt",
+      "domain": "narrativa",
+      "id": "causa-secreta-01",
+      "level1": "BE(∃) ∧ COMM(Quest)",
+      "nodes": 2,
+      "matched_ratio": 0.018518518518518517,
+      "metrics": {
+        "source_chars": 911,
+        "compressed_chars": 19,
+        "source_tokens_est": 155,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.01935483870967742
+      },
+      "expand_preview": "existe / há e pergunta"
+    },
+    {
+      "path": "narrativa/chinela-turca-01.txt",
+      "domain": "narrativa",
+      "id": "chinela-turca-01",
+      "level1": "BE(∃) ∧ MODAL(Cond) ∧ EPIST(Conc) ∧ SCOPE(∀) ∧ VAL(Val+)",
+      "nodes": 5,
+      "matched_ratio": 0.037300177619893425,
+      "metrics": {
+        "source_chars": 1354,
+        "compressed_chars": 56,
+        "source_tokens_est": 228,
+        "compressed_tokens_est": 9,
+        "reduction_ratio": 0.039473684210526314
+      },
+      "expand_preview": "é positivo / desejável e conclui-se que e para todo / todos e existe / há e se … então"
+    },
+    {
+      "path": "narrativa/contos-aldeia-01.txt",
+      "domain": "narrativa",
+      "id": "contos-aldeia-01",
+      "level1": "BE(∃) ∧ SCOPE(Temp)",
+      "nodes": 3,
+      "matched_ratio": 0.023411371237458192,
+      "metrics": {
+        "source_chars": 715,
+        "compressed_chars": 19,
+        "source_tokens_est": 117,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.02564102564102564
+      },
+      "expand_preview": "existe / há e no tempo / a partir de e no tempo / a partir de"
+    },
+    {
+      "path": "narrativa/contos-aldeia-02.txt",
+      "domain": "narrativa",
+      "id": "contos-aldeia-02",
+      "level1": "COMM(Ω)",
+      "nodes": 3,
+      "matched_ratio": 0.027777777777777776,
+      "metrics": {
+        "source_chars": 647,
+        "compressed_chars": 7,
+        "source_tokens_est": 107,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.009345794392523364
+      },
+      "expand_preview": "afirma / testemunha e afirma / testemunha e afirma / testemunha"
+    },
+    {
+      "path": "narrativa/dom-casmurro-01.txt",
+      "domain": "narrativa",
+      "id": "dom-casmurro-01",
+      "level1": "SCOPE(∀, Temp)",
+      "nodes": 4,
+      "matched_ratio": 0.02,
+      "metrics": {
+        "source_chars": 1264,
+        "compressed_chars": 14,
+        "source_tokens_est": 214,
+        "compressed_tokens_est": 2,
+        "reduction_ratio": 0.009345794392523364
+      },
+      "expand_preview": "para todo / todos e para todo / todos e no tempo / a partir de e no tempo / a partir de"
+    },
+    {
+      "path": "narrativa/dom-casmurro-02.txt",
+      "domain": "narrativa",
+      "id": "dom-casmurro-02",
+      "level1": "BE(∃)",
+      "nodes": 2,
+      "matched_ratio": 0.003629764065335753,
+      "metrics": {
+        "source_chars": 1329,
+        "compressed_chars": 5,
+        "source_tokens_est": 227,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.004405286343612335
+      },
+      "expand_preview": "existe / há e existe / há"
+    },
+    {
+      "path": "narrativa/dom-casmurro-03.txt",
+      "domain": "narrativa",
+      "id": "dom-casmurro-03",
+      "level1": "MODAL(Poss)",
+      "nodes": 1,
+      "matched_ratio": 0.015267175572519083,
+      "metrics": {
+        "source_chars": 950,
+        "compressed_chars": 11,
+        "source_tokens_est": 164,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.006097560975609756
+      },
+      "expand_preview": "é possível que"
+    },
+    {
+      "path": "narrativa/eca-contos-01.txt",
+      "domain": "narrativa",
+      "id": "eca-contos-01",
+      "level1": "BE(∃)",
+      "nodes": 1,
+      "matched_ratio": 0.004291845493562232,
+      "metrics": {
+        "source_chars": 1675,
+        "compressed_chars": 5,
+        "source_tokens_est": 277,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.0036101083032490976
+      },
+      "expand_preview": "existe / há"
+    },
+    {
+      "path": "narrativa/eca-contos-02.txt",
+      "domain": "narrativa",
+      "id": "eca-contos-02",
+      "level1": "COMM(Ω) ∧ SCOPE(∀)",
+      "nodes": 2,
+      "matched_ratio": 0.00738255033557047,
+      "metrics": {
+        "source_chars": 1789,
+        "compressed_chars": 18,
+        "source_tokens_est": 299,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.010033444816053512
+      },
+      "expand_preview": "afirma / testemunha e para todo / todos"
+    },
+    {
+      "path": "narrativa/eca-contos-03.txt",
+      "domain": "narrativa",
+      "id": "eca-contos-03",
+      "level1": "BE(∃) ∧ EPIST(Conc) ∧ SCOPE(∀)",
+      "nodes": 3,
+      "matched_ratio": 0.009135628952916374,
+      "metrics": {
+        "source_chars": 1717,
+        "compressed_chars": 30,
+        "source_tokens_est": 294,
+        "compressed_tokens_est": 5,
+        "reduction_ratio": 0.017006802721088437
+      },
+      "expand_preview": "existe / há e conclui-se que e para todo / todos"
+    },
+    {
+      "path": "narrativa/eca-contos-04.txt",
+      "domain": "narrativa",
+      "id": "eca-contos-04",
+      "level1": "DYN(Λ) ∧ SCOPE(∀)",
+      "nodes": 4,
+      "matched_ratio": 0.01098901098901099,
+      "metrics": {
+        "source_chars": 1663,
+        "compressed_chars": 17,
+        "source_tokens_est": 298,
+        "compressed_tokens_est": 3,
+        "reduction_ratio": 0.010067114093959731
+      },
+      "expand_preview": "o polo positivo / a revelação e para todo / todos e para todo / todos e para todo / todos"
+    },
+    {
+      "path": "narrativa/eca-contos-05.txt",
+      "domain": "narrativa",
+      "id": "eca-contos-05",
+      "level1": "DYN(Λ) ∧ COMM(Ω) ∧ SCOPE(∀, Temp)",
+      "nodes": 5,
+      "matched_ratio": 0.03308270676691729,
+      "metrics": {
+        "source_chars": 806,
+        "compressed_chars": 33,
+        "source_tokens_est": 141,
+        "compressed_tokens_est": 6,
+        "reduction_ratio": 0.0425531914893617
+      },
+      "expand_preview": "para todo / todos e para todo / todos e o polo positivo / a revelação e afirma / testemunha e no tempo / a partir de"
+    },
+    {
+      "path": "narrativa/fialho-contos-01.txt",
+      "domain": "narrativa",
+      "id": "fialho-contos-01",
+      "level1": "SCOPE(Temp)",
+      "nodes": 1,
+      "matched_ratio": 0.008464328899637243,
+      "metrics": {
+        "source_chars": 979,
+        "compressed_chars": 11,
+        "source_tokens_est": 152,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.006578947368421052
+      },
+      "expand_preview": "no tempo / a partir de"
+    },
+    {
+      "path": "narrativa/fialho-contos-02.txt",
+      "domain": "narrativa",
+      "id": "fialho-contos-02",
+      "level1": "SCOPE(∀)",
+      "nodes": 2,
+      "matched_ratio": 0.011686143572621035,
+      "metrics": {
+        "source_chars": 1425,
+        "compressed_chars": 8,
+        "source_tokens_est": 227,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.004405286343612335
+      },
+      "expand_preview": "para todo / todos e para todo / todos"
+    },
+    {
+      "path": "narrativa/fialho-contos-03.txt",
+      "domain": "narrativa",
+      "id": "fialho-contos-03",
+      "level1": "BE(∃)",
+      "nodes": 1,
+      "matched_ratio": 0.006297229219143577,
+      "metrics": {
+        "source_chars": 940,
+        "compressed_chars": 5,
+        "source_tokens_est": 146,
+        "compressed_tokens_est": 1,
+        "reduction_ratio": 0.00684931506849315
+      },
+      "expand_preview": "existe / há"
+    },
+    {
+      "path": "narrativa/iracema-01.txt",
+      "domain": "narrativa",
+      "id": "iracema-01",
+      "level1": "",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "metrics": {
+        "source_chars": 1069,
+        "compressed_chars": 0,
+        "source_tokens_est": 167,
+        "compressed_tokens_est": 0,
+        "reduction_ratio": 0.0
+      },
+      "expand_preview": "Continuando, porém, a apreciar o litterato, o romancista, citemos ainda dois dos seus melhores romances: o _Gaúcho_ e _Iracema_. O caracter do gaúcho, que adora a sua egua _Morena_, que a entende, que lhe fala e que a escuta, está traçado c"
+    },
+    {
+      "path": "narrativa/iracema-02.txt",
+      "domain": "narrativa",
+      "id": "iracema-02",
+      "level1": "",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "metrics": {
+        "source_chars": 842,
+        "compressed_chars": 0,
+        "source_tokens_est": 142,
+        "compressed_tokens_est": 0,
+        "reduction_ratio": 0.0
+      },
+      "expand_preview": "A acção da politica no litterato sente-se na _Guerra dos Mascates_, romance em dois volumes, que elle publicou a bastante distancia de tempo um do outro, cujo enredo se trava em 1710 no tempo das desavenças dos moradores de Olinda com os do"
+    },
+    {
+      "path": "narrativa/jose-matias-01.txt",
+      "domain": "narrativa",
+      "id": "jose-matias-01",
+      "level1": "SCOPE(Temp, ∀)",
+      "nodes": 3,
+      "matched_ratio": 0.010745466756212223,
+      "metrics": {
+        "source_chars": 1774,
+        "compressed_chars": 14,
+        "source_tokens_est": 285,
+        "compressed_tokens_est": 2,
+        "reduction_ratio": 0.007017543859649123
+      },
+      "expand_preview": "no tempo / a partir de e no tempo / a partir de e para todo / todos"
+    },
+    {
+      "path": "narrativa/jose-matias-02.txt",
+      "domain": "narrativa",
+      "id": "jose-matias-02",
+      "level1": "DYN(Λ) ∧ EPIST(Conc) ∧ SCOPE(Temp, ∀)",
+      "nodes": 7,
+      "matched_ratio": 0.02090843547224225,
+      "metrics": {
+        "source_chars": 1668,
+        "compressed_chars": 37,
+        "source_tokens_est": 281,
+        "compressed_tokens_est": 6,
+        "reduction_ratio": 0.021352313167259787
+      },
+      "expand_preview": "o polo positivo / a revelação e no tempo / a partir de e no tempo / a partir de e para todo / todos e conclui-se que e o polo positivo / a revelação e conclui-se que"
+    }
+  ]
+}

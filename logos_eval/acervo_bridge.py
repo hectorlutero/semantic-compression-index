@@ -215,10 +215,138 @@ def cmd_eval(args: argparse.Namespace) -> int:
     return 0 if report.ok else 1
 
 
+def compress_acervo(
+    acervo_root: Path,
+    paths: Iterable[Path],
+) -> list[dict[str, Any]]:
+    """Run LogosCompress on acervo texts (Core extract once → L1 metrics)."""
+    from logos_compress import compress
+
+    rows: list[dict[str, Any]] = []
+    for path in paths:
+        text = path.read_text(encoding="utf-8")
+        result = compress(text)
+        try:
+            rel = str(path.relative_to(acervo_root)).replace("\\", "/")
+            domain = path.relative_to(acervo_root).parts[0]
+        except ValueError:
+            rel = str(path)
+            domain = "acervo"
+        m = result.metrics
+        rows.append(
+            {
+                "path": rel,
+                "domain": domain,
+                "id": _stem_id(path),
+                "level1": result.level1,
+                "nodes": len(result.canonical.nodes),
+                "matched_ratio": float(result.canonical.coverage.matched_ratio),
+                "metrics": m.to_dict(),
+                "expand_preview": result.expand_preview[:240],
+            }
+        )
+    return rows
+
+
+def _compress_summary(rows: list[dict[str, Any]]) -> dict[str, Any]:
+    by_domain: dict[str, list[dict[str, Any]]] = {}
+    for r in rows:
+        by_domain.setdefault(r["domain"], []).append(r)
+
+    def _agg(items: list[dict[str, Any]]) -> dict[str, Any]:
+        if not items:
+            return {}
+        ratios = [i["metrics"]["reduction_ratio"] for i in items]
+        nodes = [i["nodes"] for i in items]
+        empty = sum(1 for i in items if i["nodes"] == 0)
+        src = sum(i["metrics"]["source_tokens_est"] for i in items)
+        cmp = sum(i["metrics"]["compressed_tokens_est"] for i in items)
+        return {
+            "count": len(items),
+            "empty_extract": empty,
+            "avg_nodes": sum(nodes) / len(nodes),
+            "avg_reduction_ratio": sum(ratios) / len(ratios),
+            "tokens_est_src": src,
+            "tokens_est_l1": cmp,
+            "corpus_reduction_ratio": (cmp / src) if src else 0.0,
+        }
+
+    return {
+        "total": _agg(rows),
+        "by_domain": {d: _agg(items) for d, items in sorted(by_domain.items())},
+    }
+
+
+def cmd_compress(args: argparse.Namespace) -> int:
+    acervo = Path(args.acervo)
+    targets = (
+        [Path(p) for p in args.paths]
+        if args.paths
+        else iter_txt(acervo, include_stubs=args.include_stubs)
+    )
+    if not targets:
+        print("nenhum .txt no acervo", file=sys.stderr)
+        return 1
+    rows = compress_acervo(acervo, targets)
+    summary = _compress_summary(rows)
+    if args.json:
+        print(
+            json.dumps(
+                {"summary": summary, "items": rows},
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
+    else:
+        for r in rows:
+            m = r["metrics"]
+            print(
+                f"{r['domain']}/{r['id']}: nodes={r['nodes']} "
+                f"tok {m['source_tokens_est']}→{m['compressed_tokens_est']} "
+                f"ratio={m['reduction_ratio']:.3f}"
+            )
+            print(f"  L1: {r['level1'] or '(vazio)'}")
+        tot = summary["total"]
+        print(
+            f"\n# acervo compress: n={tot['count']} empty={tot['empty_extract']} "
+            f"avg_nodes={tot['avg_nodes']:.2f} "
+            f"tokens {tot['tokens_est_src']}→{tot['tokens_est_l1']} "
+            f"corpus_ratio={tot['corpus_reduction_ratio']:.3f}",
+            file=sys.stderr,
+        )
+        for domain, agg in summary["by_domain"].items():
+            print(
+                f"  [{domain}] n={agg['count']} empty={agg['empty_extract']} "
+                f"avg_nodes={agg['avg_nodes']:.2f} "
+                f"corpus_ratio={agg['corpus_reduction_ratio']:.3f}",
+                file=sys.stderr,
+            )
+    if args.write:
+        out = Path(args.write)
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(
+            json.dumps(
+                {"summary": summary, "items": rows},
+                ensure_ascii=False,
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        print(f"wrote {out}", file=sys.stderr)
+    # Non-zero if every extract was empty — Compress has nothing to ship
+    if summary["total"].get("empty_extract") == summary["total"].get("count"):
+        return 1
+    return 0
+
+
 def main(argv: Optional[list[str]] = None) -> int:
     parser = argparse.ArgumentParser(
         prog="logos-acervo",
-        description="Acervo em txt → preview Core → draft gold (seam extract/render/expand)",
+        description=(
+            "Acervo em txt → preview/compress Core → draft gold "
+            "(seam extract/render/expand; Compress consome o Core)"
+        ),
     )
     parser.add_argument(
         "--acervo",
@@ -251,6 +379,20 @@ def main(argv: Optional[list[str]] = None) -> int:
     p_eval = sub.add_parser("eval", help="Correr logos-eval sobre gold_acervo.json")
     p_eval.add_argument("--suite", default=str(DEFAULT_SUITE))
     p_eval.set_defaults(func=cmd_eval)
+
+    p_cmp = sub.add_parser(
+        "compress",
+        help="Correr LogosCompress (L1 + métricas) sobre o acervo",
+    )
+    p_cmp.add_argument("paths", nargs="*", help="Ficheiros .txt (default: todos)")
+    p_cmp.add_argument("--include-stubs", action="store_true")
+    p_cmp.add_argument("--json", action="store_true")
+    p_cmp.add_argument(
+        "--write",
+        metavar="PATH",
+        help="Gravar relatório JSON (summary + items)",
+    )
+    p_cmp.set_defaults(func=cmd_compress)
 
     args = parser.parse_args(argv)
     return int(args.func(args))

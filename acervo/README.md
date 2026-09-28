@@ -48,9 +48,11 @@ Para piso de cobertura em prosa aberta, preferir `match_mode: "density"` com `mi
 
 1. **Drop** — colocar `.txt` nesta pasta (ou enviar ao Project e pedir dump aqui).
 2. **Extract** — `logos-acervo preview caminho.txt` (seam Core: extract / render / expand).
-3. **Curar** — escrever `curated/<stem>.expect.json` com símbolos/macros desejados.
-4. **Draft gold** — `logos-acervo draft` → `logos_eval/suite/gold_acervo.json`.
-5. **TDD** — `logos-eval --suite logos_eval/suite/gold_acervo.json` (falha = regra/índice a alargar).
-6. **Widen** — padrões no Core / índice; repetir sem inventar acervo sintético grande.
+3. **Compress** — `logos-acervo compress` (LogosCompress sobre o acervo: L1 + tokens).
+4. **Curar** — escrever `curated/<stem>.expect.json` com símbolos/macros desejados.
+5. **Draft gold** — `logos-acervo draft` → `logos_eval/suite/gold_acervo.json`.
+6. **TDD** — `logos-acervo eval` (falha = regra/índice a alargar).
+7. **Widen** — padrões no Core / índice; repetir sem inventar acervo sintético grande.
+
 
 Ver plano do Project: `docs/plano-acervo-txt.md` no Agent Store.

@@ -53,12 +53,14 @@ Textos fonte (`.txt`) em `acervo/` alimentam gold/coverage via o seam Core (`ext
 
 ```bash
 logos-acervo list
-logos-acervo preview --include-stubs   # extract → render → expand
-logos-acervo draft --write             # só casos com sidecar curated/
-logos-acervo eval                      # gold_acervo.json (vazio até curar)
+logos-acervo preview                   # extract → render → expand
+logos-acervo compress                  # LogosCompress L1 + tokens sobre o acervo
+logos-acervo compress --write acervo/reports/compress-acervo.json
+logos-acervo draft --write             # casos com sidecar curated/
+logos-acervo eval                      # gold_acervo.json
 ```
 
-Ver `acervo/README.md`. Não inventar acervo sintético grande — dropar os `.txt` reais e curar expects.
+Ver `acervo/README.md` e `acervo/reports/README.md`.
 
 ## HTTP adapter
 

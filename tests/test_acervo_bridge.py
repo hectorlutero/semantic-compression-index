@@ -65,6 +65,17 @@ def test_preview_json_serializable():
     json.dumps(preview)  # must not raise on Span
 
 
+def test_compress_acervo_runs_on_stub():
+    from logos_eval.acervo_bridge import compress_acervo
+
+    stub = DEFAULT_ACERVO / "stubs" / "principio-minimo.txt"
+    rows = compress_acervo(DEFAULT_ACERVO, [stub])
+    assert len(rows) == 1
+    assert "metrics" in rows[0]
+    assert "level1" in rows[0]
+    assert rows[0]["metrics"]["source_tokens_est"] >= 1
+
+
 def test_cli_list_include_stubs(capsys):
     assert main(["--acervo", str(DEFAULT_ACERVO), "list", "--include-stubs"]) == 0
     out = capsys.readouterr().out
