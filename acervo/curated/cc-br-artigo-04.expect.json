@@ -1,0 +1,14 @@
+{
+  "domain": "juridico",
+  "match_mode": "structural",
+  "expect": {
+    "macros": [
+      "MODAL",
+      "SCOPE"
+    ],
+    "symbols": [
+      "Proib",
+      "Temp"
+    ]
+  }
+}

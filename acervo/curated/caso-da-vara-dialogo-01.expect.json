@@ -1,0 +1,9 @@
+{
+  "domain": "dialogo",
+  "match_mode": "symbols_subset",
+  "expect": {
+    "symbols": [
+      "Quest"
+    ]
+  }
+}

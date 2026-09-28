@@ -1,1 +1,1081 @@
-[]
+[
+  {
+    "id": "acervo-oa-ccby-01-propriedades-psicometricas",
+    "domain": "cientifico",
+    "source": "cientifico/oa-ccby-01-propriedades-psicometricas.txt",
+    "input": "Resumo Instrumentos de medida desempenham um importante papel na pesquisa, na prática clínica e na avaliação de saúde. Estudos sobre a qualidade desses instrumentos fornecem evidências de como as propriedades de medida foram avaliadas, auxiliando o pesquisador na escolha da melhor ferramenta para utilização. A confiabilidade e a validade são consideradas as principais propriedades de medida de tais instrumentos. Confiabilidade é a capacidade em reproduzir um resultado de forma consistente, no tempo e no espaço. Validade refere-se à propriedade de um instrumento medir exatamente o que se propõe. Neste artigo são apresentados, discutidos e exemplificados os principais critérios e testes estatísticos empregados na avaliação da confiabilidade (estabilidade, consistência interna e equivalência) e validade (conteúdo, critério e construto) de instrumentos. A avaliação das propriedades de medida de instrumentos é útil para subsidiar a seleção de instrumentos válidos e confiáveis, de modo a assegurar a qualidade dos resultados dos estudos.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.0,
+      "macros_any": [
+        "EPIST",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-oa-ccby-02-leishmaniose-visceral",
+    "domain": "cientifico",
+    "source": "cientifico/oa-ccby-02-leishmaniose-visceral.txt",
+    "input": "No Brasil, a importância da leishmaniose visceral reside não somente na sua alta incidência e ampla distribuição, mas também na possibilidade de assumir formas graves e letais quando associada ao quadro de má nutrição e infecções concomitantes. A crescente urbanização da doença ocorrida nos últimos 20 anos coloca em pauta a discussão das estratégias de controle empregadas. Neste artigo foram analisados os principais aspectos biológicos, ambientais e sociais que influenciaram no processo de expansão e urbanização dos focos da doença. Os métodos disponíveis para o diagnóstico e tratamento não apresentam a eficácia e aplicabilidade desejadas, embora avanços promissores tenham sido alcançados com as pesquisas de novos testes diagnósticos e drogas terapêuticas. As medidas de controle da doença até agora implementadas foram incapazes de eliminar a transmissão e impedir a ocorrência de novas epidemias. É feita uma breve análise destas medidas e dos desafios a serem enfrentados. A prevenção da doença nos cães através da imunoprofilaxia aparece como uma alternativa para o controle. Uma nova vacina para cães, já testada em campo, está sendo industrializada e será comercializada no Brasil a partir de 2004. Apesar da existência de inúmeros estudos sobre a leishmaniose visceral humana e canina, muitas lacunas ainda precisam ser preenchidas.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.0,
+      "macros_any": [
+        "EPIST",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-oa-ccby-03-series-temporais-epidemiologia",
+    "domain": "cientifico",
+    "source": "cientifico/oa-ccby-03-series-temporais-epidemiologia.txt",
+    "input": "Esse artigo visa introduzir e cativar o interesse sobre a análise de séries temporais em estudos epidemiológicos. São descritos aspectos conceituais desse tipo de análise e sistematizadas indicações metodológicas. Foram definidos os principais conceitos da análise de séries temporais (tendência, variação cíclica e sazonal, associação e variação aleatória), e operacionalizada sua aplicação epidemiológica. Foram apresentados os métodos para avaliação da tendência (porcentagem de modificação anual), baseados em modelos de regressão de Prais-Winsten, e para quantificação da variação sazonal, segundo o modelo de Serfling. Foi, ainda, introduzida a modalidade de análise de regressão segmentada para séries temporais interrompidas, como estratégia de avaliação do efeito de intervenções em saúde.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.0,
+      "macros_any": [
+        "EPIST",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-oa-ccby-04-pesquisa-qualitativa",
+    "domain": "cientifico",
+    "source": "cientifico/oa-ccby-04-pesquisa-qualitativa.txt",
+    "input": "Robert Edward Stake é um dos pesquisadores americanos mais renomados por suas contribuições teóricas acerca de temas relacionados com a investigação científica, em particular as pesquisas qualitativas.Por sua produção acadêmica em torno do assunto recebeu, em 1998, o prêmio Lazarfeld, da American Evaluation Association.Além disso, recebeu o título de doutor honorário em 1994 pela Universidade de Uppsala, na Suécia, e, em 2009, pela Universidade Valladolid, na Espanha.Em 2007 foi homenageado pela American Educational Research Association por sua considerável produção em pesquisas educacionais, principalmente as que enfocam estudos das experiências em sala de aula, as interpretações pessoais e os processos e contextos institucionais, geralmente na forma de estudo de casos.O livro de sua autoria Pesquisa Qualitativa: estudando como as coisas funcionam é considerado um clássico na pesquisa educacional e objetiva contribuir para a reflexão sobre como planejar e realizar uma pesquisa qualitativa.Nessa direção, a obra instiga o leitor a pensar sobre as várias etapas dessa abordagem investigativa, considerando que o conhecimento acerca de um fenômeno educacional é processual, produzido em um tempo determinado, com atores e em cenários diversos, que se engendra, funciona e se modifica num contexto específico.Nesse",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.0,
+      "macros_any": [
+        "EPIST",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-oa-ccby-05-professores-imagens-do-futuro-presente",
+    "domain": "cientifico",
+    "source": "cientifico/oa-ccby-05-professores-imagens-do-futuro-presente.txt",
+    "input": "Ao observar a comunidade portuguesa que busca compreender a historicidade das formas e dos processos de escolarização por meio do estabelecimento de intenso diálogo com outras comunidades, é impossível não dar destaque à figura de António Manuel Seixas Nóvoa. Nascido em Lisboa no ano de 1954, aos 18 anos inicia o curso de Ciências da Educação na Universidade de Lisboa. Após lecionar em importantes universidades tais como Paris V, Oxford e Columbia University, atualmente acumula as posições de reitor da Universidade de Lisboa e professor catedrático da Faculdade de Psicologia e de Ciências da Educação na Instituição. Nóvoa tem se destacado à frente de debates internacionais a respeito da história da educação e educação comparada.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.0,
+      "macros_any": [
+        "EPIST",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-carteira-dialogo-01",
+    "domain": "dialogo",
+    "source": "dialogo/carteira-dialogo-01.txt",
+    "input": "Durante os primeiros minutos, Honório não pensou nada; foi andando, andando, andando, até o Largo da Carioca. No Largo parou alguns instantes, − enfiou depois pela Rua da Carioca, mas voltou logo, e entrou na Rua Uruguaiana. Sem saber como, achou-se daí a pouco no Largo de S. Francisco de Paula; e ainda, sem saber como, entrou em um Café. Pediu alguma coisa e encostou-se à parede, olhando para fora. Tinha medo de abrir a carteira; podia não achar nada, apenas papéis e sem valor para ele. Ao mesmo tempo, e esta era a causa principal das reflexões, a consciência perguntava-lhe se podia utilizar-se do dinheiro que achasse. Não lhe perguntava com o ar de quem não sabe, mas antes com uma expressão irônica e de censura. Podia lançar mão do dinheiro, e ir pagar com ele a dívida? Eis o ponto. A consciência acabou por lhe dizer que não podia, que devia levar a carteira à polícia, ou anunciá-la; mas tão depressa acabava de lhe dizer isto, vinham os apuros da ocasião, e puxavam por ele, e convidavam-no a ir pagar a cocheira. Chegavam mesmo a dizer-lhe que, se fosse ele que a tivesse perdido, ninguém iria entregar-lha; insinuação que lhe deu ânimo.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.005,
+      "macros_any": [
+        "COMM"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cartomante-dialogo-01",
+    "domain": "dialogo",
+    "source": "dialogo/cartomante-dialogo-01.txt",
+    "input": "Deu por si na calçada, ao pé da porta; disse ao cocheiro que esperasse, e rápido enfiou pelo corredor, e subiu a escada. A luz era pouca, os degraus comidos dos pés, o corrimão pegajoso; mas ele não viu nem sentiu nada. Trepou e bateu. Não aparecendo ninguém, teve ideia de descer; mas era tarde, a curiosidade fustigava­-lhe o sangue, as fontes latejavam­-lhe; ele tornou a bater uma, duas, três pancadas. Veio uma mulher; era a cartomante. Camilo disse que ia consultá-­la, ela fê­-lo entrar. Dali subiram ao sótão, por uma escada ainda pior que a primeira e mais escura. Em cima, havia uma salinha, mal alumiada por uma janela, que dava para o telhado dos fundos. Velhos trastes, paredes sombrias, um ar de pobreza, que antes aumentava do que destruía o prestígio.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Ω"
+      ]
+    }
+  },
+  {
+    "id": "acervo-caso-da-vara-dialogo-01",
+    "domain": "dialogo",
+    "source": "dialogo/caso-da-vara-dialogo-01.txt",
+    "input": "Saíram as vizinhas, e a tarde caiu de todo. A alma de Damião foi-se fazendo tenebrosa, antes da noite. Que estaria acontecendo? De instante a instante, ia espiar pela rótula, e voltava cada vez mais desanimado. Nem sombra do padrinho. Com certeza, o pai fê-lo calar, mandou chamar dois negros, foi à polícia pedir um pedestre, e aí vinha pegá-lo à força e levá-lo ao seminário. Damião perguntou a Sinhá Rita se a casa não teria saída pelos fundos; correu ao quintal, e calculou que podia saltar o muro. Quis ainda saber se haveria modo de fugir para a Rua da Vala, ou se era melhor falar a algum vizinho que fizesse o favor de o receber. O pior era a batina; se Sinhá Rita lhe pudesse arranjar um rodaque, uma sobrecasaca velha... Sinhá Rita dispunha justamente de um rodaque, lembrança ou esquecimento de João Carneiro.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Quest"
+      ]
+    }
+  },
+  {
+    "id": "acervo-caso-da-vara-dialogo-02",
+    "domain": "dialogo",
+    "source": "dialogo/caso-da-vara-dialogo-02.txt",
+    "input": "Nisto, chegou João Carneiro. Empalideceu quando viu ali o afilhado, e olhou para Sinhá Rita, que não gastou tempo com preâmbulos. Disse-lhe que era preciso tirar o moço do seminário, que ele não tinha vocação para a vida eclesiástica, e antes um padre de menos que um padre ruim. Cá fora também se podia amar e servir a Nosso Senhor. João Carneiro, assombrado, não achou que replicar durante os primeiros minutos; afinal, abriu a boca e repreendeu o afilhado por ter vindo incomodar “pessoas estranhas”, e em seguida afirmou que o castigaria.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Ω"
+      ]
+    }
+  },
+  {
+    "id": "acervo-causa-secreta-dialogo-01",
+    "domain": "dialogo",
+    "source": "dialogo/causa-secreta-dialogo-01.txt",
+    "input": "Garcia foi lá domingo. Fortunato deu-lhe um bom jantar, bons charutos e boa palestra, em companhia da senhora, que era interessante. A figura dele não mudara; os olhos eram as mesmas chapas de estanho, duras e frias; as outras feições não eram mais atraentes que dantes. Os obséquios, porém, se não resgatavam a natureza, davam alguma compensação, e não era pouco. Maria Luísa é que possuía ambos os feitiços, pessoa e modos. Era esbelta, airosa, olhos meigos e submissos; tinha vinte e cinco anos e parecia não passar de dezenove. Garcia, à segunda vez que lá foi, percebeu que entre eles havia alguma dissonância de caracteres, pouca ou nenhuma afinidade moral, e da parte da mulher para com o marido uns modos que transcendiam o respeito e confinavam na resignação e no temor. Um dia, estando os três juntos, perguntou Garcia a Maria Luísa se tivera notícia das circunstâncias em que ele conhecera o marido.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Quest"
+      ]
+    }
+  },
+  {
+    "id": "acervo-chinela-turca-dialogo-01",
+    "domain": "dialogo",
+    "source": "dialogo/chinela-turca-dialogo-01.txt",
+    "input": "Duarte não respondeu, fechou os punhos, bateu com eles violentamente nos peitos do homem e deitou a correr pelo jardim fora. O homem não caiu; sentiu apenas um grande abalo; e, uma vez passada a impressão, seguiu no encalço do fugitivo. Começou então uma carreira vertiginosa. Duarte ia saltando cercas e muros, calcando canteiros, esbarrando árvores, que uma ou outra vez se lhe erguiam na frente. Escorria-lhe o suor em bica, alteava-se-lhe o peito, as forças iam a perder-se pouco a pouco; tinha uma das mãos ferida, a camisa salpicada do orvalho das folhas, duas vezes esteve a ponto de ser apanhado, o chambre pegara-se-lhe em uma cerca de espinhos. Enfim, cansado, ferido, ofegante, caiu nos degraus de pedra de uma casa, que havia no meio do último jardim que atravessara.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Resp"
+      ]
+    }
+  },
+  {
+    "id": "acervo-dom-casmurro-dialogo-01",
+    "domain": "dialogo",
+    "source": "dialogo/dom-casmurro-dialogo-01.txt",
+    "input": "Um historiador da nossa lingua, creio que João de Barros, põe na boca de um rei barbaro algumas palavras mansas, quando os portuguezes lhe propunham estabelecer alli ao pé uma fortaleza; dizia o rei que os bons amigos deviam ficar longe uns dos outros, não perto, para se não zangarem como as aguas do mar que batiam furiosas no rochedo que elles viam dalli. Que a sombra do escriptor me perdoe, se eu duvido que o rei dissesse tal palavra nem que ella seja verdadeira. Provavelmente foi o mesmo escriptor que a inventou para adornar o texto, e não fez mal, porque é bonita; realmente, é bonita. Eu creio que o mar então batia na pedra, como é seu costume, desde Ullysses e antes. Agora que a comparação seja verdadeira é que não. Seguramente ha inimigos contiguos, mas tambem ha amigos do perto e do peito. E o escriptor esquecia (salvo se ainda não era do seu tempo) esquecia o adagio: longe dos olhos, longe do coração. Nós não podiamos ter os corações agora mais perto. As nossas mulheres viviam na casa uma da outra, nós passavamos as noites cá ou lá conversando, jogando ou mirando o mar. Os dous pequenos passavam dias, ora no Flamengo, ora na Gloria.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.005,
+      "macros_any": [
+        "COMM"
+      ]
+    }
+  },
+  {
+    "id": "acervo-dom-casmurro-dialogo-02",
+    "domain": "dialogo",
+    "source": "dialogo/dom-casmurro-dialogo-02.txt",
+    "input": "Sentou-se. «Vamos ver o grande cabelleireiro», disse-me rindo. Continuei a alisar os cabellos, com muito cuidado, e dividi-os em duas porções eguaes, para compor as duas trancas. Não as fiz logo, nem assim depressa, como podem suppôr os cabelleireiros de officio, mas devagar, devagarinho, saboreando pelo tacto aquelles fios grossos, que eram parte della. O trabalho era atrapálhado, ás vezes por desaso, outras de proposito, para desfazer o feito e refazel-o. Os dedos roçavam na nuca da pequena ou nas espaduas vestidas de chita, e a sensação era um deleite. Mas, emfim, os cabellos iam acabando, por mais que eu os quizesse interminaveis. Não pedi ao ceu que elles fossem tão longos como os da Aurora, porque não conhecia ainda esta divindade que os velhos poetas me apresentaram depois; mas, desejei penteal-os por todos os seculos dos seculos, tecer duas tranças que pudessem envolver o infinito por um numero innominavel de vezes. Se isto vos parecer emphatico, desgraçado leitor, é que nunca penteastes uma pequena, nunca puzestes aos mãos adolescentes na joven cabeça de uma nympha... Uma nympha! Todo eu estou mythologico. Ainda ha pouco, falando dos seus olhos de ressaca, cheguei a escrever Thetis; risquei Thetis, risquemos nympha; digamos somente uma creatura amada, palavra que envolve todas as potencias christãs e pagãs. Emfim, acabei as duas tranças. Onde estava a fita para atar-lhes as pontas? Em cima da mesa, um triste pedaço de fita enxovalhada. Juntei as pontas das tranças, uni-as por um laço, retoquei a obra, alargando aqui, achatando alli, até que exclamei:",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Ω"
+      ]
+    }
+  },
+  {
+    "id": "acervo-dom-casmurro-dialogo-03",
+    "domain": "dialogo",
+    "source": "dialogo/dom-casmurro-dialogo-03.txt",
+    "input": "Se a intenção tio meu mestre de latim era ir acostumando ao uso do titulo com o nome, não sei bem; o que sei é que quando ouvi o meu nome ligado a tal titulo, deu-me vontade de dizer um desaforo. Mas a vontade aqui foi antes uma ideia, uma ideia sem lingua, que se deixou ficar quieta e muda, tal como d'ahi a pouco outras ideias... Mas essas pedem um capitulo especial. Rematemos este dizendo que o mestre de latim falou algum tempo da minha ordenação ecclesiastica, ainda que sem grande interesse. Elle buscava um assumpto alheio para se mostrar esquecido da propria gloria, mas era esta que o deslumbrava na occasião. Era um velho magro, sereno, dotado de qualidades boas. Alguns defeitos tinha; o mais excelso delles era ser guloso, não propriamente glotão; comia pouco, mas estimava o fino e o raro, e a nossa cosinha, se era simples, era menos pobre que a delle. Assim, quando minha mãe lhe disse que viesse jantar, afim de se lhe fazer uma saude, os olhos com que acceitou seriam de protonotario, mas não eram aposlolicos. E para agradar a minha mãe novamente pegou em mim, descrevendo o meu futuro ecclesiastico, e queria saber se ia para o seminario agora, no anuo proximo, e offerecia-se a falar ao «senhor bispo», tudo marchetado do «protonotario Santiago.»",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Ω"
+      ]
+    }
+  },
+  {
+    "id": "acervo-eca-dialogo-01",
+    "domain": "dialogo",
+    "source": "dialogo/eca-dialogo-01.txt",
+    "input": "Mas por êsse tempo veio morar para defronte do armazêm dos Macários, para um terceiro andar, uma mulher de quarenta anos, vestida de luto, uma pele branca e baça, o busto bem feito e redondo e um aspecto desejável. Macário tinha a sua carteira no primeiro andar, por cima do armazêm, ao pé de uma varanda, e dali viu uma manhã aquela mulher com o cabelo preto solto e anelado, um chambre branco e braços nus, chegar-se a uma pequena janela de peitoril, a sacudir um vestido. Macário afirmou-se e sem mais intenção dizia mentalmente que aquela mulher, aos vinte anos, devia ter sido uma pessoa cativante e cheia de domínio: porque os seus cabelos violentos e ásperos, o sobr'ôlho espesso, o lábio forte, o perfil aquilino e firme, revelavam um temperamento activo e imaginações apaixonadas. No entanto, continuou serenamente alinhando as suas cifras. Mas à noite estava sentado fumando à janela do seu quarto, que abria sôbre o pátio: era em julho e a atmosfera estava eléctrica e amorosa: a rebeca de um vizinho gemia uma _chácara_ mourisca, que então sensibilizava, e era de um melodrama; o quarto estava numa penumbra doce e cheia de mistério--e Macário, que estava em chinelas, começou a lembrar-se daqueles cabelos negros e fortes e daqueles braços que tinham a côr dos mármores pálidos: espreguiçou-se, rolou mórbidamente a cabeça pelas costas da cadeira de vime, como os gatos sensíveis que se esfregam, e decidiu bocejando que a sua vida era monótona. E ao outro dia, ainda impressionado, sentou-se à sua carteira com a janela toda aberta, e olhando o prédio fronteiro onde viviam aqueles cabelos grandes--começou a aparar vagarosamente a sua pena de rama. Mas ninguêm se chegou à janela de peitoril, com caixilhos verdes. Macário estava enfastiado, pesado--e o trabalho foi lento.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.005,
+      "macros_any": [
+        "COMM",
+        "SCOPE",
+        "RELATE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-eca-dialogo-02",
+    "domain": "dialogo",
+    "source": "dialogo/eca-dialogo-02.txt",
+    "input": "Macário não me contou por pulsações--a história minuciosa do seu coração. Disse singelamente que daí a cinco dias--_estava doido_ _por ela_. O seu trabalho tornou-se logo vagaroso e infiel e o seu belo cursivo inglês firme e largo ganhou curvas, ganchos, rabiscos, onde estava todo o romance impaciente dos seus nervos. Não a podia ver pela manhã: o sol mordente de julho batia e escaldava a pequena janela de peitoril. Só pela tarde, a cortina se franzia, se corria a vidraça, e ela, estendendo uma almofadinha no rebordo do peitoril, vinha encostar-se mimosa e fresca com o seu leque. Leque que preocupou Macário: era uma ventarola chinesa, redonda, de sêda branca com dragões escarlates bordados à pena, uma cercadura de plumagem azul, fina e trémula como uma penugem e o seu cabo de marfim, donde pendiam duas borlas de fio de oiro, tinha incrustações de nácar à linda maneira persa.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Ω"
+      ]
+    }
+  },
+  {
+    "id": "acervo-eca-dialogo-03",
+    "domain": "dialogo",
+    "source": "dialogo/eca-dialogo-03.txt",
+    "input": "No entanto via Luísa de noite, na saleta escura que dava para o patamar: uma lamparina ardia em cima da mesa: era feliz ali naquela penumbra, todo sentado castamente, ao pé de Luísa, a um canto de um vélho canapé de palhinha. Não a via de dia, porque trazia já a roupa usada, as botas cambadas, e não queria mostrar à fresca Luísa, toda mimosa nas suas cambraias asseadas, a sua miséria remendada: ali, àquela luz ténue e esbatida, êle exalava a sua paixão crescente e escondia o seu fato decadente. Segundo me disse Macário--era muito singular o temperamento de Luísa. Tinha o carácter louro como o cabelo--se é certo que o louro é uma côr fraca e desbotada: falava pouco, sorria sempre com os seus brancos dentinhos, dizia a tudo _pois sim_: era muito simples, quási indiferente, cheia de transigências.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Ω"
+      ]
+    }
+  },
+  {
+    "id": "acervo-eca-dialogo-04",
+    "domain": "dialogo",
+    "source": "dialogo/eca-dialogo-04.txt",
+    "input": "Por êsse tempo o amigo do chapéu de palha veio pedir a Macário que fôsse seu fiador por uma grande quantia que êle pedira para estabelecer uma loja de ferragens em grande. Macário, que estava no vigor do seu crédito, cedeu com alegria. O amigo do chapéu de palha é que lhe dera o negócio providencial de Cabo-Verde. Faltavam então dois meses para o casamento. Macário já sentia, por vezes, subirem-lhe ao rosto as febris vermelhidões da esperança. Já começara a tratar dos _banhos_. Mas um dia o amigo do chapéu de palha desapareceu com a mulher de um alferes. O seu estabelecimento estava em comêço. Era uma confusa aventura. Não se pôde nunca precisar nítidamente aquele _embróglio_ doloroso. O que era positivo é que Macário era fiador, Macário devia reembolsar. Quando o soube, empalideceu e disse simplesmente:",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Ω"
+      ]
+    }
+  },
+  {
+    "id": "acervo-jose-matias-dialogo-01",
+    "domain": "dialogo",
+    "source": "dialogo/jose-matias-dialogo-01.txt",
+    "input": "E apesar de se acercar o bendito remate do luto e da desesperada espera, não notei no José Matias nem alvoroço elegantemente reprimido, nem revolta contra a lentidão do tempo, velho por vezes tão moroso e trôpego... Pelo contrário! Ao sorriso de radiosa certeza, que nesses anos o iluminara com um nimbo de beatitude, sucedera a seriedade carregada, toda em sombra e rugas, de quem se debate numa dúvida irresolúvel, sempre presente, roedora e dolorosa. Quer que lhe diga? Nesse Verão, no Hotel Francfort, sempre me pareceu que o José Matias, a cada instante da sua vida acordada, mesmo emborcando a fresca cerveja, mesmo calçando as luvas ao entrar para a caleche que o levava à Foz, angustiadamente perguntava à sua consciência: - \"Que hei-de fazer? Que hei-de fazer?\" - E depois, uma manhã, ao almoço, realmente me assombrou, exclamando ao abrir o jornal, com um assomo de sangue na face: \"O quê? Já são 29 de Agosto? Santo Deus... Já o fim de Agosto!...\"",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.005,
+      "macros_any": [
+        "COMM"
+      ]
+    }
+  },
+  {
+    "id": "acervo-jose-matias-dialogo-02",
+    "domain": "dialogo",
+    "source": "dialogo/jose-matias-dialogo-02.txt",
+    "input": "Pois, meu amigo, quando eu assim rugia, encontro uma tarde na rua do Alecrim o nosso Nicolau da Barca, que salta da tipóia, me empurra para um portal, agarra excitadamente no meu pobre braço e exclama engasgado: - \"Já sabes? Foi o José Matias que recusou! Ela escreveu, esteve no Porto, chorou... Ele nem consentiu em a ver! Não quis casar, não quer casar!\" Fiquei trespassado. - \"E então ela...\" - \"Despeitada, fortemente cercada pelo Torres, cansada da viuvice, com aqueles belos trinta anos em botão, que diabo! Cotada, casou!\" Eu ergui os braços até à abóbada do pátio: - \"Mas então esse sublime amor do José Matias?\" O Nicolau, seu íntimo e confidente, jurou com irrecusável segurança: - \"É o mesmo sempre! Infinito, absoluto... Mas não quer casar!\" - Ambos nos olhámos, e depois ambos nos separámos, encolhendo os ombros, com aquele assombro resignado que convém a espíritos prudentes perante o Incognoscível. Mas eu, Filósofo, e portanto espírito imprudente, toda essa noite esfuraquei o acto do José Matias com a ponta duma Psicologia que expressamente aguçara: - e já de madrugada, estafado, concluí, como se conclui sempre em Filosofia, que me encontrava diante duma Causa Primaria, portanto impenetrável, onde se quebraria, sem vantagem para ele, para mim ou para o Mundo, a ponta do meu Instrumento!",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.005,
+      "macros_any": [
+        "COMM",
+        "SCOPE",
+        "RELATE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-teoria-medalhao-01",
+    "domain": "dialogo",
+    "source": "dialogo/teoria-medalhao-01.txt",
+    "input": "— Tu, meu filho, se me não engano, pareces dotado da perfeita inopia mental, conveniente ao uso deste nobre officio. Não me refiro tanto á fidelidade com que repetes n’uma sala as opiniões ouvidas n’uma esquina, e vice-versa, porque esse facto, posto indique certa carência de idéas, ainda assim póde não passar de uma traição da memoria. Não; refiro-me ao gesto correcto e perfilado com que usas expender francamente as tuas sympathias ou antipathias ácerca do córte de um collete, das dimensões de um chapéu, do ranger ou calar das botas novas. Eis ahi um sintoma eloquente, eis ahi uma esperança, No entanto, podendo acontecer que, com a edade, venhas a ser affligido de algumas idéas proprias, urge apparelhar fortemente o espirito. As idéas são de sua natureza expontaneas e subitas; por mais que as sofreemos, ellas irrompem e precipitam-se. Dahi a certeza com que o vulgo, cujo faro é extremamente delicado, distingue o medalhão completo do medalhão incompleto.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.005,
+      "macros_any": [
+        "COMM",
+        "SCOPE",
+        "RELATE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-teoria-medalhao-02",
+    "domain": "dialogo",
+    "source": "dialogo/teoria-medalhao-02.txt",
+    "input": "— Essa é publicidade constante, barata, facil, de todos os dias; mas ha outra. Qualquer que seja a theoria das artes, é fora de duvida que o sentimento da familia, a amisade pessoal e a estima publica instigam á reproducção das feições de um homem amado ou benemérito. Nada obsta a que sejas objecto de uma tal distincção, principalmente se a sagacidade dos amigos não achar em ti repugnancia. Em semelhante caso, não só as regras da mais vulgar polidez mandam aceitar o retrato ou o busto, como em qualquer casa publica. Dessa maneira o nome fica ligado á pessoa; os que houverem lido o teu recente discurso (supponhamos) na sessão inaugural da União dos Cabellereiros, reconhecerão na compostura das feições o autor dessa obra grave, em que a « alavanca do progresso » e o « suor do trabalho », vencem as « fauces hiantes » da miseria. No caso de que uma commissão te leve á casa o retrato, deves agradecer-lhe o obsequio com um discurso cheio de gratidão e um copo d’agua: é uso antigo, razoavel e honesto. Convidarás então os melhores amigos, os parentes, e, se fôr possível, uma ou duas pessoas de representação. Mais. Se esse dia é um dia de gloria ou regosijo, não vejo que possas, decentemente, recusar um lugar á mesa aos reporters dos jornaes. Em todo o caso, se as obrigações desses cidadãos os retiverem n’outra parte, podes ajudal-os de certa maneira, redigindo tu mesmo a noticia da festa; e, dado que por um tal ou qual escrupulo, aliás desculpavel, não queiras com a própria mão annexar ao teu nome os qualificativos dignos delle, incumbe a noticia a algum amigo ou parente.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.005,
+      "macros_any": [
+        "COMM",
+        "SCOPE",
+        "RELATE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cf-art1-fundamentos",
+    "domain": "etica",
+    "source": "etica/cf-art1-fundamentos.txt",
+    "input": "Art. 1º A República Federativa do Brasil, formada pela união indissolúvel dos Estados e Municípios e do Distrito Federal, constitui-se em Estado Democrático de Direito e tem como fundamentos: I - a soberania; II - a cidadania; III - a dignidade da pessoa humana; IV - os valores sociais do trabalho e da livre iniciativa; (Vide Lei nº 13.874, de 2019) V - o pluralismo político. Parágrafo único. Todo o poder emana do povo, que o exerce por meio de representantes eleitos ou diretamente, nos termos desta Constituição.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Κ"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cf-art3-objetivos",
+    "domain": "etica",
+    "source": "etica/cf-art3-objetivos.txt",
+    "input": "Art. 3º Constituem objetivos fundamentais da República Federativa do Brasil: I - construir uma sociedade livre, justa e solidária; II - garantir o desenvolvimento nacional; III - erradicar a pobreza e a marginalização e reduzir as desigualdades sociais e regionais; IV - promover o bem de todos, sem preconceitos de origem, raça, sexo, cor, idade e quaisquer outras formas de discriminação. Art. 4º A República Federativa do Brasil rege-se nas suas relações internacionais pelos seguintes princípios: I - independência nacional; II - prevalência dos direitos humanos; III - autodeterminação dos povos; IV - não-intervenção; V - igualdade entre os Estados; VI - defesa da paz; VII - solução pacífica dos conflitos; VIII - repúdio ao terrorism",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Val+"
+      ]
+    }
+  },
+  {
+    "id": "acervo-jose-matias-valor-01",
+    "domain": "etica",
+    "source": "etica/jose-matias-valor-01.txt",
+    "input": "Pois, como nessa estrofe, o pobre José Matias, ao regressar da praia da Ericeira em Outubro, no Outono, avistou Elisa Miranda, uma noite no terraço, à luz da Lua! O meu amigo nunca contemplou aquele precioso tipo de encanto Lamartiniano. Alta, esbelta, ondulosa, digna da comparação bíblica da palmeira ao vento. Cabelos negros, lustrosos e ricos, em bandós ondeados. Uma carnação de camélia muito fresca. Olhos negros, líquidos, quebrados, tristes, de longas pestanas... Ah! Meu amigo, até eu, que já então laboriosamente anotava Hegel, depois de a encontrar numa tarde de chuva esperando a carruagem à porta do Seixas, a adorei durante três exaltados dias e lhe rimei um soneto! Não sei se o José Matias lhe dedicou sonetos. Mas todos nós, seus amigos, percebemos logo o forte, profundo, absoluto amor que concebera, desde a noite de Outono, à luz da Lua, aquele coração, que em Coimbra considerávamos de esquilo! Bem compreende que homem tão comedido e quieto não se exalou em suspiros públicos. Já, porém, no tempo de Aristóteles, se afirmava que amor e fumo não se escondem; e do nosso cerrado José Matias o amor começou logo a escapar, como o fumo leve através das fendas invisíveis duma casa fechada que arde terrìvelmente. Bem me recordo duma tarde que o visitei em Arroios, depois de voltar do Alentejo. Era um domingo de Julho. Ele ia jantar com uma tia-avó, uma D. Mafalda Noronha, que vivia em Benfica, na quinta dos Cedros, onde habitualmente jantavam também aos domingos o Matos Miranda e a divina Elisa. Creio mesmo que só nessa casa ela e o José Matias se encontravam, sobretudo com as facilidades que oferecem pensativas alamedas e retiros de sombra.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.0,
+      "macros_any": [
+        "VAL",
+        "SCOPE",
+        "RELATE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-jose-matias-valor-02",
+    "domain": "etica",
+    "source": "etica/jose-matias-valor-02.txt",
+    "input": "E este enlevo, meu amigo, durou dez anos, assim esplêndido, puro, distante e imaterial! Não ria... Decerto se encontravam na quinta de D. Mafalda: decerto se escreviam, e transbordantemente, atirando as cartas por cima do muro que separava os dois quintais: mas nunca, por cima das heras desse muro, procuraram a rara delícia duma conversa roubada ou a delícia ainda mais perfeita dum silêncio escondido na sombra. E nunca trocaram um beijo... Não duvide! Algum aperto de mão fugidio e sôfrego, sob os arvoredos de D. Mafalda, foi o limite exaltadamente extremo, que a vontade lhes marcou ao desejo. O meu amigo não compreende como se mantiveram assim dois frágeis corpos, durante dez anos, em tão terrível e mórbido renunciamento... Sim, decerto lhes faltou, para se perderem, uma hora de segurança ou uma portinha no muro. Depois a divina Elisa vivia realmente num mosteiro, em que ferrolhos e grades eram formados pelos hábitos rìgidamente reclusos de Matos Miranda, diabético e tristonho. Mas, na castidade deste amor, entrou muita nobreza moral e finura superior de sentimento. O amor espiritualiza o homem - e materializa a mulher. Essa espiritualização era fácil ao José Matias, que (sem nós desconfiarmos) nascera desvairadamente espiritualista; mas a humana Elisa encontrou também um gozo delicado nessa ideal adoração de monge, que nem ousa roçar, com os dedos trêmulos e embrulhados no rosário, a túnica da Virgem sublimada. Ele, sim! ele gozou nesse amor transcendentemente desmaterializado um encanto sobre-humano.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.0,
+      "macros_any": [
+        "VAL",
+        "SCOPE",
+        "RELATE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-jose-matias-valor-03",
+    "domain": "etica",
+    "source": "etica/jose-matias-valor-03.txt",
+    "input": "E esta presença real da divina criatura no seu ser criou no José Matias modos novos, estranhos, derivando da alucinação. Como o Visconde de Garmilde jantava cedo, à hora vernácula do Portugal antigo, José Matias ceava, depois de S. Carlos, naquele delicioso e saudoso Café Central, onde o linguado parecia frito no céu, e o Colares no céu engarrafado. Pois nunca ceava sem serpentinas profusamente acesas e a mesa juncada de flores. Por quê? Porque Elisa também ali ceava, invisível. Daí esses silêncios banhados num sorriso religiosamente atento... Por quê? Porque a estava sempre escutando! Ainda me lembro dele arrancar do quarto três gravuras clássicas de Faunos ousados e Ninfas rendidas... Elisa pairava idealmente naquele ambiente; e ele purificava as paredes, que mandou forrar de sedas claras. O amor arrasta ao luxo, sobretudo amor de tão elegante idealismo: e o José Matias prodigalizou com esplendor o luxo que ela partilhava. Decentemente não podia andar com a imagem de Elisa numa tipóia de praça, nem consentir que a augusta imagem roçasse pelas cadeiras de palhinha da plateia de S. Carlos. Montou, portanto, carruagens dum gosto sóbrio e puro: e assinou um camarote na Ópera, onde instalou, para ela, uma poltrona pontifical, de cetim branco, bordado a estrelas de ouro.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.0,
+      "macros_any": [
+        "VAL",
+        "SCOPE",
+        "RELATE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-teoria-medalhao-valor-01",
+    "domain": "etica",
+    "source": "etica/teoria-medalhao-valor-01.txt",
+    "input": "— Podes e deves; é um modo de convocar a attenção publica. Quanto á materia dos discursos, tens á escolha: — ou os negocios miudos, ou a metaphysica politica, mas prefere a metaphysica. Os negocios miudos, força é confessal-o, não desdizem d’aquella chateza de bom tom, propria de una medalhão acabado; mas, se poderes, adopta a metaphysica; — é mais fácil e mais attrahente. Suppõe que desejas saber porque motivo a 7ª companhia de infantaria foi transferida de Uruguayana para Cangussú; serás ouvido tão sómente pelo ministro da guerra, que te explicará em dez minutos as razões d’esse acto. Não assim a metaphysica. Um discurso de metaphysica politica apaixona naturalmente os partidos e o publico, chama os apartes e as respostas. E depois nao obriga a pensar e descobrir. N’esse ramo dos conhecimentos humanos tudo está achado, formulado, rotulado, encaixotado; é só prover os alforges da memoria. Em todo caso, nao transcedas nunca os limites de uma invejavel vulgaridade.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Val+"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cc-br-artigo-01",
+    "domain": "juridico",
+    "source": "juridico/cc-br-artigo-01.txt",
+    "input": "Art. 753. Se o transporte não puder ser feito ou sofrer longa interrupção, o transportador solicitará, incontinenti, instruções ao remetente, e zelará pela coisa, por cujo perecimento ou deterioração responderá, salvo força maior. § 1º Perdurando o impedimento, sem motivo imputável ao transportador e sem manifestação do remetente, poderá aquele depositar a coisa em juízo, ou vendê-la, obedecidos os preceitos legais e regulamentares, ou os usos locais, depositando o valor. § 2º Se o impedimento for responsabilidade do transportador, este poderá depositar a coisa, por sua conta e risco, mas só poderá vendê-la se perecível. § 3º Em ambos os casos, o transportador deve informar o remetente da efetivação do depósito ou da venda. § 4º Se o transportador mantiver a coisa depositada em seus próprios armazéns, continuará a responder pela sua guarda e conservação, sendo-lhe devida, porém, uma remuneração pela custódia, a qual poderá ser contratualmente ajustada ou se conformará aos usos adotados em cada sistema de transporte.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.005,
+      "macros_any": [
+        "MODAL",
+        "SCOPE",
+        "VAL"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cc-br-artigo-02",
+    "domain": "juridico",
+    "source": "juridico/cc-br-artigo-02.txt",
+    "input": "Art. 667. O mandatário é obrigado a aplicar toda sua diligência habitual na execução do mandato, e a indenizar qualquer prejuízo causado por culpa sua ou daquele a quem substabelecer, sem autorização, poderes que devia exercer pessoalmente. § 1 o Se, não obstante proibição do mandante, o mandatário se fizer substituir na execução do mandato, responderá ao seu constituinte pelos prejuízos ocorridos sob a gerência do substituto, embora provenientes de caso fortuito, salvo provando que o caso teria sobrevindo, ainda que não tivesse havido substabelecimento. § 2 o Havendo poderes de substabelecer, só serão imputáveis ao mandatário os danos causados pelo substabelecido, se tiver agido com culpa na escolha deste ou nas instruções dadas a ele. § 3 o Se a proibição de substabelecer constar da procuração, os atos praticados pelo substabelecido não obrigam o mandante, salvo ratificação expressa, que retroagirá à data do ato. § 4 o Sendo omissa a procuração quanto ao substabelecimento, o procurador será responsável se o substabelecido proceder culposamente.",
+    "match_mode": "structural",
+    "expect": {
+      "macros": [
+        "MODAL",
+        "SCOPE"
+      ],
+      "symbols": [
+        "Cond",
+        "Obl",
+        "∀"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cc-br-artigo-03",
+    "domain": "juridico",
+    "source": "juridico/cc-br-artigo-03.txt",
+    "input": "Art. 44. São pessoas jurídicas de direito privado: I - as associações; II - as sociedades; III - as fundações. IV - as organizações religiosas; (Incluído pela Lei nº 10.825, de 22.12.2003) V - os partidos políticos. (Incluído pela Lei nº 10.825, de 22.12.2003) VI - (Revogado pela Lei nº 14.382, de 2022) VII - os empreendimentos de economia solidária. (Redação dada pela Lei nº 15.068, de 2024) § 1º São livres a criação, a organização, a estruturação interna e o funcionamento das organizações religiosas, sendo vedado ao poder público negar-lhes reconhecimento ou registro dos atos constitutivos e necessários ao seu funcionamento. (Incluído pela Lei nº 10.825, de 22.12.2003) § 2º As disposições concernentes às associações aplicam-se subsidiariamente aos empreendimentos de economia solidária e às sociedades que são objeto do Livro II da Parte Especial deste Código. (Redação dada pela Lei nº 15.068, de 2024) § 3º Os partidos políticos serão organizados e funcionarão conforme o disposto em lei específica. (Incluído pela Lei nº 10.825, de 22.12.2003)",
+    "match_mode": "structural",
+    "expect": {
+      "macros": [
+        "MODAL"
+      ],
+      "symbols": [
+        "Proib"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cc-br-artigo-04",
+    "domain": "juridico",
+    "source": "juridico/cc-br-artigo-04.txt",
+    "input": "Art. 1.753. Os tutores não podem conservar em seu poder dinheiro dos tutelados, além do necessário para as despesas ordinárias com o seu sustento, a sua educação e a administração de seus bens. § 1 o Se houver necessidade, os objetos de ouro e prata, pedras preciosas e móveis serão avaliados por pessoa idônea e, após autorização judicial, alienados, e o seu produto convertido em títulos, obrigações e letras de responsabilidade direta ou indireta da União ou dos Estados, atendendo-se preferentemente à rentabilidade, e recolhidos ao estabelecimento bancário oficial ou aplicado na aquisição de imóveis, conforme for determinado pelo juiz. § 2 o O mesmo destino previsto no parágrafo antecedente terá o dinheiro proveniente de qualquer outra procedência. § 3 o Os tutores respondem pela demora na aplicação dos valores acima referidos, pagando os juros legais desde o dia em que deveriam dar esse destino, o que não os exime da obrigação, que o juiz fará efetiva, da referida aplicação.",
+    "match_mode": "structural",
+    "expect": {
+      "macros": [
+        "MODAL",
+        "SCOPE"
+      ],
+      "symbols": [
+        "Proib",
+        "Temp"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cc-br-artigo-05",
+    "domain": "juridico",
+    "source": "juridico/cc-br-artigo-05.txt",
+    "input": "Art. 1.642. Qualquer que seja o regime de bens, tanto o marido quanto a mulher podem livremente: I - praticar todos os atos de disposição e de administração necessários ao desempenho de sua profissão, com as limitações estabelecida no inciso I do art. 1.647; II - administrar os bens próprios; III - desobrigar ou reivindicar os imóveis que tenham sido gravados ou alienados sem o seu consentimento ou sem suprimento judicial; IV - demandar a rescisão dos contratos de fiança e doação, ou a invalidação do aval, realizados pelo outro cônjuge com infração do disposto nos incisos III e IV do art. 1.647; V - reivindicar os bens comuns, móveis ou imóveis, doados ou transferidos pelo outro cônjuge ao concubino, desde que provado que os bens não foram adquiridos pelo esforço comum destes, se o casal estiver separado de fato por mais de cinco anos; VI - praticar todos os atos que não lhes forem vedados expressamente.",
+    "match_mode": "structural",
+    "expect": {
+      "macros": [
+        "MODAL",
+        "SCOPE"
+      ],
+      "symbols": [
+        "Proib",
+        "∀"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cc-pt-artigo-01",
+    "domain": "juridico",
+    "source": "juridico/cc-pt-artigo-01.txt",
+    "input": "Artigo 17.º (Reenvio para a lei de um terceiro Estado) 1. Se, porém, o direito internacional privado da lei referida pela norma de conflitos portuguesa remeter para outra legislação e esta se considerar competente para regular o caso, é o direito interno desta legislação que deve ser aplicado. 2. Cessa o disposto no número anterior, se a lei referida pela norma de conflitos portuguesa for a lei pessoal e o interessado residir habitualmente em território português ou em país cujas normas de conflitos considerem competente o direito interno do Estado da sua nacionalidade. 3. Ficam, todavia, unicamente sujeitos à regra do n.º 1 os casos da tutela e curatela, relações patrimoniais entre os cônjuges, poder paternal, relações entre adoptante e adoptado e sucessão por morte, se a lei nacional indicada pela norma de conflitos devolver para a lei da situação dos bens imóveis e esta se considerar competente.",
+    "match_mode": "structural",
+    "expect": {
+      "macros": [
+        "MODAL"
+      ],
+      "symbols": [
+        "Cond"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cc-pt-artigo-02",
+    "domain": "juridico",
+    "source": "juridico/cc-pt-artigo-02.txt",
+    "input": "Artigo 94.º (Direitos e obrigações do curador provisório) 1. O curador fica sujeito ao regime do mandato geral em tudo o que não contrariar as disposições desta subsecção. 2. Compete ao curador provisório requerer os procedimentos cautelares necessários e intentar as acções que não possam ser retardadas sem prejuízo dos interesses do ausente; cabe-lhe ainda representar o ausente em todas as acções contra este propostas. 3. Só com autorização judicial pode o curador alienar ou onerar bens imóveis, objectos preciosos, títulos de crédito, estabelecimentos comerciais e quaisquer outros bens cuja alienação ou oneração não constitua acto de administração. 4. A autorização judicial só será concedida quando o acto se justifique para evitar a deterioração ou ruína dos bens, solver dívidas do ausente, custear benfeitorias necessárias ou úteis ou ocorrer a outra necessidade urgente.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.005,
+      "macros_any": [
+        "MODAL",
+        "SCOPE",
+        "VAL"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cc-pt-artigo-03",
+    "domain": "juridico",
+    "source": "juridico/cc-pt-artigo-03.txt",
+    "input": "Artigo 79.º (Direito à imagem) 1. O retrato de uma pessoa não pode ser exposto, reproduzido ou lançado no comércio sem o consentimento dela; depois da morte da pessoa retratada, a autorização compete às pessoas designadas no n.º 2 do artigo 71.º, segundo a ordem nele indicada. 2. Não é necessário o consentimento da pessoa retratada quando assim o justifiquem a sua notoriedade, o cargo que desempenhe, exigências de polícia ou de justiça, finalidades científicas, didácticas ou culturais, ou quando a reprodução da imagem vier enquadrada na de lugares públicos, ou na de factos de interesse público ou que hajam decorrido publicamente. 3. O retrato não pode, porém, ser reproduzido, exposto ou lançado no comércio, se do facto resultar prejuízo para a honra, reputação ou simples decoro da pessoa retratada.",
+    "match_mode": "structural",
+    "expect": {
+      "macros": [
+        "MODAL"
+      ],
+      "symbols": [
+        "Proib"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cdc-artigo-01",
+    "domain": "juridico",
+    "source": "juridico/cdc-artigo-01.txt",
+    "input": "Art. 8° Os produtos e serviços colocados no mercado de consumo não acarretarão riscos à saúde ou segurança dos consumidores, exceto os considerados normais e previsíveis em decorrência de sua natureza e fruição, obrigando-se os fornecedores, em qualquer hipótese, a dar as informações necessárias e adequadas a seu respeito. § 1 º Em se tratando de produto industrial, ao fabricante cabe prestar as informações a que se refere este artigo, através de impressos apropriados que devam acompanhar o produto. (Redação dada pela Lei nº 13.486, de 2017) § 2 º O fornecedor deverá higienizar os equipamentos e utensílios utilizados no fornecimento de produtos ou serviços, ou colocados à disposição do consumidor, e informar, de maneira ostensiva e adequada, quando for o caso, sobre o risco de contaminação. (Incluído pela Lei nº 13.486, de 2017)",
+    "match_mode": "structural",
+    "expect": {
+      "macros": [
+        "EPIST",
+        "MODAL"
+      ],
+      "symbols": [
+        "Cond"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cdc-artigo-02",
+    "domain": "juridico",
+    "source": "juridico/cdc-artigo-02.txt",
+    "input": "Art. 10. O fornecedor não poderá colocar no mercado de consumo produto ou serviço que sabe ou deveria saber apresentar alto grau de nocividade ou periculosidade à saúde ou segurança. § 1° O fornecedor de produtos e serviços que, posteriormente à sua introdução no mercado de consumo, tiver conhecimento da periculosidade que apresentem, deverá comunicar o fato imediatamente às autoridades competentes e aos consumidores, mediante anúncios publicitários. § 2° Os anúncios publicitários a que se refere o parágrafo anterior serão veiculados na imprensa, rádio e televisão, às expensas do fornecedor do produto ou serviço. § 3° Sempre que tiverem conhecimento de periculosidade de produtos ou serviços à saúde ou segurança dos consumidores, a União, os Estados, o Distrito Federal e os Municípios deverão informá-los a respeito.",
+    "match_mode": "structural",
+    "expect": {
+      "macros": [
+        "MODAL",
+        "SCOPE"
+      ],
+      "symbols": [
+        "Proib",
+        "Temp"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cdc-artigo-03",
+    "domain": "juridico",
+    "source": "juridico/cdc-artigo-03.txt",
+    "input": "Art. 37. É proibida toda publicidade enganosa ou abusiva. § 1° É enganosa qualquer modalidade de informação ou comunicação de caráter publicitário, inteira ou parcialmente falsa, ou, por qualquer outro modo, mesmo por omissão, capaz de induzir em erro o consumidor a respeito da natureza, características, qualidade, quantidade, propriedades, origem, preço e quaisquer outros dados sobre produtos e serviços. § 2° É abusiva, dentre outras a publicidade discriminatória de qualquer natureza, a que incite à violência, explore o medo ou a superstição, se aproveite da deficiência de julgamento e experiência da criança, desrespeita valores ambientais, ou que seja capaz de induzir o consumidor a se comportar de forma prejudicial ou perigosa à sua saúde ou segurança. § 3° Para os efeitos deste código, a publicidade é enganosa por omissão quando deixar de informar sobre dado essencial do produto ou serviço. § 4° (Vetado) .",
+    "match_mode": "structural",
+    "expect": {
+      "macros": [
+        "MODAL",
+        "SCOPE"
+      ],
+      "symbols": [
+        "Proib",
+        "∀"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cdc-artigo-04",
+    "domain": "juridico",
+    "source": "juridico/cdc-artigo-04.txt",
+    "input": "Art. 52. No fornecimento de produtos ou serviços que envolva outorga de crédito ou concessão de financiamento ao consumidor, o fornecedor deverá, entre outros requisitos, informá-lo prévia e adequadamente sobre: I - preço do produto ou serviço em moeda corrente nacional; II - montante dos juros de mora e da taxa efetiva anual de juros; III - acréscimos legalmente previstos; IV - número e periodicidade das prestações; V - soma total a pagar, com e sem financiamento. § 1° As multas de mora decorrentes do inadimplemento de obrigações no seu termo não poderão ser superiores a dois por cento do valor da prestação. (Redação dada pela Lei nº 9.298, de 1º.8.1996) § 2º É assegurado ao consumidor a liquidação antecipada do débito, total ou parcialmente, mediante redução proporcional dos juros e demais acréscimos. § 3º (Vetado) .",
+    "match_mode": "structural",
+    "expect": {
+      "macros": [
+        "MODAL",
+        "VAL"
+      ],
+      "symbols": [
+        "Proib",
+        "Θ"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cdc-artigo-05",
+    "domain": "juridico",
+    "source": "juridico/cdc-artigo-05.txt",
+    "input": "Art. 54. Contrato de adesão é aquele cujas cláusulas tenham sido aprovadas pela autoridade competente ou estabelecidas unilateralmente pelo fornecedor de produtos ou serviços, sem que o consumidor possa discutir ou modificar substancialmente seu conteúdo. § 1° A inserção de cláusula no formulário não desfigura a natureza de adesão do contrato. § 2° Nos contratos de adesão admite-se cláusula resolutória, desde que a alternativa, cabendo a escolha ao consumidor, ressalvando-se o disposto no § 2° do artigo anterior. § 3 o Os contratos de adesão escritos serão redigidos em termos claros e com caracteres ostensivos e legíveis, cujo tamanho da fonte não será inferior ao corpo doze, de modo a facilitar sua compreensão pelo consumidor. (Redação dada pela nº 11.785, de 2008) § 4° As cláusulas que implicarem limitação de direito do consumidor deverão ser redigidas com destaque, permitindo sua imediata e fácil compreensão. § 5° (Vetado) CAPÍTULO VI-A DA PREVENÇÃO E DO TRATAMENTO DO SUPERENDIVIDAMENTO (Incluído pela Lei nº 14.181, de 2021)",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.005,
+      "macros_any": [
+        "MODAL",
+        "SCOPE",
+        "VAL"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cf-art170-economia",
+    "domain": "juridico",
+    "source": "juridico/cf-art170-economia.txt",
+    "input": "Art. 170. A ordem econômica, fundada na valorização do trabalho humano e na livre iniciativa, tem por fim assegurar a todos existência digna, conforme os ditames da justiça social, observados os seguintes princípios: I - soberania nacional; II - propriedade privada; III - função social da propriedade; IV - livre concorrência; V - defesa do consumidor; VI - defesa do meio ambiente; VI - defesa do meio ambiente, inclusive mediante tratamento diferenciado conforme o impacto ambiental dos produtos e serviços e de seus processos de elaboração e prestação; (Redação dada pela Emenda Constitucional nº 42, de 19.12.2003) VII - redução das desigualdades regionais e sociais; VIII - busca do pleno emprego; IX - tratamento favorecido para as empresas brasileiras de capital nacional de pequeno porte.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.005,
+      "macros_any": [
+        "MODAL",
+        "SCOPE",
+        "VAL"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cf-art225-ambiente",
+    "domain": "juridico",
+    "source": "juridico/cf-art225-ambiente.txt",
+    "input": "Art. 225. Todos têm direito ao meio ambiente ecologicamente equilibrado, bem de uso comum do povo e essencial à sadia qualidade de vida, impondo-se ao Poder Público e à coletividade o dever de defendê-lo e preservá- lo para as presentes e futuras gerações. § 1º Para assegurar a efetividade desse direito, incumbe ao Poder Público: I - preservar e restaurar os processos ecológicos essenciais e prover o manejo ecológico das espécies e ecossistemas; (Regulamento) II - preservar a diversidade e a integridade do patrimônio genético do País e fiscalizar as entidades dedicadas à pesquisa e manipulação de material genético; (Regulamento) (Regulamento) (Regulamento) (Regulamento) III - definir, em todas as unidades da Federação, espaços territoriais e seus componentes a serem especialmente protegidos, sendo a alteração e a supressão permitidas somente através de lei, vedada qualquer utilização que comprometa a integridade dos atributos que justifiquem sua proteção; (Regulamento) IV - exigir, na forma da lei, para instalação de obra ou atividade potencialmente causadora de significativa degradação do meio ambiente, estudo prévio de impacto ambiental, a que se dará publicidade; (Regulamento) V - controlar a produção, a comercialização e o emprego de técnicas, métodos e substâncias que comportem risco para a vida, a qualidade de vida e o meio ambiente; (Regulamento) VI - promover a educação ambiental em todos os níveis de ensino e a",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.005,
+      "macros_any": [
+        "MODAL",
+        "SCOPE",
+        "VAL"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cf-art37-admin",
+    "domain": "juridico",
+    "source": "juridico/cf-art37-admin.txt",
+    "input": "Art. 37. A administração pública direta, indireta ou fundacional, de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e, também, ao seguinte: I - os cargos, empregos e funções públicas são acessíveis aos brasileiros que preencham os requisitos estabelecidos em lei; II - a investidura em cargo ou emprego público depende de aprovação prévia em concurso público de provas ou de provas e títulos, ressalvadas as nomeações para cargo em comissão declarado em lei de livre nomeação e exoneração; Art. 37. A administração pública direta e indireta de qualquer dos Poderes da União, dos Estados, do Distrito Federal e dos Municípios obedecerá aos princípios de legalidade, impessoalidade, moralidade, publicidade e eficiência e, também, ao seguinte: (Redação dada pela Emenda Constitucional nº 19, de 1998) I - os cargos, empregos e funções públicas são acessíveis aos brasileiros que preencham os requisitos estabelecidos em lei, assim como aos estrangeiros,",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.005,
+      "macros_any": [
+        "MODAL",
+        "SCOPE",
+        "VAL"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cf-art5-direitos",
+    "domain": "juridico",
+    "source": "juridico/cf-art5-direitos.txt",
+    "input": "Art. 5º Todos são iguais perante a lei, sem distinção de qualquer natureza, garantindo-se aos brasileiros e aos estrangeiros residentes no País a inviolabilidade do direito à vida, à liberdade, à igualdade, à segurança e à propriedade, nos termos seguintes: I - homens e mulheres são iguais em direitos e obrigações, nos termos desta Constituição; II - ninguém será obrigado a fazer ou deixar de fazer alguma coisa senão em virtude de lei; III - ninguém será submetido a tortura nem a tratamento desumano ou degradante; IV - é livre a manifestação do pensamento, sendo vedado o anonimato; V - é assegurado o direito de resposta, proporcional ao agravo, além da indenização por dano material, moral ou à imagem; VI - é inviolável a liberdade de consciência e de crença, sendo assegurado o livre exercício dos cultos religiosos e garantida, na forma da lei, a proteção aos locais de culto e a suas liturgias; VII - é assegurada, nos termos da lei, a prestação de assistência religiosa nas entidades civis e militares de internação coletiva; VIII - ninguém será privado de direitos por motivo de crença religiosa ou de convicção filosófica ou política, salvo se as invocar para eximir-se de obrigação legal a todos imposta e recusar-se a cumprir prestação alternativa, fixada em lei; IX - é livre a expressão da atividade intelectual, artística, científica e de comunicação, independentemente de censura ou licença; X - são invioláveis a intimidade, a vida privada, a honra e a imagem das pessoas, assegurado o direito a indenização pelo dano material ou moral decorrente de sua violação; XI - a casa é asilo inviolável do indivíduo, ninguém",
+    "match_mode": "structural",
+    "expect": {
+      "macros": [
+        "MODAL",
+        "SCOPE"
+      ],
+      "symbols": [
+        "Exc",
+        "Proib",
+        "∀"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cf-art6-sociais",
+    "domain": "juridico",
+    "source": "juridico/cf-art6-sociais.txt",
+    "input": "Art. 6º São direitos sociais a educação, a saúde, o trabalho, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados, na forma desta Constituição. Art. 6 o São direitos sociais a educação, a saúde, o trabalho, a moradia, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados, na forma desta Constituição. (Redação dada pela Emenda Constitucional nº 26, de 2000) Art. 6º São direitos sociais a educação, a saúde, a alimentação, o trabalho, a moradia, o lazer, a segurança, a previdência social, a proteção à maternidade e à infância, a assistência aos desamparados, na forma desta Constituição. (Redação",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 1,
+      "min_matched_ratio": 0.005,
+      "macros_any": [
+        "MODAL",
+        "SCOPE",
+        "VAL"
+      ]
+    }
+  },
+  {
+    "id": "acervo-braz-cubas-01",
+    "domain": "narrativa",
+    "source": "narrativa/braz-cubas-01.txt",
+    "input": "Ás vezes caçava, outras dormia, outras lia,--lia muito,--outras emfim não fazia nada; deixava-me atoar de idéa em idéa, de imaginação em imaginação, como uma borboleta vadia ou faminta; e as horas iam pingando uma a uma, o sol cahia, as sombras da noite velavam a montanha e a cidade. Ninguem me visitava; recommendei expressamente que me deixassem só. Um dia, dous dias, tres dias, uma semana inteira passada assim, sem dizer palavra, era bastante para sacudir-me da Tijuca fóra e restituir-me ao bulicio. Com effeito, ao cabo de sete dias, estava farto da solidão; a dor applacára; o espirito já se não contentava com o uso da espingarda e dos livros, nem com a vista do arvoredo e do ceu. Reagia a mocidade, era preciso viver. Metti no bahú o problema da vida e da morte, os hypocondriacos do poeta, as camisas, as meditações, as gravatas, e ia fechal-o, quando o moleque Prudencio me disse que uma pessoa do meu conhecimento se mudára na vespera para uma casa roxa, situada a duzentos passos da nossa.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 2,
+      "min_matched_ratio": 0.01,
+      "macros_any": [
+        "BE",
+        "RELATE",
+        "DYN",
+        "COMM",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-braz-cubas-02",
+    "domain": "narrativa",
+    "source": "narrativa/braz-cubas-02.txt",
+    "input": "«Dito isto, peço licença para ir um dia destes expor-lhe um trabalho, fructo de longo estudo, um novo systema de philosophia, que não só explica e descreve a origem e a consummação das cousas, como faz dar um grande passo adeante de Zenon e Seneca, cujo stoicismo era um verdadeiro brinco de crianças ao pé da minha receita moral. É singularmente espantoso este meu systema; rectifica o espirito humano, supprime a dor, assegura a felicidade, e enche de immensa gloria o nosso paiz. Chamo-lhe humanitismo, de _Humanitas_, principio das cousas. Minha primeira idéa revelava uma grande enfatuação; era chamar-lhe borbismo, de Borba; denominação vaidosa, além de rude e molesta. E com certeza exprimia menos. Verá, meu caro Braz Cubas, verá que é devéras um monumento; e se alguma cousa ha que possa fazer-me esquecer as amarguras da vida, é o gosto de haver emfim apanhado a verdade e a felicidade. Eil-as na minha mão essas duas esquivas; após tantos seculos de lutas, pesquizas, descobertas, systemas e quédas, eil-as nas mãos do homem. Até breve, meu caro Braz Cubas. Saudades do",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Temp",
+        "∃"
+      ]
+    }
+  },
+  {
+    "id": "acervo-braz-cubas-03",
+    "domain": "narrativa",
+    "source": "narrativa/braz-cubas-03.txt",
+    "input": "Vária foi a impressão deste discurso. Quanto á forma, ao rapto eloquente, á parte litteraria e philosophica, a opinião foi só uma; disseram-me todos que era completo, e que de uma barretina ninguem ainda conseguira tirar tantas idéas. Mas a parte politica foi considerada por muitos deploravel; alguns achavam o meu discurso um desastre parlamentar; emfim, vieram dizer-me que outros me davam já em opposição, entrando nesse numero os opposicionistas da camara, que chegaram a insinuar a conveniencia de uma moção de desconfiança. Repelli energicamente tal interpretação, que não era só erronea, mas calumniosa, á vista da notoriedade com que eu sustentava o gabinete; accrescentei que a necessidade de diminuir a barretina, não era tamanha que não pudesse esperar alguns annos; e que, em todo caso, eu transigiria na extensão do córte, contentando-me com tres quartos de polegada ou menos; emfim, dado mesmo que a minha idéa não fosse adoptada, bastava-me tel-a iniciado no parlamento.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Ω",
+        "∀"
+      ]
+    }
+  },
+  {
+    "id": "acervo-carteira-01",
+    "domain": "narrativa",
+    "source": "narrativa/carteira-01.txt",
+    "input": "Durante os primeiros minutos, Honório não pensou nada; foi andando, andando, andando, até o Largo da Carioca. No Largo parou alguns instantes, − enfiou depois pela Rua da Carioca, mas voltou logo, e entrou na Rua Uruguaiana. Sem saber como, achou-se daí a pouco no Largo de S. Francisco de Paula; e ainda, sem saber como, entrou em um Café. Pediu alguma coisa e encostou-se à parede, olhando para fora. Tinha medo de abrir a carteira; podia não achar nada, apenas papéis e sem valor para ele. Ao mesmo tempo, e esta era a causa principal das reflexões, a consciência perguntava-lhe se podia utilizar-se do dinheiro que achasse. Não lhe perguntava com o ar de quem não sabe, mas antes com uma expressão irônica e de censura. Podia lançar mão do dinheiro, e ir pagar com ele a dívida? Eis o ponto. A consciência acabou por lhe dizer que não podia, que devia levar a carteira à polícia, ou anunciá-la; mas tão depressa acabava de lhe dizer isto, vinham os apuros da ocasião, e puxavam por ele, e convidavam-no a ir pagar a cocheira. Chegavam mesmo a dizer-lhe que, se fosse ele que a tivesse perdido, ninguém iria entregar-lha; insinuação que lhe deu ânimo.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Conc",
+        "Temp"
+      ]
+    }
+  },
+  {
+    "id": "acervo-cartomante-01",
+    "domain": "narrativa",
+    "source": "narrativa/cartomante-01.txt",
+    "input": "Como daí chegaram ao amor, não o soube ele nunca. A verdade é que gostava de passar as horas ao lado dela; era a sua enfermeira moral, quase uma irmã, mas principalmente era mulher e bonita. Odor di femmina: eis o que ele aspirava nela, e em volta dela, para incorporá-lo em si próprio. Liam os mesmos livros, iam juntos a teatros e passeios. Camilo ensinou-­lhe as damas e o xadrez, e jogavam às noites; — ela mal; — ele, para lhe ser agradável, pouco menos mal. Até aí as cousas. Agora a ação da pessoa, os olhos teimosos de Rita, que procuravam muita vez os dele, que os consultavam antes de o fazer ao marido, as mãos frias, as atitudes insólitas. Um dia, fazendo ele anos, recebeu de Vilela uma rica bengala de presente, e de Rita apenas um cartão com um vulgar cumprimento a lápis, e foi então que ele pôde ler no próprio coração; não conseguia arrancar os olhos do bilhetinho. Palavras vulgares; mas há vulgaridades sublimes, ou, pelo menos, deleitosas. A velha caleça de praça, em que pela primeira vez passeaste com a mulher amada, fechadinhos ambos, vale o carro de Apolo. Assim é o homem, assim são as cousas que o cercam.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Temp",
+        "∃"
+      ]
+    }
+  },
+  {
+    "id": "acervo-caso-da-vara-01",
+    "domain": "narrativa",
+    "source": "narrativa/caso-da-vara-01.txt",
+    "input": "João Carneiro não se animava a sair, nem podia ficar. Estava entre um puxar de forças opostas. Não lhe importava, em suma, que o rapaz acabasse clérigo, advogado ou médico, ou outra qualquer coisa, vadio que fosse; mas o pior é que lhe cometiam uma luta ingente com os sentimentos mais íntimos do compadre, sem certeza do resultado; e, se este fosse negativo, outra luta com Sinhá Rita, cuja última palavra era ameaçadora: “digo-lhe que ele não volta”. Tinha de haver por força um escândalo. João Carneiro estava com a pupila desvairada, a pálpebra trêmula, o peito ofegante. Os olhares que deitava a Sinhá Rita eram de súplica, mesclados de um tênue raio de censura. Por que lhe não pedia outra coisa? Por que lhe não ordenava que fosse a pé, debaixo de chuva, à Tijuca, ou Jacarepaguá? Mas logo persuadir ao compadre que mudasse a carreira do filho... Conhecia o velho; era capaz de lhe quebrar uma jarra na cara. Ah! se o rapaz caísse ali, de repente, apoplético, morto! Era uma solução — cruel, é certo, mas definitiva.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Conc",
+        "Quest",
+        "Ρ"
+      ]
+    }
+  },
+  {
+    "id": "acervo-caso-da-vara-02",
+    "domain": "narrativa",
+    "source": "narrativa/caso-da-vara-02.txt",
+    "input": "Saíram as vizinhas, e a tarde caiu de todo. A alma de Damião foi-se fazendo tenebrosa, antes da noite. Que estaria acontecendo? De instante a instante, ia espiar pela rótula, e voltava cada vez mais desanimado. Nem sombra do padrinho. Com certeza, o pai fê-lo calar, mandou chamar dois negros, foi à polícia pedir um pedestre, e aí vinha pegá-lo à força e levá-lo ao seminário. Damião perguntou a Sinhá Rita se a casa não teria saída pelos fundos; correu ao quintal, e calculou que podia saltar o muro. Quis ainda saber se haveria modo de fugir para a Rua da Vala, ou se era melhor falar a algum vizinho que fizesse o favor de o receber. O pior era a batina; se Sinhá Rita lhe pudesse arranjar um rodaque, uma sobrecasaca velha... Sinhá Rita dispunha justamente de um rodaque, lembrança ou esquecimento de João Carneiro.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 2,
+      "min_matched_ratio": 0.01,
+      "macros_any": [
+        "BE",
+        "RELATE",
+        "DYN",
+        "COMM",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-causa-secreta-01",
+    "domain": "narrativa",
+    "source": "narrativa/causa-secreta-01.txt",
+    "input": "Garcia foi lá domingo. Fortunato deu-lhe um bom jantar, bons charutos e boa palestra, em companhia da senhora, que era interessante. A figura dele não mudara; os olhos eram as mesmas chapas de estanho, duras e frias; as outras feições não eram mais atraentes que dantes. Os obséquios, porém, se não resgatavam a natureza, davam alguma compensação, e não era pouco. Maria Luísa é que possuía ambos os feitiços, pessoa e modos. Era esbelta, airosa, olhos meigos e submissos; tinha vinte e cinco anos e parecia não passar de dezenove. Garcia, à segunda vez que lá foi, percebeu que entre eles havia alguma dissonância de caracteres, pouca ou nenhuma afinidade moral, e da parte da mulher para com o marido uns modos que transcendiam o respeito e confinavam na resignação e no temor. Um dia, estando os três juntos, perguntou Garcia a Maria Luísa se tivera notícia das circunstâncias em que ele conhecera o marido.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Quest",
+        "∃"
+      ]
+    }
+  },
+  {
+    "id": "acervo-chinela-turca-01",
+    "domain": "narrativa",
+    "source": "narrativa/chinela-turca-01.txt",
+    "input": "Vede o bacharel Duarte. Acaba de compor o mais teso e correto laço de gravata que apareceu naquele ano de 1850, e anunciam-lhe a visita do major Lopo Alves. Notai que é de noite, e passa de nove horas. Duarte estremeceu e tinha duas razões para isso. A primeira era ser o major, em qualquer ocasião, um dos mais enfadonhos sujeitos do tempo. A segunda é que ele preparava-se justamente para ir ver, em um baile, os mais finos cabelos louros e os mais pensativos olhos azuis, que este nosso clima, tão avaro deles, produzira. Datava de uma semana aquele namoro. Seu coração, deixando-se prender entre duas valsas, confiou aos olhos, que eram castanhos, uma declaração em regra, que eles pontualmente transmitiram à moça, dez minutos antes da ceia, recebendo favorável resposta logo depois do chocolate. Três dias depois, estava a caminho a primeira carta, e pelo jeito que levavam as coisas não era de admirar que, antes do fim do ano, estivessem ambos a caminho da igreja. Nestas circunstâncias, a chegada de Lopo Alves era uma verdadeira calamidade. Velho amigo da família, companheiro de seu finado pai no exército, tinha jus o major a todos os respeitos. Impossível despedi-lo ou tratá-lo com frieza. Havia felizmente uma circunstância atenuante; o major era aparentado com Cecília, a moça dos olhos azuis; em caso de necessidade, era um voto seguro.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Conc",
+        "∀",
+        "∃"
+      ]
+    }
+  },
+  {
+    "id": "acervo-contos-aldeia-01",
+    "domain": "narrativa",
+    "source": "narrativa/contos-aldeia-01.txt",
+    "input": "Como tinha descampado, havia pouco tempo, os caminhos estavam lamacentos, sulcados pelas rodas dos carros; e nas terras baixas viam-se ainda as aguas da chuva empoçadas e cobertas de limo. O céo era de um azul crystalino, a atmosphera muito limpida; e, ao meio dia, quando o sol cahia d'alto nos prados, até parece que as rôxas previncas, as flôres amarellas do trevo e as margaridas, retraíam as corollas ao peso abafadiço do calor! Nos ramos folhudos dos carvalhos e dos pecegueiros, que já floreciam, os melros assobiavam alegres, e no fundo azul do firmamento destacavam-se duas borboletas brancas que voavam d'entre os silvados, subindo, subindo sempre, a tremer, n'um raio de sol doirado! Oh! era encantador!",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Temp",
+        "∃"
+      ]
+    }
+  },
+  {
+    "id": "acervo-contos-aldeia-02",
+    "domain": "narrativa",
+    "source": "narrativa/contos-aldeia-02.txt",
+    "input": "Quando os francezes vieram a Portugal...--Ai!--disse-me elle um dia, referindo-me as façanhas da guerra--quem me cassara n'aquelle tempo! Eu tinha então desoito annos, umas pernas rijas, o ôlho fino!... Olhe, só d'uma vez me falhou a pontaria. Eu lhe conto. No convento de Santa Clara, de Thomar, estava recolhida uma menina, de que eu gostava muito e com a qual depois casei. Um official francez, passando-lhe debaixo da grade, disse-lhe um galanteio, e piscou-lhe o ôlho direito. Ora eu, que estava ao longe a observar tudo, disse commigo: espera, que já t'arranjo. E metti a espingarda á cara, fiz pontaria para o ôlho direito do francez, e...",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 3,
+      "min_matched_ratio": 0.01,
+      "macros_any": [
+        "BE",
+        "RELATE",
+        "DYN",
+        "COMM",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-dom-casmurro-01",
+    "domain": "narrativa",
+    "source": "narrativa/dom-casmurro-01.txt",
+    "input": "Vou esgarçando isto com reticencias, para dar uma ideia das minhas ideias, que eram assim diffusas e confusas; com certeza não dou nada. A cabeça ia-me quente, e o andar não era seguro. No seminario, a primeira hora foi insupportavel. As batinas traziam ar de saias, e lembravam-me a quéda da senhora. Já não era uma só que eu via cair; todas as que eu encontrara na rua, mostravam-me agora de relance as ligas azues; eram azues. De noite, sonhei com ellas. Uma multidão de abominaveis creaturas veiu andar á roda de mim, tique-tique... Eram bellas, umas finas, outras grossas, todas ageis como o diabo. Accordei, busquei afugental-as com esconjuros e outros methodos, mas tão depressa dormi como tornaram, e, com as mãos presas em volta de mim, faziam um vasto circulo de saias, ou, trepadas no ar, choviam pés e pernas sobre a minha cabeça. Assim fui até madrugada. Não dormi mais; rezei padre-nossos, ave-marias, e credos, e sendo este livro a verdade pura, é força confessar que tive de interromper mais de uma vez as minhas orações para acompanhar no escuro uma figura ao longe, tique-tique, tique-tique... Pegava depressa na oração, sempre no meio para concertal-a bem, como se não tivesse havido interrupção, mas certamente não unia a phrase nova á antiga.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Temp",
+        "∀"
+      ]
+    }
+  },
+  {
+    "id": "acervo-dom-casmurro-02",
+    "domain": "narrativa",
+    "source": "narrativa/dom-casmurro-02.txt",
+    "input": "Vivo só, com um creado. A casa em que moro é propria; fil-a construir de proposito, levado de um desejo tão particular que me vexa imprimil-o, mas vá lá. Um dia, ha bastantes annos, lembrou-me reproduzir no Engenho Novo a casa em que me criei na antiga rua de Matacavallos, dando-lhe o mesmo aspecto e economia daquella outra, que desappareceu. Constructor e pintor entenderam bem as indicações que lhes fiz: é o mesmo predio assobradado, tres janellas de frente, varanda ao fundo, as mesmas alcovas e salas. Na principal destas, a pintura do tecto e das paredes é mais ou menos egual, umas grinaldas de flores miudas e grandes passaros que as tomam nos bicos, de espaço a espaço. Nos quatro cantos do tecto as figuras das estações, e ao centro das paredes os medalhões de Cesar, Augusto, Nero e Massinissa, com os nomes por baixo... Não alcanço a razão de taes personagens. Quando fomos para a casa de Matacavallos, já ella estava assim decorada; vinha do decennio anterior. Naturalmente era gosto do tempo metter sabor classico e figuras antigas em pinturas americanas. O mais é tambem analogo e parecido. Tenho chacarinha, flôres, legume, uma casuarina, um poço e lavadouro. Uso louça velha e mobilia velha. Emfim, agora, como outr'ora, ha aqui o mesmo contraste da vida interior, que é pacata, com a exterior, que é ruidosa.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 2,
+      "min_matched_ratio": 0.01,
+      "macros_any": [
+        "BE",
+        "RELATE",
+        "DYN",
+        "COMM",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-dom-casmurro-03",
+    "domain": "narrativa",
+    "source": "narrativa/dom-casmurro-03.txt",
+    "input": "Venhamos ao capitulo. Minha mãe era temente a Deus; sabes disto, e das suas praticas religiosas, e da fé pura que as animava. Nem ignoras que a minha carreira ecclesiastica era objecto de promessa feita quando fui concebido. Tudo está contado opportunamente. Outrosim, sabes que para o fim de apertar o vinculo moral da obrigação, confiou os seus projectos e motivos a parentes e familiares. A promessa, feita com fervor, acceita com misericordia, foi guardada por ella, com alegria, no mais intimo do coração. Penso que lhe senti o sabor da felicidade no leite que me deu a mamar. Meu pae, se vivesse, é possivel que alterasse os planos, e, como tinha a vocação da politica, é provavel que me encaminhasse somente á politica, embora os dous officios não fossem nem sejam inconciliaveis, e mais de um padre entre na luta dos partidos e no governo dos homens. Mas meu pae morrera sem saber nada, e ella ficou deante do contracto, como unica devedora.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 2,
+      "min_matched_ratio": 0.01,
+      "macros_any": [
+        "BE",
+        "RELATE",
+        "DYN",
+        "COMM",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-eca-contos-01",
+    "domain": "narrativa",
+    "source": "narrativa/eca-contos-01.txt",
+    "input": "Vinha de atravessar a serra e os seus aspectos pardos e desertos. Eram oito horas da noite. Os céus estavam pesados e sujos. E, ou fôsse um certo adormecimento cerebral produzido pelo rolar monótono da diligência, ou fôsse a debilidade nervosa da fadiga, ou a influência da paizagem escarpada e árida, sob o côncavo silêncio noturno, ou a opressão da electricidade, que enchia as alturas--o facto é que eu--que sou naturalmente positivo e realista--tinha vindo tiranizado pela imaginação e pelas quimeras. Existe, no fundo de cada um de nós, é certo,--tam friamente educados que sejâmos--um resto de misticismo; e basta às vezes uma paizagem soturna, o vélho muro de um cemitério, um ermo ascético, as emolientes brancuras de um luar, para que êsse fundo místico suba, se alargue como um nevoeiro, encha a alma, a sensação e a idea, e fique assim o mais matemático ou o mais crítico--tam triste, tam visionário, tam idealista--como um vélho monge poeta. A mim, o que me lançara na quimera e no sonho, fôra o aspecto do mosteiro de Rastelo, que eu tinha visto, à claridade suave e outonal da tarde, na sua doce colina. Então, emquanto anoitecia, a diligência rolava contínuamente ao trote esgalgado dos seus magros cavalos brancos, e o cocheiro, com o capuz do gabão enterrado na cabeça, ruminava o seu cachimbo--eu pus-me, elegíacamente, ridículamente, a considerar a esterilidade da vida: e desejava ser um monge, estar num convento, tranqùilo, entre arvoredos ou na murmurosa concavidade dum vale, e emquanto a água da cêrca canta sonoramente nas bacias de pedra, ler a _Imitação_, e ouvindo os rouxinóis nos loireirais ter saudades do céu.--Não se pode ser mais estúpido.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 2,
+      "min_matched_ratio": 0.01,
+      "macros_any": [
+        "BE",
+        "RELATE",
+        "DYN",
+        "COMM",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-eca-contos-02",
+    "domain": "narrativa",
+    "source": "narrativa/eca-contos-02.txt",
+    "input": "Mas por êsse tempo veio morar para defronte do armazêm dos Macários, para um terceiro andar, uma mulher de quarenta anos, vestida de luto, uma pele branca e baça, o busto bem feito e redondo e um aspecto desejável. Macário tinha a sua carteira no primeiro andar, por cima do armazêm, ao pé de uma varanda, e dali viu uma manhã aquela mulher com o cabelo preto solto e anelado, um chambre branco e braços nus, chegar-se a uma pequena janela de peitoril, a sacudir um vestido. Macário afirmou-se e sem mais intenção dizia mentalmente que aquela mulher, aos vinte anos, devia ter sido uma pessoa cativante e cheia de domínio: porque os seus cabelos violentos e ásperos, o sobr'ôlho espesso, o lábio forte, o perfil aquilino e firme, revelavam um temperamento activo e imaginações apaixonadas. No entanto, continuou serenamente alinhando as suas cifras. Mas à noite estava sentado fumando à janela do seu quarto, que abria sôbre o pátio: era em julho e a atmosfera estava eléctrica e amorosa: a rebeca de um vizinho gemia uma _chácara_ mourisca, que então sensibilizava, e era de um melodrama; o quarto estava numa penumbra doce e cheia de mistério--e Macário, que estava em chinelas, começou a lembrar-se daqueles cabelos negros e fortes e daqueles braços que tinham a côr dos mármores pálidos: espreguiçou-se, rolou mórbidamente a cabeça pelas costas da cadeira de vime, como os gatos sensíveis que se esfregam, e decidiu bocejando que a sua vida era monótona. E ao outro dia, ainda impressionado, sentou-se à sua carteira com a janela toda aberta, e olhando o prédio fronteiro onde viviam aqueles cabelos grandes--começou a aparar vagarosamente a sua pena de rama. Mas ninguêm se chegou à janela de peitoril, com caixilhos verdes. Macário estava enfastiado, pesado--e o trabalho foi lento.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Ω",
+        "∀"
+      ]
+    }
+  },
+  {
+    "id": "acervo-eca-contos-03",
+    "domain": "narrativa",
+    "source": "narrativa/eca-contos-03.txt",
+    "input": "E Macário, contando a história do seu coração acordado e exigente e falando do amor com as exaltações de então, pediu-lhe como a glória da sua vida, _que achasse um meio de o encaixar lá_. Não era difícil. As Vilaças costumavam ir aos sábados a casa de um tabelião muito rico na rua dos Calafates: eram assembleias simples e pacatas, onde se cantavam motetes ao cravo, se glosavam motes e havia jogos de prendas do tempo da senhora D. Maria I, e às 9 horas a criada servia a orchata. Bem. Logo no primeiro sábado, Macário, de casaca azul, calças de ganga com presilhas de trama de metal, gravata de setim roxo, curvava-se diante da espôsa do tabelião, a snr.ª D. Maria da Graça, pessoa sêca e aguçada, com um vestido bordado a matiz, um nariz adunco, uma enorme luneta de tartaruga, a pluma de _marabout_ nos seus cabelos grisalhos. A um canto da sala já lá estava, entre um _frou-frou_ de vestidos enormes, a menina Vilaça, a loura, vestida de branco, simples, fresca, com o seu ar de gravura colorida. A mãe Vilaça, a soberba mulher pálida, cochichava com um desembargador de figura apoplética. O tabelião era homem letrado, latinista e amigo das musas; escrevia num jornal de então, a _Alcofa das Damas_: porque era sobretudo galante, e êle mesmo se intitulava, numa ode pitoresca, _môço escudeiro de Vénus_. Assim, as suas reùniões eram ocupadas pelas belas-artes--e nessa noite um poeta do tempo devia vir ler um poemeto intitulado _Elmira ou a vingança do veneziano_!... Começavam então a aparecer as primeiras audácias românticas. As revoluções da Grécia principiavam a atrair os espíritos romanescos e saídos da mitologia para os países maravilhosos do Oriente. Por toda a parte se falava no pachá de Janina.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Conc",
+        "∀",
+        "∃"
+      ]
+    }
+  },
+  {
+    "id": "acervo-eca-contos-04",
+    "domain": "narrativa",
+    "source": "narrativa/eca-contos-04.txt",
+    "input": "Quando D. Hilária acabou de contar, suspirando, estas desgraças passadas, começou-se a jogar. Era singular que Macário não se lembrava o que tinha jogado nessa noite radiosa. Só se recordava que tinha ficado ao lado da menina Vilaça (que se chamava Luísa), que reparara muito na sua fina pele rosada, tocada de luz, e na meiga e amorosa pequenez da sua mão com uma unha mais polida que o marfim de Dieppe. E lembrava-se tambêm de um acidente excêntrico, que determinara nele, desde êsse dia, uma grande hostilidade ao clero da Sé. Macário estava sentado à mesa, e ao pé dêle Luísa: Luísa estava toda voltada para êle com uma das mãos apoiando a sua fina cabeça loura e amorosa, e a outra esquecida no regaço. Defronte estava o beneficiado, com o seu barrete preto, os seus óculos na ponta aguda do nariz, o tom azulado da forte barba rapada, e as suas duas grandes orelhas, complicadas e cheias de cabelo, separadas do crânio como dois postigos abertos. Ora, como era necessário no fim do jôgo pagar uns tentos ao cavaleiro de Malta, que estava ao lado do beneficiado, Macário tirou da algibeira uma peça e quando o cavaleiro, todo curvado e com um ôlho pisco, fazia a sôma dos tentos nas costas dum az, Macário conversava com Luísa, e fazia girar sôbre o pano verde a sua peça de oiro, como um bilro ou um peão. Era uma peça nova que luzia, faiscava, rodando, e feria a vista como uma bola de névoa doirada. Luísa sorria vendo-a girar, girar, e parecia a Macário que todo o céu, a pureza, a bondade das flores e a castidade das estrêlas estavam naquele claro sorriso distraído, espiritual, arcangélico, com que ela seguia o giro fulgurante da peça de oiro nova.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Λ",
+        "∀"
+      ]
+    }
+  },
+  {
+    "id": "acervo-eca-contos-05",
+    "domain": "narrativa",
+    "source": "narrativa/eca-contos-05.txt",
+    "input": "No entanto via Luísa de noite, na saleta escura que dava para o patamar: uma lamparina ardia em cima da mesa: era feliz ali naquela penumbra, todo sentado castamente, ao pé de Luísa, a um canto de um vélho canapé de palhinha. Não a via de dia, porque trazia já a roupa usada, as botas cambadas, e não queria mostrar à fresca Luísa, toda mimosa nas suas cambraias asseadas, a sua miséria remendada: ali, àquela luz ténue e esbatida, êle exalava a sua paixão crescente e escondia o seu fato decadente. Segundo me disse Macário--era muito singular o temperamento de Luísa. Tinha o carácter louro como o cabelo--se é certo que o louro é uma côr fraca e desbotada: falava pouco, sorria sempre com os seus brancos dentinhos, dizia a tudo _pois sim_: era muito simples, quási indiferente, cheia de transigências.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Temp",
+        "Λ",
+        "Ω",
+        "∀"
+      ]
+    }
+  },
+  {
+    "id": "acervo-fialho-contos-01",
+    "domain": "narrativa",
+    "source": "narrativa/fialho-contos-01.txt",
+    "input": "E sem consciencia do que via, acompanhava o pai na sinistra occupação de sepultar os mortos. Assim crescera. N’aquella miseranda existencia entrára a crear predilecções. Começou a amar principalmente os mortos que paravam á porta do cemiterio em ricas berlindas douradas, entre filas de gatos pingados lugubres de tochas accesas, e puxados por seis parelhas cobertas de crepes. Visitava-os na casa da observação, acocorada a um canto com o olhar absorto, durante as vinte e quatro horas que os caixões alli passavam abertos, e onde contemplava, deitados na petrea immobilidade derradeira, os que na sua vaidade egoista, corruptos e miasmaticos, iam habitar em sepulchros de marmore, com figuras sentimentaes na fachada e pomposas inscripções nas lapides. Póde dizer-se que aprendeu a lêr no cemiterio, quando curiosa na sua pobreza esfrangalhada queria saber os nomes e posições occupadas no mundo pelos que habitavam aquella branca cidade de marmores, de que se julgava rainha.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 2,
+      "min_matched_ratio": 0.01,
+      "macros_any": [
+        "BE",
+        "RELATE",
+        "DYN",
+        "COMM",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-fialho-contos-02",
+    "domain": "narrativa",
+    "source": "narrativa/fialho-contos-02.txt",
+    "input": "Uma tarde, passeando na grande rua que corre ao longo da fachada do cemiterio tinha parado a contemplar, no alto d’um pedestal glorioso, a estatua do conde das Antas. E fallava ainda nos seus ultimos dias, d’aquella energica figura de soldado, grande barba sobre o peito e cabeça de um vigor leonino, a mão apertando o punho da espada... e desde então, a sua ancia pedia-lhe militares, que arrastam nas ruas os sabres prateados e destacam, na agitação dos enterros, d’entre os graves _toilettes_ negros com a alegria embriagadora dos seus vivos rutilantes e das suas divisas sanguineas, côr dos desejos insaciaveis. Nos seus devaneios passavam pallidas figuras de alferes, dos que tilintam esporas no lagedo dos passeios e retorcem bigodes frisados, contemplando as janellas, em domingos de procissão. Todos os dias visitava a casa das observações: alli, sobre bancas expunham-se caixões abertos; ella mesma mettia nas mãos dos mortos as argolas de alarme, e tal emprego quotidiano permittia-lhe vêr gentes de todas as castas e profissões. Meninas ricas, filhas de millionarios e nascidas entre velludos, aureas meninices em berços de renda, acalentadas por amas normandas de cachos louros, iam alli dormindo nos seus caixões de setim, victimas de tisica galopante, olhos vitreos e face cavada, labios brancos em listras lividas e o gelado sorriso dos martyres, clareando em reflexos os rostos, de uma rigidez de esculptura.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 2,
+      "min_matched_ratio": 0.01,
+      "macros_any": [
+        "BE",
+        "RELATE",
+        "DYN",
+        "COMM",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-fialho-contos-03",
+    "domain": "narrativa",
+    "source": "narrativa/fialho-contos-03.txt",
+    "input": "Não conhecera mãi, nunca uma boa mulher a beijara e o coveiro não reprimia diante da filha as suas expansões brutaes. Entregue a si propria, chamuscada por caricias perfidas de homens entregues á rota corrente da sua bestialidade, fizera-se n’isto. Havia no entanto dentro d’ella ainda, uma cousa ideal e inexplicavel, certa virgindade infantil: de noite rezava! Vinham-lhe tristezas intimas, a insomnia triturava-lhe por vezes a saude, como n’um almofariz de bronze. Sem saber porquê, era desgraçada. Desejaria ser como uma pequena que vira um dia costurando á porta fuma carvoaria, com uma rosa nas tranças. Mas de subito, alguma cousa a arremessava á lembrança condemnada dos homens adormecidos na casa de observação, e via-os surgir das suas mortalhas alinhavadas, sorrindo, com vida; estendiam os braços a procural-a; roídos de vermes, muitos vinham, como na dança do _Roberto_, roçar-lhe pelos quadris os membros esqualidos e podres.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 2,
+      "min_matched_ratio": 0.01,
+      "macros_any": [
+        "BE",
+        "RELATE",
+        "DYN",
+        "COMM",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-iracema-01",
+    "domain": "narrativa",
+    "source": "narrativa/iracema-01.txt",
+    "input": "Continuando, porém, a apreciar o litterato, o romancista, citemos ainda dois dos seus melhores romances: o _Gaúcho_ e _Iracema_. O caracter do gaúcho, que adora a sua egua _Morena_, que a entende, que lhe fala e que a escuta, está traçado com uma rara perfeição. _Iracema_ é sobretudo um romancinho adoravelmente escripto. Nunca o estylo de Alencar attingiu tão delicada suavidade. Exhala-se de cada periodo como que o perfume das flores com que se elabora o mel das suas palavras. O sr. Pinheiro Chagas teve occasião de prestar a este livro a merecida homenagem. Fez porém algumas observações relativas á mania que teem alguns escriptores brazileiros, e um d'elles era Alencar, de pretenderem modificar as formas grammaticaes da lingua. Alencar entendeu dever responder na segunda edição do seu romance á critica do escriptor portuguez. Essa replica parecia-se um pouco com o prefacio dos _Jesuitas_. Manifestava uma grande vaidade realmente inadmissivel em escriptor de tão elevado merito, e mostrava um desprêso completo pelas regras mais elementares da philologia.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 2,
+      "min_matched_ratio": 0.01,
+      "macros_any": [
+        "BE",
+        "RELATE",
+        "DYN",
+        "COMM",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-iracema-02",
+    "domain": "narrativa",
+    "source": "narrativa/iracema-02.txt",
+    "input": "A acção da politica no litterato sente-se na _Guerra dos Mascates_, romance em dois volumes, que elle publicou a bastante distancia de tempo um do outro, cujo enredo se trava em 1710 no tempo das desavenças dos moradores de Olinda com os do Recife, mas que tem apenas por intento fazer retratos contemporaneos com os nomes do seculo XVIII. Esta intenção era por tal forma transparente que no parlamento lh'o lançaram em rosto, porque effectivamente Alencar não se contentava com o desenho moral dos personagens, fazia o retrato physico tanto ao vivo que ninguem podia deixar de reconhecer o retratado. Assim o governador de Pernambuco D. Sebastião de Sousa Caldas é evidentemente o imperador D. Pedro II, o secretario Barbosa Lima é o visconde do Rio Branco, outro personagem é o marquez de S. Vicente, outro o barão de Inhomerim, etc., etc.",
+    "match_mode": "density",
+    "expect": {
+      "min_nodes": 2,
+      "min_matched_ratio": 0.01,
+      "macros_any": [
+        "BE",
+        "RELATE",
+        "DYN",
+        "COMM",
+        "SCOPE"
+      ]
+    }
+  },
+  {
+    "id": "acervo-jose-matias-01",
+    "domain": "narrativa",
+    "source": "narrativa/jose-matias-01.txt",
+    "input": "O sujeito de óculos de ouro, dentro do cupé?... Não o conheço, meu amigo. Talvez um parente rico, desses que aparecem nos enterros, com o parentesco correctamente coberto de fumo, quando o defunto já não importuna, nem compromete. O homem obeso de carão amarelo, dentro da vitória, é o Alves Capão, que tem um jornal onde desgraçadamente a Filosofia não abunda, e que se chama a Piada. Que relações o prendiam ao Matias?... Não sei. Talvez se embebedassem nas mesmas tascas; talvez o José Matias ultimamente colaborasse na Piada; talvez debaixo daquela gordura e daquela literatura, ambas tão sórdidas, se abrigue uma alma compassiva. Agora é a nossa tipóia... Quer que desça a vidraça? Um cigarro?... Eu trago fósforos. Pois este José Matias foi um homem desconsolador para quem, como eu, na vida ama a evolução lógica e pretende que a espiga nasça coerentemente do grão. Em Coimbra sempre o consideramos como uma alma escandalosamente banal. Para este juízo concorria talvez a sua horrenda correcção. Nunca um rasgão brilhante na batina! nunca uma poeira estouvada nos sapatos! nunca um pêlo rebelde do cabelo ou do bigode fugido daquele rígido alinho que nos desolava! Além disso, na nossa ardente geração, ele foi o único intelectual que não rugiu com as misérias da Polónia; que leu sem palidez ou pranto as Contemplações; que permaneceu insensível ante a ferida de Garibáldi! E todavia, nesse José Matias, nenhuma secura ou dureza ou egoísmo ou desafabilidade! Pelo contrário! Um suave camarada, sempre cordial, e mansamente risonho. Toda a sua inabalável quietação parecia provir duma imensa superficialidade sentimental. E, nesse tempo, não foi sem razão e propriedade que nós alcunhamos aquele moço tão macio, tão louro e tão ligeiro, de Matias-Coração-de-Esquilo.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Temp",
+        "∀"
+      ]
+    }
+  },
+  {
+    "id": "acervo-jose-matias-02",
+    "domain": "narrativa",
+    "source": "narrativa/jose-matias-02.txt",
+    "input": "Pois, como nessa estrofe, o pobre José Matias, ao regressar da praia da Ericeira em Outubro, no Outono, avistou Elisa Miranda, uma noite no terraço, à luz da Lua! O meu amigo nunca contemplou aquele precioso tipo de encanto Lamartiniano. Alta, esbelta, ondulosa, digna da comparação bíblica da palmeira ao vento. Cabelos negros, lustrosos e ricos, em bandós ondeados. Uma carnação de camélia muito fresca. Olhos negros, líquidos, quebrados, tristes, de longas pestanas... Ah! Meu amigo, até eu, que já então laboriosamente anotava Hegel, depois de a encontrar numa tarde de chuva esperando a carruagem à porta do Seixas, a adorei durante três exaltados dias e lhe rimei um soneto! Não sei se o José Matias lhe dedicou sonetos. Mas todos nós, seus amigos, percebemos logo o forte, profundo, absoluto amor que concebera, desde a noite de Outono, à luz da Lua, aquele coração, que em Coimbra considerávamos de esquilo! Bem compreende que homem tão comedido e quieto não se exalou em suspiros públicos. Já, porém, no tempo de Aristóteles, se afirmava que amor e fumo não se escondem; e do nosso cerrado José Matias o amor começou logo a escapar, como o fumo leve através das fendas invisíveis duma casa fechada que arde terrìvelmente. Bem me recordo duma tarde que o visitei em Arroios, depois de voltar do Alentejo. Era um domingo de Julho. Ele ia jantar com uma tia-avó, uma D. Mafalda Noronha, que vivia em Benfica, na quinta dos Cedros, onde habitualmente jantavam também aos domingos o Matos Miranda e a divina Elisa. Creio mesmo que só nessa casa ela e o José Matias se encontravam, sobretudo com as facilidades que oferecem pensativas alamedas e retiros de sombra.",
+    "match_mode": "symbols_subset",
+    "expect": {
+      "symbols": [
+        "Conc",
+        "Temp",
+        "Λ",
+        "∀"
+      ]
+    }
+  }
+]

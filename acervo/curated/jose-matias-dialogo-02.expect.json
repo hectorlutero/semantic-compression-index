@@ -1,0 +1,13 @@
+{
+  "domain": "dialogo",
+  "match_mode": "density",
+  "expect": {
+    "min_nodes": 1,
+    "min_matched_ratio": 0.005,
+    "macros_any": [
+      "COMM",
+      "SCOPE",
+      "RELATE"
+    ]
+  }
+}

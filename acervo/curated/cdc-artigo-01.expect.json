@@ -1,0 +1,13 @@
+{
+  "domain": "juridico",
+  "match_mode": "structural",
+  "expect": {
+    "macros": [
+      "EPIST",
+      "MODAL"
+    ],
+    "symbols": [
+      "Cond"
+    ]
+  }
+}

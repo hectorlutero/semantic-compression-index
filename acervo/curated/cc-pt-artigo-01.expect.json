@@ -1,0 +1,12 @@
+{
+  "domain": "juridico",
+  "match_mode": "structural",
+  "expect": {
+    "macros": [
+      "MODAL"
+    ],
+    "symbols": [
+      "Cond"
+    ]
+  }
+}

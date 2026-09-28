@@ -40,9 +40,11 @@ def test_draft_case_from_stub_without_curated():
     assert case["expect"]["min_nodes"] == 1
 
 
-def test_build_suite_curated_only_empty_without_sidecars():
-    files = iter_txt(DEFAULT_ACERVO, include_stubs=True)
-    assert build_suite(DEFAULT_ACERVO, files, curated_only=True) == []
+def test_build_suite_curated_only_requires_sidecars():
+    files = iter_txt(DEFAULT_ACERVO, include_stubs=False)
+    cases = build_suite(DEFAULT_ACERVO, files, curated_only=True)
+    assert len(cases) >= 15
+    assert all("expect" in c for c in cases)
 
 
 def test_preview_uses_core_seam():
@@ -52,9 +54,15 @@ def test_preview_uses_core_seam():
     assert isinstance(preview["symbols"], list)
 
 
-def test_gold_acervo_suite_starts_empty():
+def test_gold_acervo_suite_has_curated_cases():
     cases = json.loads(DEFAULT_SUITE.read_text(encoding="utf-8"))
-    assert cases == []
+    assert len(cases) >= 15
+    assert all("id" in c and "expect" in c for c in cases)
+
+
+def test_preview_json_serializable():
+    preview = preview_one(InProcessCore(), "No princípio existia a ideia.")
+    json.dumps(preview)  # must not raise on Span
 
 
 def test_cli_list_include_stubs(capsys):

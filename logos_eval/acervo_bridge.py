@@ -61,10 +61,27 @@ def load_curated(acervo_root: Path, txt_path: Path) -> Optional[dict[str, Any]]:
     return json.loads(side.read_text(encoding="utf-8"))
 
 
+def _span_json(span: Any) -> Any:
+    if span is None:
+        return None
+    if isinstance(span, (str, int, float, bool, list, dict)):
+        return span
+    # Core Span dataclass / namedtuple — keep JSON-safe fields only
+    start = getattr(span, "start", None)
+    end = getattr(span, "end", None)
+    if start is not None or end is not None:
+        return {"start": start, "end": end}
+    return str(span)
+
+
 def preview_one(core: CoreInterface, text: str) -> dict[str, Any]:
     canonical = core.extract(text)
     nodes = [
-        {"macro": n.macro, "symbol": n.symbol, "span": getattr(n, "span", None)}
+        {
+            "macro": n.macro,
+            "symbol": n.symbol,
+            "span": _span_json(getattr(n, "span", None)),
+        }
         for n in canonical.nodes
     ]
     return {

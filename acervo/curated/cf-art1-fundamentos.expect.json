@@ -1,0 +1,9 @@
+{
+  "domain": "etica",
+  "match_mode": "symbols_subset",
+  "expect": {
+    "symbols": [
+      "Κ"
+    ]
+  }
+}
