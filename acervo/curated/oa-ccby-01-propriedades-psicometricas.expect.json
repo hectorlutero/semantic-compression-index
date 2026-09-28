@@ -1,0 +1,12 @@
+{
+  "domain": "cientifico",
+  "match_mode": "density",
+  "expect": {
+    "min_nodes": 1,
+    "min_matched_ratio": 0.0,
+    "macros_any": [
+      "EPIST",
+      "SCOPE"
+    ]
+  }
+}

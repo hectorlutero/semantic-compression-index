@@ -1,0 +1,15 @@
+{
+  "domain": "narrativa",
+  "match_mode": "density",
+  "expect": {
+    "min_nodes": 2,
+    "min_matched_ratio": 0.01,
+    "macros_any": [
+      "BE",
+      "RELATE",
+      "DYN",
+      "COMM",
+      "SCOPE"
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "domain": "narrativa",
+  "match_mode": "symbols_subset",
+  "expect": {
+    "symbols": [
+      "Ω",
+      "∀"
+    ]
+  }
+}

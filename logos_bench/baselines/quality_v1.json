@@ -1,0 +1,8 @@
+{
+  "strict": false,
+  "min_f1_l1": 0.7,
+  "min_f1_l2": 0.5,
+  "min_f1_l3": 0.75,
+  "min_floors_pass_pct": 80,
+  "notes": "Warn-only until E1 densification; raise and set strict=true for CI gate."
+}

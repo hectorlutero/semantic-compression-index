@@ -1,0 +1,58 @@
+# Acervo em txt
+
+Pasta para textos fonte (`.txt`) que alimentam o ciclo de melhoria do Logos Core: **extract → curar símbolos esperados → gold/eval → alargar regras/índice**.
+
+Não renomear esta pasta para slogans tipo “dataset”. O termo do projeto é **acervo**.
+
+## Layout
+
+```text
+acervo/
+  README.md                 # este ficheiro
+  INVENTARIO.md             # contagem do que já foi puxado
+  stubs/                    # exemplos mínimos
+  curated/                  # sidecars .expect.json após curadoria humana
+  narrativa/                # prosa literária PD (+ SOURCES.md)
+  dialogo/                  # actos de fala
+  juridico/                 # atos oficiais BR
+  cientifico/               # abstracts CC BY
+  etica/                    # VAL / fundamentos
+```
+
+## Naming
+
+| Peça | Convenção |
+|------|-----------|
+| Texto | `kebab-case.txt` (UTF-8). Ex.: `narrativa-abertura.txt` |
+| Domínio (opcional) | subpasta: `juridico/`, `cientifico/`, `narrativa/`, `dialogo/` |
+| Expect sidecar | `curated/<mesmo-stem>.expect.json` |
+| Case id | stem do ficheiro (sem `.txt`), estável |
+
+## Sidecar `*.expect.json`
+
+Campos alinhados com `logos_eval` (`structural`, `symbols_subset`, `density`, `render_l1`):
+
+```json
+{
+  "domain": "narrativa",
+  "match_mode": "symbols_subset",
+  "expect": {
+    "symbols": ["Γ", "Σ"]
+  }
+}
+```
+
+Para piso de cobertura em prosa aberta, preferir `match_mode: "density"` com `min_nodes` / `min_matched_ratio` / `macros_any`.
+
+## Loop (resumo)
+
+1. **Drop** — colocar `.txt` nesta pasta (ou enviar ao Project e pedir dump aqui).
+2. **Extract** — `logos-acervo preview caminho.txt` (seam Core: extract / render / expand).
+3. **Compress** — `logos-acervo compress` (LogosCompress sobre o acervo: L1 + tokens).
+4. **Curar** — escrever `curated/<stem>.expect.json` com símbolos/macros desejados.
+5. **Draft gold** — `logos-acervo draft` → `logos_eval/suite/gold_acervo.json`.
+6. **TDD** — `logos-acervo eval` (falha = regra/índice a alargar).
+7. **Widen** — padrões no Core / índice; repetir sem inventar acervo sintético grande.
+
+
+Ver plano do Project: `docs/plano-acervo-txt.md` no Agent Store.

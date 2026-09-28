@@ -43,9 +43,26 @@ Primary seam only — no public Parser/Index API. The legacy `semantic_compresso
 
 ```bash
 logos-eval                 # exit 1 on regression
-logos-bench --repeats 5    # p50/p95, ratio, coverage
+logos-bench --repeats 5    # p50/p95, ratio, coverage (L1)
+logos-bench-quality        # qualidade L1/L2/L3 vs gold
+logos-bench-quality --from-acervo --write acervo/reports/quality-acervo.json
 pytest -q
 ```
+
+## Acervo em txt
+
+Textos fonte (`.txt`) em `acervo/` alimentam gold/coverage via o seam Core (`extract` / `render` / `expand`):
+
+```bash
+logos-acervo list
+logos-acervo preview                   # extract → render → expand
+logos-acervo compress                  # LogosCompress L1 + tokens sobre o acervo
+logos-acervo compress --write acervo/reports/compress-acervo.json
+logos-acervo draft --write             # casos com sidecar curated/
+logos-acervo eval                      # gold_acervo.json
+```
+
+Ver `acervo/README.md` e `acervo/reports/README.md`.
 
 ## HTTP adapter
 

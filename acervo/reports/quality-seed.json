@@ -1,0 +1,314 @@
+{
+  "f1_l1_avg": 0.9047619047619048,
+  "f1_l2_avg": 0.8800000000000001,
+  "f1_l3_avg": 0.9493212669683257,
+  "needles_l1_pct": 100.0,
+  "needles_l2_pct": 100.0,
+  "needles_l3_pct": 100.0,
+  "floors_pass_pct": 100.0,
+  "consistency_pct": 100.0,
+  "by_domain": {
+    "cientifico": {
+      "count": 1.0,
+      "f1_l3_avg": 1.0,
+      "f1_l1_avg": 1.0,
+      "floors_pass_pct": 100.0
+    },
+    "juridico": {
+      "count": 1.0,
+      "f1_l3_avg": 0.923076923076923,
+      "f1_l1_avg": 0.6666666666666666,
+      "floors_pass_pct": 100.0
+    },
+    "modal": {
+      "count": 1.0,
+      "f1_l3_avg": 1.0,
+      "f1_l1_avg": 1.0,
+      "floors_pass_pct": 100.0
+    },
+    "narrativa": {
+      "count": 2.0,
+      "f1_l3_avg": 0.9117647058823529,
+      "f1_l1_avg": 0.9285714285714286,
+      "floors_pass_pct": 100.0
+    }
+  },
+  "warnings": [],
+  "failed_thresholds": [],
+  "items": [
+    {
+      "id": "joao-1-1-5",
+      "domain": "narrativa",
+      "nodes": 11,
+      "matched_ratio": 0.9426229508196722,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE",
+          "DYN",
+          "RELATE"
+        ],
+        "render": "BE(Γ, Σ) ∧ RELATE(Ρ, Κ, Neg) ∧ DYN(Λ vs Δ)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "agência",
+          "existência",
+          "identidade",
+          "oposição",
+          "relação"
+        ],
+        "render": "existência:[Γ(Σ), Γ] ∧ relação:[Ρ(Σ, Deus)] ∧ identidade:[Σ(Σ, Deus), Σ(vida), Σ(vida, Λ)] ∧ agência:[Κ(Σ), Neg(Σ)] ∧ oposição:[Λ, Δ]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Neg",
+          "Γ",
+          "Δ",
+          "Κ",
+          "Λ",
+          "Ρ",
+          "Σ"
+        ],
+        "render": "Γ(Σ) ∧ Ρ(Σ, Deus) ∧ Ρ(Σ, Deus) ∧ Σ(Σ, Deus) ∧ Ρ(Σ, Deus) ∘ Γ ∧ Κ(Σ) ∧ Neg(Σ) ∧ Σ(vida) ∧ Σ(vida, Λ) ∧ Λ vs Δ"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "secular-visao",
+      "domain": "narrativa",
+      "nodes": 11,
+      "matched_ratio": 0.856353591160221,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 0.75,
+        "f1": 0.8571428571428571,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE",
+          "DYN",
+          "RELATE",
+          "SCOPE"
+        ],
+        "render": "BE(Γ, Σ, Μ) ∧ RELATE(Ρ, Κ, Neg) ∧ DYN(Λ vs Δ, Τ) ∧ SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 0.42857142857142855,
+        "f1": 0.6,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "agência",
+          "escopo",
+          "existência",
+          "identidade",
+          "oposição",
+          "relação",
+          "transformação"
+        ],
+        "render": "existência:[Γ(Visão), Μ(Visão)] ∧ relação:[Ρ(Visão, Fundador), Ρ(rejeição)] ∧ identidade:[Σ(Visão, propósito)] ∧ agência:[Κ(Visão), Neg(Visão)] ∧ escopo:[∀] ∧ transformação:[Τ(sócios)] ∧ oposição:[Λ(Visão), Δ(confusão)]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.7,
+        "f1": 0.8235294117647058,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Neg",
+          "Γ",
+          "Δ",
+          "Κ",
+          "Λ",
+          "Μ",
+          "Ρ",
+          "Σ",
+          "Τ",
+          "∀"
+        ],
+        "render": "Γ(Visão) ∧ Ρ(Visão, Fundador) ∧ Ρ(Visão, Fundador) ∧ Σ(Visão, propósito) ∧ Κ(Visão) ∧ Neg(Visão) ∧ Μ(Visão) ∧ Ρ(rejeição) ∧ Λ(Visão) vs Δ(confusão) ∧ ∀ ∧ Τ(sócios)"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "legal-deontic",
+      "domain": "juridico",
+      "nodes": 7,
+      "matched_ratio": 0.39444444444444443,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 0.5,
+        "f1": 0.6666666666666666,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "MODAL",
+          "RELATE"
+        ],
+        "render": "RELATE(Caus) ∧ MODAL(Obl, Proib, Perm, Exc, Cond, Sanc)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 0.6666666666666666,
+        "f1": 0.8,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "agência",
+          "condição",
+          "modalidade"
+        ],
+        "render": "modalidade:[Obl, Proib, Perm] ∧ condição:[Exc, Cond, Sanc] ∧ agência:[Caus]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.8571428571428571,
+        "f1": 0.923076923076923,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Caus",
+          "Cond",
+          "Exc",
+          "Obl",
+          "Perm",
+          "Proib",
+          "Sanc"
+        ],
+        "render": "Obl ∧ Proib ∧ Perm ∧ Exc ∧ Caus ∧ Cond ∧ Sanc"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "scientific-epist",
+      "domain": "cientifico",
+      "nodes": 6,
+      "matched_ratio": 0.33540372670807456,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "EPIST"
+        ],
+        "render": "EPIST(Hip, Met, Evid, Conc, K)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "evidência"
+        ],
+        "render": "evidência:[Hip, Met, Evid, Conc, K]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Conc",
+          "Evid",
+          "Hip",
+          "K",
+          "Met"
+        ],
+        "render": "Hip ∧ Met ∧ Evid ∧ Conc ∧ Conc ∧ K"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "alethic-modal",
+      "domain": "modal",
+      "nodes": 2,
+      "matched_ratio": 0.40625,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "MODAL"
+        ],
+        "render": "MODAL(Nec, Poss)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "modalidade"
+        ],
+        "render": "modalidade:[Nec, Poss]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Nec",
+          "Poss"
+        ],
+        "render": "Nec ∧ Poss"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    }
+  ]
+}
