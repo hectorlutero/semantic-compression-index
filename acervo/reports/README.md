@@ -67,3 +67,12 @@ logos-acervo compress --json --write acervo/reports/compress-acervo.json
 logos-compress "$(cat acervo/juridico/cdc-artigo-01.txt)"
 ```
 
+
+## Quality L1/L2/L3
+
+```bash
+logos-bench-quality
+logos-bench-quality --from-acervo --write acervo/reports/quality-acervo.json
+```
+
+Plano: Project store `docs/plano-melhoria-extracao.md`.

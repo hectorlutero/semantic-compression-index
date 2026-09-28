@@ -1,0 +1,3510 @@
+{
+  "f1_l1_avg": 1.0,
+  "f1_l2_avg": 0.0,
+  "f1_l3_avg": 0.8611111111111112,
+  "needles_l1_pct": 100.0,
+  "needles_l2_pct": 100.0,
+  "needles_l3_pct": 100.0,
+  "floors_pass_pct": 79.16666666666666,
+  "consistency_pct": 100.0,
+  "by_domain": {
+    "cientifico": {
+      "count": 5.0,
+      "f1_l3_avg": 1.0,
+      "f1_l1_avg": 1.0,
+      "floors_pass_pct": 60.0
+    },
+    "dialogo": {
+      "count": 17.0,
+      "f1_l3_avg": 0.8078431372549019,
+      "f1_l1_avg": 1.0,
+      "floors_pass_pct": 94.11764705882352
+    },
+    "etica": {
+      "count": 6.0,
+      "f1_l3_avg": 0.8611111111111112,
+      "f1_l1_avg": 1.0,
+      "floors_pass_pct": 100.0
+    },
+    "juridico": {
+      "count": 18.0,
+      "f1_l3_avg": 0.9814814814814815,
+      "f1_l1_avg": 1.0,
+      "floors_pass_pct": 83.33333333333334
+    },
+    "narrativa": {
+      "count": 26.0,
+      "f1_l3_avg": 0.9621794871794871,
+      "f1_l1_avg": 1.0,
+      "floors_pass_pct": 65.38461538461539
+    }
+  },
+  "warnings": [
+    "f1_l2_avg=0.000 < baseline min_f1_l2=0.5",
+    "floors_pass_pct=79.167 < baseline min_floors_pass_pct=80.0"
+  ],
+  "failed_thresholds": [],
+  "items": [
+    {
+      "id": "acervo-braz-cubas-01",
+      "domain": "narrativa",
+      "nodes": 1,
+      "matched_ratio": 0.006016847172081829,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM"
+        ],
+        "render": "COMM(Ω)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação"
+        ],
+        "render": "comunicação:[Ω]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Ω"
+        ],
+        "render": "Ω"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=1<2 or ratio=0.006<0.01"
+    },
+    {
+      "id": "acervo-braz-cubas-02",
+      "domain": "narrativa",
+      "nodes": 4,
+      "matched_ratio": 0.01997780244173141,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE",
+          "SCOPE",
+          "VAL"
+        ],
+        "render": "BE(∃) ∧ SCOPE(Temp) ∧ VAL(Θ)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo",
+          "existência",
+          "valor"
+        ],
+        "render": "valor:[Θ] ∧ existência:[∃] ∧ escopo:[Temp]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.6666666666666666,
+        "f1": 0.8,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Temp",
+          "Θ",
+          "∃"
+        ],
+        "render": "Θ ∧ ∃ ∧ Temp ∧ Temp"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-braz-cubas-03",
+      "domain": "narrativa",
+      "nodes": 4,
+      "matched_ratio": 0.026442307692307692,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM",
+          "MODAL",
+          "SCOPE"
+        ],
+        "render": "MODAL(Cond) ∧ COMM(Ω) ∧ SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação",
+          "condição",
+          "escopo"
+        ],
+        "render": "comunicação:[Ω] ∧ escopo:[∀] ∧ condição:[Cond]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.6666666666666666,
+        "f1": 0.8,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Cond",
+          "Ω",
+          "∀"
+        ],
+        "render": "Ω ∧ ∀ ∧ ∀ ∧ Cond"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-carteira-01",
+      "domain": "narrativa",
+      "nodes": 5,
+      "matched_ratio": 0.025236593059936908,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "EPIST",
+          "RELATE",
+          "SCOPE",
+          "VAL"
+        ],
+        "render": "RELATE(Caus) ∧ EPIST(Conc) ∧ SCOPE(Temp) ∧ VAL(Θ)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "agência",
+          "escopo",
+          "evidência",
+          "valor"
+        ],
+        "render": "escopo:[Temp] ∧ evidência:[Conc] ∧ valor:[Θ] ∧ agência:[Caus]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.5,
+        "f1": 0.6666666666666666,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Caus",
+          "Conc",
+          "Temp",
+          "Θ"
+        ],
+        "render": "Temp ∧ Temp ∧ Conc ∧ Θ ∧ Caus"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-carteira-dialogo-01",
+      "domain": "dialogo",
+      "nodes": 5,
+      "matched_ratio": 0.025236593059936908,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "EPIST",
+          "RELATE",
+          "SCOPE",
+          "VAL"
+        ],
+        "render": "RELATE(Caus) ∧ EPIST(Conc) ∧ SCOPE(Temp) ∧ VAL(Θ)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "agência",
+          "escopo",
+          "evidência",
+          "valor"
+        ],
+        "render": "escopo:[Temp] ∧ evidência:[Conc] ∧ valor:[Θ] ∧ agência:[Caus]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Caus",
+          "Conc",
+          "Temp",
+          "Θ"
+        ],
+        "render": "Temp ∧ Temp ∧ Conc ∧ Θ ∧ Caus"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cartomante-01",
+      "domain": "narrativa",
+      "nodes": 2,
+      "matched_ratio": 0.005393743257820928,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE",
+          "SCOPE"
+        ],
+        "render": "BE(∃) ∧ SCOPE(Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo",
+          "existência"
+        ],
+        "render": "escopo:[Temp] ∧ existência:[∃]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Temp",
+          "∃"
+        ],
+        "render": "Temp ∧ ∃"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cartomante-dialogo-01",
+      "domain": "dialogo",
+      "nodes": 4,
+      "matched_ratio": 0.028346456692913385,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE",
+          "COMM",
+          "DYN"
+        ],
+        "render": "BE(∃) ∧ DYN(Λ) ∧ COMM(Ω)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação",
+          "existência",
+          "oposição"
+        ],
+        "render": "comunicação:[Ω] ∧ oposição:[Λ] ∧ existência:[∃]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.3333333333333333,
+        "f1": 0.5,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Λ",
+          "Ω",
+          "∃"
+        ],
+        "render": "Ω ∧ Λ ∧ Ω ∧ ∃"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-caso-da-vara-01",
+      "domain": "narrativa",
+      "nodes": 4,
+      "matched_ratio": 0.02962085308056872,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM",
+          "EPIST",
+          "RELATE"
+        ],
+        "render": "RELATE(Ρ) ∧ COMM(Quest) ∧ EPIST(Conc)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação",
+          "evidência",
+          "relação"
+        ],
+        "render": "relação:[Ρ] ∧ comunicação:[Quest] ∧ evidência:[Conc]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Conc",
+          "Quest",
+          "Ρ"
+        ],
+        "render": "Ρ ∧ Quest ∧ Quest ∧ Conc"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-caso-da-vara-02",
+      "domain": "narrativa",
+      "nodes": 1,
+      "matched_ratio": 0.013333333333333334,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM"
+        ],
+        "render": "COMM(Quest)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação"
+        ],
+        "render": "comunicação:[Quest]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Quest"
+        ],
+        "render": "Quest"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=1<2 or ratio=0.013<0.01"
+    },
+    {
+      "id": "acervo-caso-da-vara-dialogo-01",
+      "domain": "dialogo",
+      "nodes": 1,
+      "matched_ratio": 0.013333333333333334,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM"
+        ],
+        "render": "COMM(Quest)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação"
+        ],
+        "render": "comunicação:[Quest]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Quest"
+        ],
+        "render": "Quest"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-caso-da-vara-dialogo-02",
+      "domain": "dialogo",
+      "nodes": 3,
+      "matched_ratio": 0.04212860310421286,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM",
+          "SCOPE"
+        ],
+        "render": "COMM(Ω) ∧ SCOPE(Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação",
+          "escopo"
+        ],
+        "render": "comunicação:[Ω] ∧ escopo:[Temp]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.5,
+        "f1": 0.6666666666666666,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Temp",
+          "Ω"
+        ],
+        "render": "Ω ∧ Temp ∧ Ω"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-causa-secreta-01",
+      "domain": "narrativa",
+      "nodes": 2,
+      "matched_ratio": 0.018518518518518517,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE",
+          "COMM"
+        ],
+        "render": "BE(∃) ∧ COMM(Quest)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação",
+          "existência"
+        ],
+        "render": "existência:[∃] ∧ comunicação:[Quest]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Quest",
+          "∃"
+        ],
+        "render": "∃ ∧ Quest"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-causa-secreta-dialogo-01",
+      "domain": "dialogo",
+      "nodes": 2,
+      "matched_ratio": 0.018518518518518517,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE",
+          "COMM"
+        ],
+        "render": "BE(∃) ∧ COMM(Quest)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação",
+          "existência"
+        ],
+        "render": "existência:[∃] ∧ comunicação:[Quest]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.5,
+        "f1": 0.6666666666666666,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Quest",
+          "∃"
+        ],
+        "render": "∃ ∧ Quest"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cc-br-artigo-01",
+      "domain": "juridico",
+      "nodes": 1,
+      "matched_ratio": 0.0057273768613974796,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "VAL"
+        ],
+        "render": "VAL(Θ)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "valor"
+        ],
+        "render": "valor:[Θ]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Θ"
+        ],
+        "render": "Θ"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cc-br-artigo-02",
+      "domain": "juridico",
+      "nodes": 4,
+      "matched_ratio": 0.05228031145717464,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "MODAL",
+          "SCOPE"
+        ],
+        "render": "MODAL(Obl, Cond) ∧ SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "condição",
+          "escopo",
+          "modalidade"
+        ],
+        "render": "modalidade:[Obl] ∧ escopo:[∀] ∧ condição:[Cond]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Cond",
+          "Obl",
+          "∀"
+        ],
+        "render": "Obl ∧ ∀ ∧ Cond ∧ Cond"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cc-br-artigo-03",
+      "domain": "juridico",
+      "nodes": 1,
+      "matched_ratio": 0.006726457399103139,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "MODAL"
+        ],
+        "render": "MODAL(Proib)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "modalidade"
+        ],
+        "render": "modalidade:[Proib]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Proib"
+        ],
+        "render": "Proib"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cc-br-artigo-04",
+      "domain": "juridico",
+      "nodes": 2,
+      "matched_ratio": 0.01325301204819277,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "MODAL",
+          "SCOPE"
+        ],
+        "render": "MODAL(Proib) ∧ SCOPE(Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo",
+          "modalidade"
+        ],
+        "render": "modalidade:[Proib] ∧ escopo:[Temp]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Proib",
+          "Temp"
+        ],
+        "render": "Proib ∧ Temp"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cc-br-artigo-05",
+      "domain": "juridico",
+      "nodes": 3,
+      "matched_ratio": 0.026281208935611037,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "MODAL",
+          "SCOPE"
+        ],
+        "render": "MODAL(Proib) ∧ SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo",
+          "modalidade"
+        ],
+        "render": "escopo:[∀] ∧ modalidade:[Proib]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Proib",
+          "∀"
+        ],
+        "render": "∀ ∧ ∀ ∧ Proib"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cc-pt-artigo-01",
+      "domain": "juridico",
+      "nodes": 1,
+      "matched_ratio": 0.006544502617801047,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "MODAL"
+        ],
+        "render": "MODAL(Cond)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "condição"
+        ],
+        "render": "condição:[Cond]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Cond"
+        ],
+        "render": "Cond"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cc-pt-artigo-02",
+      "domain": "juridico",
+      "nodes": 2,
+      "matched_ratio": 0.02526595744680851,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "EPIST",
+          "SCOPE"
+        ],
+        "render": "EPIST(Met) ∧ SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo",
+          "evidência"
+        ],
+        "render": "evidência:[Met] ∧ escopo:[∀]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Met",
+          "∀"
+        ],
+        "render": "Met ∧ ∀"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cc-pt-artigo-03",
+      "domain": "juridico",
+      "nodes": 2,
+      "matched_ratio": 0.020588235294117647,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "MODAL"
+        ],
+        "render": "MODAL(Proib)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "modalidade"
+        ],
+        "render": "modalidade:[Proib]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Proib"
+        ],
+        "render": "Proib ∧ Proib"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cdc-artigo-01",
+      "domain": "juridico",
+      "nodes": 2,
+      "matched_ratio": 0.018387553041018388,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "EPIST",
+          "MODAL"
+        ],
+        "render": "MODAL(Cond) ∧ EPIST(Hip)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "condição",
+          "evidência"
+        ],
+        "render": "evidência:[Hip] ∧ condição:[Cond]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.5,
+        "f1": 0.6666666666666666,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Cond",
+          "Hip"
+        ],
+        "render": "Hip ∧ Cond"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cdc-artigo-02",
+      "domain": "juridico",
+      "nodes": 2,
+      "matched_ratio": 0.018544935805991442,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "MODAL",
+          "SCOPE"
+        ],
+        "render": "MODAL(Proib) ∧ SCOPE(Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo",
+          "modalidade"
+        ],
+        "render": "modalidade:[Proib] ∧ escopo:[Temp]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Proib",
+          "Temp"
+        ],
+        "render": "Proib ∧ Temp"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cdc-artigo-03",
+      "domain": "juridico",
+      "nodes": 2,
+      "matched_ratio": 0.016666666666666666,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "MODAL",
+          "SCOPE"
+        ],
+        "render": "MODAL(Proib) ∧ SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo",
+          "modalidade"
+        ],
+        "render": "modalidade:[Proib] ∧ escopo:[∀]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Proib",
+          "∀"
+        ],
+        "render": "Proib ∧ ∀"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cdc-artigo-04",
+      "domain": "juridico",
+      "nodes": 2,
+      "matched_ratio": 0.01729106628242075,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "MODAL",
+          "VAL"
+        ],
+        "render": "MODAL(Proib) ∧ VAL(Θ)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "modalidade",
+          "valor"
+        ],
+        "render": "modalidade:[Proib] ∧ valor:[Θ]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Proib",
+          "Θ"
+        ],
+        "render": "Proib ∧ Θ"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cdc-artigo-05",
+      "domain": "juridico",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=0<1 or ratio=0.000<0.005"
+    },
+    {
+      "id": "acervo-cf-art1-fundamentos",
+      "domain": "etica",
+      "nodes": 2,
+      "matched_ratio": 0.030162412993039442,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "RELATE",
+          "SCOPE"
+        ],
+        "render": "RELATE(Κ) ∧ SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "agência",
+          "escopo"
+        ],
+        "render": "escopo:[∀] ∧ agência:[Κ]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.5,
+        "f1": 0.6666666666666666,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Κ",
+          "∀"
+        ],
+        "render": "∀ ∧ Κ"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cf-art170-economia",
+      "domain": "juridico",
+      "nodes": 1,
+      "matched_ratio": 0.007429420505200594,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "SCOPE"
+        ],
+        "render": "SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo"
+        ],
+        "render": "escopo:[∀]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "∀"
+        ],
+        "render": "∀"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cf-art225-ambiente",
+      "domain": "juridico",
+      "nodes": 4,
+      "matched_ratio": 0.019639934533551555,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "SCOPE"
+        ],
+        "render": "SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo"
+        ],
+        "render": "escopo:[∀]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "∀"
+        ],
+        "render": "∀ ∧ ∀ ∧ ∀ ∧ ∀"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cf-art3-objetivos",
+      "domain": "etica",
+      "nodes": 1,
+      "matched_ratio": 0.006389776357827476,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "VAL"
+        ],
+        "render": "VAL(Val+)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "valor"
+        ],
+        "render": "valor:[Val+]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Val+"
+        ],
+        "render": "Val+"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cf-art37-admin",
+      "domain": "juridico",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=0<1 or ratio=0.000<0.005"
+    },
+    {
+      "id": "acervo-cf-art5-direitos",
+      "domain": "juridico",
+      "nodes": 4,
+      "matched_ratio": 0.01683748169838946,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "MODAL",
+          "SCOPE"
+        ],
+        "render": "MODAL(Proib, Exc) ∧ SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "condição",
+          "escopo",
+          "modalidade"
+        ],
+        "render": "escopo:[∀] ∧ modalidade:[Proib] ∧ condição:[Exc]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Exc",
+          "Proib",
+          "∀"
+        ],
+        "render": "∀ ∧ Proib ∧ Exc ∧ ∀"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-cf-art6-sociais",
+      "domain": "juridico",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=0<1 or ratio=0.000<0.005"
+    },
+    {
+      "id": "acervo-chinela-turca-01",
+      "domain": "narrativa",
+      "nodes": 5,
+      "matched_ratio": 0.037300177619893425,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE",
+          "EPIST",
+          "MODAL",
+          "SCOPE",
+          "VAL"
+        ],
+        "render": "BE(∃) ∧ MODAL(Cond) ∧ EPIST(Conc) ∧ SCOPE(∀) ∧ VAL(Val+)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "condição",
+          "escopo",
+          "evidência",
+          "existência",
+          "valor"
+        ],
+        "render": "valor:[Val+] ∧ evidência:[Conc] ∧ escopo:[∀] ∧ existência:[∃] ∧ condição:[Cond]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.6,
+        "f1": 0.7499999999999999,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Conc",
+          "Cond",
+          "Val+",
+          "∀",
+          "∃"
+        ],
+        "render": "Val+ ∧ Conc ∧ ∀ ∧ ∃ ∧ Cond"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-chinela-turca-dialogo-01",
+      "domain": "dialogo",
+      "nodes": 2,
+      "matched_ratio": 0.02157164869029276,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE",
+          "COMM"
+        ],
+        "render": "BE(∃) ∧ COMM(Resp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação",
+          "existência"
+        ],
+        "render": "comunicação:[Resp] ∧ existência:[∃]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.5,
+        "f1": 0.6666666666666666,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Resp",
+          "∃"
+        ],
+        "render": "Resp ∧ ∃"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-contos-aldeia-01",
+      "domain": "narrativa",
+      "nodes": 3,
+      "matched_ratio": 0.023411371237458192,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE",
+          "SCOPE"
+        ],
+        "render": "BE(∃) ∧ SCOPE(Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo",
+          "existência"
+        ],
+        "render": "existência:[∃] ∧ escopo:[Temp]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Temp",
+          "∃"
+        ],
+        "render": "∃ ∧ Temp ∧ Temp"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-contos-aldeia-02",
+      "domain": "narrativa",
+      "nodes": 3,
+      "matched_ratio": 0.027777777777777776,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM"
+        ],
+        "render": "COMM(Ω)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação"
+        ],
+        "render": "comunicação:[Ω]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Ω"
+        ],
+        "render": "Ω ∧ Ω ∧ Ω"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-dom-casmurro-01",
+      "domain": "narrativa",
+      "nodes": 4,
+      "matched_ratio": 0.02,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "SCOPE"
+        ],
+        "render": "SCOPE(∀, Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo"
+        ],
+        "render": "escopo:[∀, Temp]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Temp",
+          "∀"
+        ],
+        "render": "∀ ∧ ∀ ∧ Temp ∧ Temp"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-dom-casmurro-02",
+      "domain": "narrativa",
+      "nodes": 2,
+      "matched_ratio": 0.003629764065335753,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE"
+        ],
+        "render": "BE(∃)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "existência"
+        ],
+        "render": "existência:[∃]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "∃"
+        ],
+        "render": "∃ ∧ ∃"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=2<2 or ratio=0.004<0.01"
+    },
+    {
+      "id": "acervo-dom-casmurro-03",
+      "domain": "narrativa",
+      "nodes": 1,
+      "matched_ratio": 0.015267175572519083,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "MODAL"
+        ],
+        "render": "MODAL(Poss)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "modalidade"
+        ],
+        "render": "modalidade:[Poss]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Poss"
+        ],
+        "render": "Poss"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=1<2 or ratio=0.015<0.01"
+    },
+    {
+      "id": "acervo-dom-casmurro-dialogo-01",
+      "domain": "dialogo",
+      "nodes": 3,
+      "matched_ratio": 0.011578947368421053,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE",
+          "MODAL"
+        ],
+        "render": "BE(∃) ∧ MODAL(Exc)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "condição",
+          "existência"
+        ],
+        "render": "existência:[∃] ∧ condição:[Exc]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Exc",
+          "∃"
+        ],
+        "render": "∃ ∧ ∃ ∧ Exc"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-dom-casmurro-dialogo-02",
+      "domain": "dialogo",
+      "nodes": 7,
+      "matched_ratio": 0.02404207362885049,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE",
+          "COMM",
+          "EPIST",
+          "SCOPE"
+        ],
+        "render": "BE(∃) ∧ COMM(Ω) ∧ EPIST(Conc) ∧ SCOPE(∀, Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação",
+          "escopo",
+          "evidência",
+          "existência"
+        ],
+        "render": "comunicação:[Ω] ∧ evidência:[Conc] ∧ escopo:[∀, Temp] ∧ existência:[∃]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.2,
+        "f1": 0.33333333333333337,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Conc",
+          "Temp",
+          "Ω",
+          "∀",
+          "∃"
+        ],
+        "render": "Ω ∧ Conc ∧ ∀ ∧ ∀ ∧ ∃ ∧ ∀ ∧ Temp"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-dom-casmurro-dialogo-03",
+      "domain": "dialogo",
+      "nodes": 1,
+      "matched_ratio": 0.004784688995215311,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM"
+        ],
+        "render": "COMM(Ω)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação"
+        ],
+        "render": "comunicação:[Ω]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Ω"
+        ],
+        "render": "Ω"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-eca-contos-01",
+      "domain": "narrativa",
+      "nodes": 1,
+      "matched_ratio": 0.004291845493562232,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE"
+        ],
+        "render": "BE(∃)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "existência"
+        ],
+        "render": "existência:[∃]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "∃"
+        ],
+        "render": "∃"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=1<2 or ratio=0.004<0.01"
+    },
+    {
+      "id": "acervo-eca-contos-02",
+      "domain": "narrativa",
+      "nodes": 2,
+      "matched_ratio": 0.00738255033557047,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM",
+          "SCOPE"
+        ],
+        "render": "COMM(Ω) ∧ SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação",
+          "escopo"
+        ],
+        "render": "comunicação:[Ω] ∧ escopo:[∀]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Ω",
+          "∀"
+        ],
+        "render": "Ω ∧ ∀"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-eca-contos-03",
+      "domain": "narrativa",
+      "nodes": 3,
+      "matched_ratio": 0.009135628952916374,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE",
+          "EPIST",
+          "SCOPE"
+        ],
+        "render": "BE(∃) ∧ EPIST(Conc) ∧ SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo",
+          "evidência",
+          "existência"
+        ],
+        "render": "existência:[∃] ∧ evidência:[Conc] ∧ escopo:[∀]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Conc",
+          "∀",
+          "∃"
+        ],
+        "render": "∃ ∧ Conc ∧ ∀"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-eca-contos-04",
+      "domain": "narrativa",
+      "nodes": 4,
+      "matched_ratio": 0.01098901098901099,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "DYN",
+          "SCOPE"
+        ],
+        "render": "DYN(Λ) ∧ SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo",
+          "oposição"
+        ],
+        "render": "oposição:[Λ] ∧ escopo:[∀]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Λ",
+          "∀"
+        ],
+        "render": "Λ ∧ ∀ ∧ ∀ ∧ ∀"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-eca-contos-05",
+      "domain": "narrativa",
+      "nodes": 5,
+      "matched_ratio": 0.03308270676691729,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM",
+          "DYN",
+          "SCOPE"
+        ],
+        "render": "DYN(Λ) ∧ COMM(Ω) ∧ SCOPE(∀, Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação",
+          "escopo",
+          "oposição"
+        ],
+        "render": "escopo:[∀, Temp] ∧ oposição:[Λ] ∧ comunicação:[Ω]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Temp",
+          "Λ",
+          "Ω",
+          "∀"
+        ],
+        "render": "∀ ∧ ∀ ∧ Λ ∧ Ω ∧ Temp"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-eca-dialogo-01",
+      "domain": "dialogo",
+      "nodes": 2,
+      "matched_ratio": 0.00738255033557047,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM",
+          "SCOPE"
+        ],
+        "render": "COMM(Ω) ∧ SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação",
+          "escopo"
+        ],
+        "render": "comunicação:[Ω] ∧ escopo:[∀]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Ω",
+          "∀"
+        ],
+        "render": "Ω ∧ ∀"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-eca-dialogo-02",
+      "domain": "dialogo",
+      "nodes": 3,
+      "matched_ratio": 0.017615176151761516,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM",
+          "EPIST",
+          "SCOPE"
+        ],
+        "render": "COMM(Ω) ∧ EPIST(Conc) ∧ SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação",
+          "escopo",
+          "evidência"
+        ],
+        "render": "comunicação:[Ω] ∧ evidência:[Conc] ∧ escopo:[∀]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.3333333333333333,
+        "f1": 0.5,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Conc",
+          "Ω",
+          "∀"
+        ],
+        "render": "Ω ∧ Conc ∧ ∀"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-eca-dialogo-03",
+      "domain": "dialogo",
+      "nodes": 5,
+      "matched_ratio": 0.03308270676691729,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM",
+          "DYN",
+          "SCOPE"
+        ],
+        "render": "DYN(Λ) ∧ COMM(Ω) ∧ SCOPE(∀, Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação",
+          "escopo",
+          "oposição"
+        ],
+        "render": "escopo:[∀, Temp] ∧ oposição:[Λ] ∧ comunicação:[Ω]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.25,
+        "f1": 0.4,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Temp",
+          "Λ",
+          "Ω",
+          "∀"
+        ],
+        "render": "∀ ∧ ∀ ∧ Λ ∧ Ω ∧ Temp"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-eca-dialogo-04",
+      "domain": "dialogo",
+      "nodes": 1,
+      "matched_ratio": 0.007374631268436578,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM"
+        ],
+        "render": "COMM(Ω)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação"
+        ],
+        "render": "comunicação:[Ω]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Ω"
+        ],
+        "render": "Ω"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-fialho-contos-01",
+      "domain": "narrativa",
+      "nodes": 1,
+      "matched_ratio": 0.008464328899637243,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "SCOPE"
+        ],
+        "render": "SCOPE(Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo"
+        ],
+        "render": "escopo:[Temp]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Temp"
+        ],
+        "render": "Temp"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=1<2 or ratio=0.008<0.01"
+    },
+    {
+      "id": "acervo-fialho-contos-02",
+      "domain": "narrativa",
+      "nodes": 2,
+      "matched_ratio": 0.011686143572621035,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "SCOPE"
+        ],
+        "render": "SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo"
+        ],
+        "render": "escopo:[∀]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "∀"
+        ],
+        "render": "∀ ∧ ∀"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-fialho-contos-03",
+      "domain": "narrativa",
+      "nodes": 1,
+      "matched_ratio": 0.006297229219143577,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE"
+        ],
+        "render": "BE(∃)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "existência"
+        ],
+        "render": "existência:[∃]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "∃"
+        ],
+        "render": "∃"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=1<2 or ratio=0.006<0.01"
+    },
+    {
+      "id": "acervo-iracema-01",
+      "domain": "narrativa",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=0<2 or ratio=0.000<0.01"
+    },
+    {
+      "id": "acervo-iracema-02",
+      "domain": "narrativa",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=0<2 or ratio=0.000<0.01"
+    },
+    {
+      "id": "acervo-jose-matias-01",
+      "domain": "narrativa",
+      "nodes": 3,
+      "matched_ratio": 0.010745466756212223,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "SCOPE"
+        ],
+        "render": "SCOPE(Temp, ∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo"
+        ],
+        "render": "escopo:[Temp, ∀]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Temp",
+          "∀"
+        ],
+        "render": "Temp ∧ Temp ∧ ∀"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-jose-matias-02",
+      "domain": "narrativa",
+      "nodes": 7,
+      "matched_ratio": 0.02090843547224225,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "DYN",
+          "EPIST",
+          "SCOPE"
+        ],
+        "render": "DYN(Λ) ∧ EPIST(Conc) ∧ SCOPE(Temp, ∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo",
+          "evidência",
+          "oposição"
+        ],
+        "render": "oposição:[Λ] ∧ escopo:[Temp, ∀] ∧ evidência:[Conc]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Conc",
+          "Temp",
+          "Λ",
+          "∀"
+        ],
+        "render": "Λ ∧ Temp ∧ Temp ∧ ∀ ∧ Conc ∧ Λ ∧ Conc"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-jose-matias-dialogo-01",
+      "domain": "dialogo",
+      "nodes": 3,
+      "matched_ratio": 0.020151133501259445,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "SCOPE"
+        ],
+        "render": "SCOPE(∀, Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo"
+        ],
+        "render": "escopo:[∀, Temp]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Temp",
+          "∀"
+        ],
+        "render": "∀ ∧ Temp ∧ Temp"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-jose-matias-dialogo-02",
+      "domain": "dialogo",
+      "nodes": 7,
+      "matched_ratio": 0.0365296803652968,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "EPIST",
+          "RELATE",
+          "SCOPE"
+        ],
+        "render": "RELATE(Caus) ∧ EPIST(Conc) ∧ SCOPE(Temp, ∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "agência",
+          "escopo",
+          "evidência"
+        ],
+        "render": "escopo:[Temp, ∀] ∧ evidência:[Conc] ∧ agência:[Caus]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Caus",
+          "Conc",
+          "Temp",
+          "∀"
+        ],
+        "render": "Temp ∧ Temp ∧ Conc ∧ ∀ ∧ Temp ∧ Caus ∧ Conc"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-jose-matias-valor-01",
+      "domain": "etica",
+      "nodes": 7,
+      "matched_ratio": 0.02090843547224225,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "DYN",
+          "EPIST",
+          "SCOPE"
+        ],
+        "render": "DYN(Λ) ∧ EPIST(Conc) ∧ SCOPE(Temp, ∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo",
+          "evidência",
+          "oposição"
+        ],
+        "render": "oposição:[Λ] ∧ escopo:[Temp, ∀] ∧ evidência:[Conc]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Conc",
+          "Temp",
+          "Λ",
+          "∀"
+        ],
+        "render": "Λ ∧ Temp ∧ Temp ∧ ∀ ∧ Conc ∧ Λ ∧ Conc"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-jose-matias-valor-02",
+      "domain": "etica",
+      "nodes": 1,
+      "matched_ratio": 0.005439005439005439,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "SCOPE"
+        ],
+        "render": "SCOPE(Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo"
+        ],
+        "render": "escopo:[Temp]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Temp"
+        ],
+        "render": "Temp"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-jose-matias-valor-03",
+      "domain": "etica",
+      "nodes": 4,
+      "matched_ratio": 0.024074074074074074,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "COMM",
+          "EPIST",
+          "SCOPE"
+        ],
+        "render": "COMM(Quest) ∧ EPIST(Conc) ∧ SCOPE(Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "comunicação",
+          "escopo",
+          "evidência"
+        ],
+        "render": "comunicação:[Quest] ∧ escopo:[Temp] ∧ evidência:[Conc]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Conc",
+          "Quest",
+          "Temp"
+        ],
+        "render": "Quest ∧ Quest ∧ Temp ∧ Conc"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-oa-ccby-01-propriedades-psicometricas",
+      "domain": "cientifico",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=0<1 or ratio=0.000<0.0"
+    },
+    {
+      "id": "acervo-oa-ccby-02-leishmaniose-visceral",
+      "domain": "cientifico",
+      "nodes": 2,
+      "matched_ratio": 0.006968641114982578,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "SCOPE"
+        ],
+        "render": "SCOPE(∀, Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo"
+        ],
+        "render": "escopo:[∀, Temp]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Temp",
+          "∀"
+        ],
+        "render": "∀ ∧ Temp"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-oa-ccby-03-series-temporais-epidemiologia",
+      "domain": "cientifico",
+      "nodes": 1,
+      "matched_ratio": 0.0072254335260115606,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "SCOPE"
+        ],
+        "render": "SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo"
+        ],
+        "render": "escopo:[∀]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "∀"
+        ],
+        "render": "∀"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-oa-ccby-04-pesquisa-qualitativa",
+      "domain": "cientifico",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=0<1 or ratio=0.000<0.0"
+    },
+    {
+      "id": "acervo-oa-ccby-05-professores-imagens-do-futuro-presente",
+      "domain": "cientifico",
+      "nodes": 1,
+      "matched_ratio": 0.00641025641025641,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "SCOPE"
+        ],
+        "render": "SCOPE(Temp)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "escopo"
+        ],
+        "render": "escopo:[Temp]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Temp"
+        ],
+        "render": "Temp"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-teoria-medalhao-01",
+      "domain": "dialogo",
+      "nodes": 0,
+      "matched_ratio": 0.0,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": false,
+        "found": [],
+        "render": ""
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": false,
+      "detail": "floors nodes=0<1 or ratio=0.000<0.005"
+    },
+    {
+      "id": "acervo-teoria-medalhao-02",
+      "domain": "dialogo",
+      "nodes": 5,
+      "matched_ratio": 0.017557251908396947,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "BE",
+          "MODAL",
+          "SCOPE"
+        ],
+        "render": "BE(∃) ∧ MODAL(Cond) ∧ SCOPE(∀)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "condição",
+          "escopo",
+          "existência"
+        ],
+        "render": "escopo:[∀] ∧ existência:[∃] ∧ condição:[Cond]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Cond",
+          "∀",
+          "∃"
+        ],
+        "render": "∀ ∧ ∃ ∧ Cond ∧ ∀ ∧ Cond"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    },
+    {
+      "id": "acervo-teoria-medalhao-valor-01",
+      "domain": "etica",
+      "nodes": 3,
+      "matched_ratio": 0.015853658536585366,
+      "l1": {
+        "level": 1,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "MODAL",
+          "SCOPE",
+          "VAL"
+        ],
+        "render": "MODAL(Cond) ∧ SCOPE(∀) ∧ VAL(Val+)"
+      },
+      "l2": {
+        "level": 2,
+        "recall": 1.0,
+        "precision": 1.0,
+        "f1": 1.0,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "condição",
+          "escopo",
+          "valor"
+        ],
+        "render": "valor:[Val+] ∧ escopo:[∀] ∧ condição:[Cond]"
+      },
+      "l3": {
+        "level": 3,
+        "recall": 1.0,
+        "precision": 0.3333333333333333,
+        "f1": 0.5,
+        "needles_ok": true,
+        "non_empty": true,
+        "found": [
+          "Cond",
+          "Val+",
+          "∀"
+        ],
+        "render": "Val+ ∧ ∀ ∧ Cond"
+      },
+      "consistency_l1_l3": true,
+      "consistency_l2_l3": true,
+      "floors_ok": true,
+      "detail": ""
+    }
+  ]
+}

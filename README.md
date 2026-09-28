@@ -43,7 +43,9 @@ Primary seam only — no public Parser/Index API. The legacy `semantic_compresso
 
 ```bash
 logos-eval                 # exit 1 on regression
-logos-bench --repeats 5    # p50/p95, ratio, coverage
+logos-bench --repeats 5    # p50/p95, ratio, coverage (L1)
+logos-bench-quality        # qualidade L1/L2/L3 vs gold
+logos-bench-quality --from-acervo --write acervo/reports/quality-acervo.json
 pytest -q
 ```
 
